@@ -1,0 +1,9 @@
+CLASS fd net/minecraft/world/level/Level
+	FIELD f skyDarken I
+	METHOD <init> (Lfd;Lxa;)V
+		ARG 1 level
+	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
+	METHOD b addEntity (Lsn;)Z
+	METHOD c getChunk (II)Llm;
+	METHOD c getTile (IIII)Z
+	METHOD u getSharedSpawnPos ()Lbr;

@@ -1,0 +1,5 @@
+CLASS cl ChunkSource
+	METHOD a hasChunk (II)Z
+	METHOD a calcWaterDepths (Lcl;II)V
+	METHOD b getChunk (II)Llm;
+	METHOD c create (II)Llm;

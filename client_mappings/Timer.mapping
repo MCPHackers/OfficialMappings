@@ -1,0 +1,2 @@
+CLASS py Timer
+	METHOD a advanceTime ()V

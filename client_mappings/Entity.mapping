@@ -1,0 +1,14 @@
+CLASS sn Entity
+	FIELD aI level Lfd;
+	FIELD aS yRot F
+	FIELD bs random Ljava/util/Random;
+	METHOD <init> (Lfd;)V
+		ARG 1 level
+	METHOD a readAdditionalSaveData (Lnu;)V
+		ARG 1 entityTag
+	METHOD b setSize (FF)V
+	METHOD b (Lgs;)V
+		ARG 1 player
+	METHOD b addAdditionalSaveData (Lnu;)V
+		ARG 1 entityTag
+	METHOD w_ tick ()V

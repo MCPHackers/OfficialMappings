@@ -1,0 +1,6 @@
+CLASS lm net/minecraft/world/level/chunk/LevelChunk
+	METHOD a setTileRaw (IIII)Z
+	METHOD a addTileEntity (Low;)V
+	METHOD a getEntities (Lsn;Leq;Ljava/util/List;)V
+	METHOD d getTileEntity (III)Low;
+	METHOD h isEmpty ()Z

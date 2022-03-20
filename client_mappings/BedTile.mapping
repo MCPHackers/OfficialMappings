@@ -1,0 +1,8 @@
+CLASS ve BedTile
+	FIELD a HEAD_DIRECTION_OFFSETS [[I
+	METHOD <init> (I)V
+		ARG 1 tileId
+	METHOD a (Lfd;IIIZ)V
+		ARG 0 level
+	METHOD f (Lfd;IIII)Lbr;
+		ARG 0 level

@@ -1,0 +1,3 @@
+CLASS xp LevelSource
+	METHOD a getTile (III)I
+	METHOD c getBrightness (III)F

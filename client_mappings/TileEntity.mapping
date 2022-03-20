@@ -1,0 +1,18 @@
+CLASS ow TileEntity
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD d level Lfd;
+	FIELD e x I
+	FIELD f y I
+	FIELD g z I
+	METHOD a distanceToSqr (DDD)D
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 tileEntityClass
+		ARG 1 id
+	METHOD a load (Lnu;)V
+		ARG 1 entityTag
+	METHOD b save (Lnu;)V
+		ARG 1 entityTag
+	METHOD c loadStatic (Lnu;)Low;
+		ARG 0 entityTag
+	METHOD f getTile ()Luu;

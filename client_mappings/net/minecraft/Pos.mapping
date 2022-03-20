@@ -1,0 +1,7 @@
+CLASS br net/minecraft/Pos
+	COMMENT don't ask me why this is in the mc package, it just is, look at the leaked
+	COMMENT isom preview src files from b1.9pre6
+	COMMENT -feel free to remove this doc
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

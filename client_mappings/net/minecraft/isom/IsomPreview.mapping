@@ -1,0 +1,53 @@
+CLASS bd net/minecraft/isom/IsomPreview
+	FIELD a currentRender I
+	FIELD b zoom I
+	FIELD c showHelp Z
+	FIELD d level Lfd;
+	FIELD e workDir Ljava/io/File;
+	FIELD f running Z
+	FIELD g zonesToRender Ljava/util/List;
+	FIELD h zoneMap [[Lre;
+	FIELD i xCam I
+	FIELD j yCam I
+	FIELD k xDrag I
+	FIELD l yDrag I
+	METHOD a getWorkingDirectory ()Ljava/io/File;
+	METHOD a setBrightness (I)V
+		ARG 1 i
+	METHOD a getZone (II)Lre;
+		ARG 1 x
+		ARG 2 y
+	METHOD a render (Ljava/awt/Graphics2D;)V
+		ARG 1 graphics2D
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 applicationName
+	METHOD b start ()V
+	METHOD b loadLevel (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD c stop ()V
+	METHOD d render ()V
+	METHOD e getPlatform ()Ljn;
+	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD keyTyped (Ljava/awt/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD mouseClicked (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mouseDragged (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mouseEntered (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mouseExited (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mouseMoved (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mousePressed (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD mouseReleased (Ljava/awt/event/MouseEvent;)V
+		ARG 1 mouseEvent
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics
+	METHOD update (Ljava/awt/Graphics;)V
+		ARG 1 graphics

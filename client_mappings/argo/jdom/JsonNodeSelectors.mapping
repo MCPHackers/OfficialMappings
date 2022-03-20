@@ -1,0 +1,5 @@
+CLASS ka argo/jdom/JsonNodeSelectors
+	METHOD a chainOn ([Ljava/lang/Object;Ljt;)Ljt;
+		ARG 0 pathElements
+		ARG 1 parentSelector
+	METHOD b aNullableArrayNode ([Ljava/lang/Object;)Ljt;

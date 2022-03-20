@@ -1,0 +1,5 @@
+CLASS dw
+	METHOD a (Lgs;)V
+		ARG 1 player
+	METHOD b (Lgs;)Z
+		ARG 1 player

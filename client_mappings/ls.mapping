@@ -1,0 +1,6 @@
+CLASS ls
+	FIELD ae attackTime I
+	METHOD g getAmbientSound ()Ljava/lang/String;
+	METHOD i getDeathSound ()Ljava/lang/String;
+	METHOD j getDeathLoot ()I
+	METHOD j_ getHurtSound ()Ljava/lang/String;

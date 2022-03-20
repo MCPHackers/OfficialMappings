@@ -1,0 +1,4 @@
+CLASS tx net/minecraft/isom/IsomPreviewThread
+	FIELD a isomPreview Lbd;
+	METHOD <init> (Lbd;)V
+		ARG 1 iso

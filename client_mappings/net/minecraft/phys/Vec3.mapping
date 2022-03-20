@@ -1,0 +1,6 @@
+CLASS bt net/minecraft/phys/Vec3
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD a xRot (F)V
+	METHOD b yRot (F)V

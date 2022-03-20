@@ -1,0 +1,3 @@
+CLASS c
+	METHOD <init> (Lfd;DDD)V
+		ARG 1 level
