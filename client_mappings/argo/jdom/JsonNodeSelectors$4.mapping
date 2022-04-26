@@ -1,0 +1,4 @@
+CLASS yx argo/jdom/JsonNodeSelectors$4
+	FIELD a fieldName Liy;
+	METHOD <init> (Liy;)V
+		ARG 1 fieldName

@@ -1,0 +1,6 @@
+CLASS ws argo/jdom/JsonListenerToJdomAdapter$1
+	FIELD a arrayBuilder Lrh;
+	FIELD b jdomAdapter Lwe;
+	METHOD <init> (Lwe;Lrh;)V
+		ARG 1 jdomAdapter
+		ARG 2 arrayBuilder

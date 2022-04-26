@@ -1,0 +1,46 @@
+CLASS kj net/minecraft/world/entity/Entity
+	FIELD G removed Z
+	FIELD N xOld D
+	FIELD O yOld D
+	FIELD P zOld D
+	FIELD U random Ljava/util/Random;
+	FIELD af entityData Labc;
+	FIELD k level Lrv;
+	FIELD l xo D
+	FIELD m yo D
+	FIELD n zo D
+	FIELD o x D
+	FIELD p y D
+	FIELD q z D
+	FIELD r xd D
+	FIELD s yd D
+	FIELD t zd D
+	FIELD u yRot F
+	FIELD v xRot F
+	FIELD w yRot0 F
+	FIELD x xRot0 F
+	METHOD B getHeadHeight ()F
+	METHOD F getEncodeId ()Ljava/lang/String;
+	METHOD P isSneaking ()Z
+	METHOD Q isSprinting ()Z
+	METHOD a handleEntityEvent (B)V
+	METHOD a lerpMotion (DDD)V
+		ARG 1 xd
+		ARG 3 yd
+		ARG 5 zd
+	METHOD a setSharedFlag (IZ)V
+	METHOD a setLevel (Lrv;)V
+	METHOD a readAdditionalSaveData (Lxb;)V
+		ARG 1 entityTag
+	METHOD b absMoveTo (DDDFF)V
+	METHOD b setRot (FF)V
+	METHOD b addAdditionalSaveData (Lxb;)V
+		ARG 1 entityTag
+	METHOD c moveTo (DDDFF)V
+	METHOD c save (Lxb;)Z
+	METHOD c setSprinting (Z)V
+	METHOD d setPos (DDD)V
+	METHOD d getSharedFlag (I)Z
+	METHOD d saveWithoutId (Lxb;)V
+	METHOD e load (Lxb;)V
+	METHOD v remove ()V

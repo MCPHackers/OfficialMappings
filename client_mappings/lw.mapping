@@ -1,3 +1,0 @@
-CLASS lw
-	METHOD a_ stillValid (Lgs;)Z
-		ARG 1 player

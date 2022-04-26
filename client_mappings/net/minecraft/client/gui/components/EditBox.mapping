@@ -1,0 +1,3 @@
+CLASS zq net/minecraft/client/gui/components/EditBox
+	METHOD b tick ()V
+	METHOD c render ()V

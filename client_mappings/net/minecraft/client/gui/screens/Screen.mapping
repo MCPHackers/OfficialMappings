@@ -1,0 +1,13 @@
+CLASS qr net/minecraft/client/gui/screens/Screen
+	FIELD l minecraft Lnet/minecraft/client/Minecraft;
+	FIELD m width I
+	FIELD n height I
+	FIELD o buttons Ljava/util/List;
+	FIELD q font Lkh;
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD d renderBackground (I)V
+	METHOD e renderDirtBackground (I)V
+	METHOD k renderBackground ()V
+	METHOD p_ tick ()V

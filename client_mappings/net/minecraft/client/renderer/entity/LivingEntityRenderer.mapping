@@ -1,0 +1,9 @@
+CLASS dt net/minecraft/client/renderer/entity/LivingEntityRenderer
+	METHOD a getFlipDegrees (Lwd;)F
+	METHOD b prepareArmor (Lwd;IF)Z
+		ARG 1 mob
+		ARG 2 layer
+		ARG 3 a
+	METHOD c (Lwd;F)V
+		ARG 1 mob
+		ARG 2 a

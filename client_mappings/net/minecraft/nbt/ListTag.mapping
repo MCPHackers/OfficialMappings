@@ -1,1 +1,6 @@
-CLASS sp net/minecraft/nbt/ListTag
+CLASS kk net/minecraft/nbt/ListTag
+	FIELD a list Ljava/util/List;
+	FIELD b type B
+	METHOD a get (I)Leq;
+	METHOD a add (Leq;)V
+	METHOD c size ()I

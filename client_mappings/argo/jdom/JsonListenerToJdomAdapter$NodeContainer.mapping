@@ -1,0 +1,5 @@
+CLASS yp argo/jdom/JsonListenerToJdomAdapter$NodeContainer
+	METHOD a addNode (Lvr;)V
+		ARG 1 jsonNodeBuilder
+	METHOD a addField (Lyk;)V
+		ARG 1 jsonFieldBuilder

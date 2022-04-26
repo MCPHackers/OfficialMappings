@@ -1,0 +1,4 @@
+CLASS im argo/jdom/JsonObjectNodeBuilder$1
+	FIELD a jsonObjectBuilder Lkr;
+	METHOD <init> (Lkr;)V
+		ARG 1 jsonObjectBuilder

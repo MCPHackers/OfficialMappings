@@ -1,0 +1,5 @@
+CLASS acq
+	METHOD a saveLevelData (Lrl;)V
+	METHOD a saveLevelData (Lrl;Ljava/util/List;)V
+	METHOD b checkSession ()V
+	METHOD c prepareLevel ()Lrl;

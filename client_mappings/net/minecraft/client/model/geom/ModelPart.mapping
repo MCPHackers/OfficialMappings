@@ -1,0 +1,3 @@
+CLASS yn net/minecraft/client/model/geom/ModelPart
+	METHOD a setPos (FFF)V
+	METHOD a addBox (FFFIIIF)V

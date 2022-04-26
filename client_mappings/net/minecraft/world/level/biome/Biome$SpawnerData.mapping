@@ -1,0 +1,4 @@
+CLASS as net/minecraft/world/level/biome/Biome$SpawnerData
+	FIELD a type Ljava/lang/Class;
+	FIELD b minCount I
+	FIELD c maxCount I

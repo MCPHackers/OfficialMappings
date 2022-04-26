@@ -1,0 +1,4 @@
+CLASS zs net/minecraft/world/level/tile/PressurePlateTile$Sensitivity
+	FIELD a everything Lzs;
+	FIELD b mobs Lzs;
+	FIELD c players Lzs;

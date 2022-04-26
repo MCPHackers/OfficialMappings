@@ -1,1 +1,4 @@
-CLASS oc argo/jdom/JsonNumberNodeBuilder
+CLASS xj argo/jdom/JsonNumberNodeBuilder
+	FIELD a value Lds;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 value

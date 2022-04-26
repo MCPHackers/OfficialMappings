@@ -1,0 +1,3 @@
+CLASS gz net/minecraft/world/entity/monster/EnderMan
+	METHOD r getCarryingTile ()I
+	METHOD s getCarryingData ()I

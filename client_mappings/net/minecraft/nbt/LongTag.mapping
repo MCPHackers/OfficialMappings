@@ -1,4 +1,2 @@
-CLASS mi net/minecraft/nbt/LongTag
-	FIELD a longValue J
-	METHOD <init> (J)V
-		ARG 1 longValue
+CLASS wk net/minecraft/nbt/LongTag
+	FIELD a data J

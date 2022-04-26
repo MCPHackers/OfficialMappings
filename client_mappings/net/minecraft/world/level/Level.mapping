@@ -1,9 +1,10 @@
-CLASS fd net/minecraft/world/level/Level
-	FIELD f skyDarken I
-	METHOD <init> (Lfd;Lxa;)V
-		ARG 1 level
-	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
-	METHOD b addEntity (Lsn;)Z
-	METHOD c getChunk (II)Llm;
-	METHOD c getTile (IIII)Z
-	METHOD u getSharedSpawnPos ()Lbr;
+CLASS rv net/minecraft/world/level/Level
+	FIELD C levelData Lrl;
+	FIELD k skyDarken I
+	FIELD w random Ljava/util/Random;
+	METHOD a addEntity (Lkj;)Z
+	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
+	METHOD a getBrightness (Lrf;III)I
+	METHOD d getHeight (II)I
+	METHOD f levelEvent (IIIII)V
+	METHOD u getSharedSpawnPos ()Lps;

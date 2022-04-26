@@ -1,0 +1,3 @@
+CLASS up net/minecraft/world/phys/HitResult$Type
+	FIELD a TILE Lup;
+	FIELD b ENTITY Lup;

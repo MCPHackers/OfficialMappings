@@ -1,37 +1,13 @@
-CLASS gu argo/jdom/JsonNode
-	COMMENT
-	COMMENT Copyright 2011 Mark Slater
-	COMMENT
-	COMMENT Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-	COMMENT
-	COMMENT http://www.apache.org/licenses/LICENSE-2.0
-	COMMENT
-	COMMENT Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-	COMMENT
-	COMMENT <p>A node (leaf or otherwise) in a JSON document.</p>
-	COMMENT <p/>
-	COMMENT <p>Supplies methods for examining the node, and also examining and navigating the hierarchy at and below this node.
-	COMMENT Methods for navigating the hierarchy are of the form <code>getXXXValue(Object... pathElements)</code>.</p>
-	COMMENT <p/>
-	COMMENT <p>For example, {@link #getStringValue(Object...)} takes a series of <code>String</code>s and
-	COMMENT <code>Integer</code>s as its argument which tell it how to navigate down a hierarchy to a particular JSON string.
-	COMMENT The <code>String</code>s tell it to select a field with the given name from an object, and the <code>Integer</code>s
-	COMMENT tell it to select an element with the given index from an array.</p> If no field of that name exists, or the field
-	COMMENT exists, but it isn't a JSON string, an <code>IllegalArgumentException</code> is thrown.</p>
-	COMMENT <p/>
-	COMMENT <p>Methods for examining the hierarchy work on the same principal as the
-	COMMENT <code>getXXXValue(Object... pathElements)</code> methods, but return a <code>boolean</code> indicating whether
-	COMMENT or not the element at the given path exists and is of the type specified, for example,
-	COMMENT <code>getStringValue("my field")</code> returns <code>true</code> if the node has a field called
-	COMMENT "<code>my field</code>", and its value is a JSON string.</p>
-	METHOD a getType ()Lat;
-	METHOD a wrapExceptionsFor (Ljt;Lgu;[Ljava/lang/Object;)Ljava/lang/Object;
+CLASS ds argo/jdom/JsonNode
+	METHOD a getType ()Lpf;
+	METHOD a wrapExceptionsFor (Luz;Lds;[Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 value
 		ARG 2 node
 		ARG 3 pathElements
+	METHOD a getStringValue ([Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 pathElements
 	METHOD b getText ()Ljava/lang/String;
-		COMMENT @return the text associated with this node
-	METHOD b getNullableArrayNode ([Ljava/lang/Object;)Ljava/util/List;
+	METHOD b getArrayNode ([Ljava/lang/Object;)Ljava/util/List;
 		ARG 1 pathElements
 	METHOD c getFields ()Ljava/util/Map;
 	METHOD d getElements ()Ljava/util/List;

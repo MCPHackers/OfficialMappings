@@ -1,16 +1,16 @@
-CLASS mz argo/jdom/JsonNodeDoesNotMatchChainedJsonNodeSelectorException
-	FIELD a failedNode Lyp;
+CLASS wr argo/jdom/JsonNodeDoesNotMatchChainedJsonNodeSelectorException
+	FIELD a failedNode Lof;
 	FIELD b failPath Ljava/util/List;
-	METHOD <init> (Lyp;Ljava/util/List;)V
+	METHOD <init> (Lof;Ljava/util/List;)V
 		ARG 1 failedNode
 		ARG 2 failPath
 	METHOD a getShortFormFailPath (Ljava/util/List;)Ljava/lang/String;
 		ARG 0 failPath
-	METHOD a createChainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lmz;Ljt;)Lad;
+	METHOD a createJsonNodeDoesNotMatchJsonNodeSelectorException (Lof;)Lu;
+		ARG 0 failedNode
+	METHOD a createChainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lwr;Luz;)Lu;
 		ARG 0 e
 		ARG 1 parentJsonNodeSelector
-	METHOD a createJsonNodeDoesNotMatchJsonNodeSelectorException (Lyp;)Lad;
-		ARG 0 failedNode
-	METHOD b createUnchainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lmz;Ljt;)Lad;
+	METHOD b createUnchainedJsonNodeDoesNotMatchJsonNodeSelectorException (Lwr;Luz;)Lu;
 		ARG 0 e
 		ARG 1 parentJsonNodeSelector

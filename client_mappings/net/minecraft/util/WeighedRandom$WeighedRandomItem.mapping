@@ -1,0 +1,2 @@
+CLASS bi net/minecraft/util/WeighedRandom$WeighedRandomItem
+	FIELD d weight I

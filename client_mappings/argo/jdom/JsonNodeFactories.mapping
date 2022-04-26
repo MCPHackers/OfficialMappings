@@ -1,14 +1,14 @@
-CLASS ol argo/jdom/JsonNodeFactories
-	METHOD a aJsonNull ()Lgu;
-	METHOD a aJsonArray (Ljava/lang/Iterable;)Lqe;
+CLASS ie argo/jdom/JsonNodeFactories
+	METHOD a aJsonNull ()Lds;
+	METHOD a aJsonArray (Ljava/lang/Iterable;)Ljb;
 		ARG 0 elements
-	METHOD a aJsonString (Ljava/lang/String;)Lqa;
+	METHOD a aJsonString (Ljava/lang/String;)Liy;
 		ARG 0 value
-	METHOD a aJsonObject (Ljava/util/Map;)Lqe;
+	METHOD a aJsonObject (Ljava/util/Map;)Ljb;
 		ARG 0 fields
-	METHOD a aJsonArray ([Lgu;)Lqe;
+	METHOD a aJsonArray ([Lds;)Ljb;
 		ARG 0 nodes
-	METHOD b aJsonTrue ()Lgu;
-	METHOD b aJsonNumber (Ljava/lang/String;)Lgu;
+	METHOD b aJsonTrue ()Lds;
+	METHOD b aJsonNumber (Ljava/lang/String;)Lds;
 		ARG 0 value
-	METHOD c aJsonFalse ()Lgu;
+	METHOD c aJsonFalse ()Lds;

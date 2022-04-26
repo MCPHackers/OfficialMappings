@@ -1,4 +1,4 @@
-CLASS kr argo/jdom/JsonObject
+CLASS ft argo/jdom/JsonObject
 	FIELD a fields Ljava/util/Map;
 	METHOD <init> (Ljava/util/Map;)V
 		ARG 1 fields

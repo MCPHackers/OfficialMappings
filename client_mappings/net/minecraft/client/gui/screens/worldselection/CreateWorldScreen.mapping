@@ -1,0 +1,13 @@
+CLASS ry net/minecraft/client/gui/screens/worldselection/CreateWorldScreen
+	FIELD a lastScreen Lqr;
+	FIELD b nameEdit Lzq;
+	FIELD c seedEdit Lzq;
+	FIELD d resultFolder Ljava/lang/String;
+	FIELD f gameModeName Ljava/lang/String;
+	FIELD i displayOptions Z
+	FIELD j modeButton Lvj;
+	FIELD k moreOptionsButton Lvj;
+	FIELD s featuresButton Lvj;
+	FIELD t typeButton Lvj;
+	FIELD u gameModeHelp1 Ljava/lang/String;
+	FIELD v gameModeHelp2 Ljava/lang/String;

@@ -1,3 +1,0 @@
-CLASS hl
-	METHOD <init> (Lfd;DDDLiz;)V
-		ARG 1 level

@@ -1,4 +1,2 @@
-CLASS hn net/minecraft/nbt/ByteArrayTag
-	FIELD a byteArrayValue [B
-	METHOD <init> ([B)V
-		ARG 1 byteArrayValue
+CLASS tk net/minecraft/nbt/ByteArrayTag
+	FIELD a data [B

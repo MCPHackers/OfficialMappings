@@ -1,0 +1,5 @@
+CLASS jg net/minecraft/world/level/levelgen/structure/StrongholdPieces$StrongholdPiece$SmallDoorType
+	FIELD a OPENING Ljg;
+	FIELD b WOOD_DOOR Ljg;
+	FIELD c GRATES Ljg;
+	FIELD d IRON_DOOR Ljg;

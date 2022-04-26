@@ -1,20 +1,11 @@
-CLASS sl net/minecraft/world/entity/projectile/Arrow
-	FIELD a playerArrow Z
-	FIELD b shakeTime I
-	FIELD c owner Lls;
-	FIELD d xTile I
-	FIELD e yTile I
-	FIELD f zTile I
-	FIELD g lastTile I
-	FIELD h lastData I
-	FIELD i inGround Z
-	FIELD k flightTime I
-	METHOD <init> (Lfd;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Lfd;Lls;)V
-		ARG 1 level
-		ARG 2 owner
+CLASS ki net/minecraft/world/entity/projectile/Arrow
+	FIELD ap yTile I
+	FIELD aq zTile I
+	FIELD au life I
+	FIELD e xTile I
 	METHOD a shoot (DDDFF)V
+		ARG 1 xd
+		ARG 3 yd
+		ARG 5 zd
+		ARG 7 pow
+		ARG 8 uncertainly

@@ -1,0 +1,26 @@
+CLASS ev net/minecraft/world/entity/decoration/Motive
+	FIELD a Kebab Lev;
+	FIELD b Aztec Lev;
+	FIELD c Alban Lev;
+	FIELD d Aztec2 Lev;
+	FIELD e Bomb Lev;
+	FIELD f Plant Lev;
+	FIELD g Wasteland Lev;
+	FIELD h Pool Lev;
+	FIELD i Courbet Lev;
+	FIELD j Sea Lev;
+	FIELD k Sunset Lev;
+	FIELD l Creebet Lev;
+	FIELD m Wanderer Lev;
+	FIELD n Graham Lev;
+	FIELD o Match Lev;
+	FIELD p Bust Lev;
+	FIELD q Stage Lev;
+	FIELD r Void Lev;
+	FIELD s SkullAndRoses Lev;
+	FIELD t Fighters Lev;
+	FIELD u Pointer Lev;
+	FIELD v Pigscene Lev;
+	FIELD w BurningSkull Lev;
+	FIELD x Skeleton Lev;
+	FIELD y DonkeyKong Lev;

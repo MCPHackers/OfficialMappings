@@ -1,0 +1,4 @@
+CLASS ti net/minecraft/client/Screenshot
+	FIELD a DATE_FORMAT Ljava/text/DateFormat;
+	METHOD a grab (Ljava/io/File;II)Ljava/lang/String;
+	METHOD a grab (Ljava/io/File;Ljava/lang/String;II)Ljava/lang/String;

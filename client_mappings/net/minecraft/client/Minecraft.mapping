@@ -1,0 +1,14 @@
+CLASS net/minecraft/client/Minecraft
+	FIELD K running Z
+	FIELD L fpsString Ljava/lang/String;
+	FIELD U timer Lyr;
+	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD f level Lrv;
+	FIELD g levelRenderer Li;
+	FIELD h player Lqs;
+	FIELD i cameraEntity Lwd;
+	FIELD p textureManager Lur;
+	FIELD q font Lkh;
+	FIELD y hitResult Lma;
+	FIELD z options Lfv;
+	METHOD a setScreen (Lqr;)V

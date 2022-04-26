@@ -1,0 +1,7 @@
+CLASS wd net/minecraft/world/entity/LivingEntity
+	FIELD bF attackTime I
+	FIELD bJ xpReward I
+	METHOD f_ getHurtSound ()Ljava/lang/String;
+	METHOD j getAmbientSound ()Ljava/lang/String;
+	METHOD l getDeathSound ()Ljava/lang/String;
+	METHOD r_ canBreatheUnderwater ()Z

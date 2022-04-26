@@ -1,40 +1,40 @@
-CLASS an argo/saj/SajParser
-	METHOD a parse (Ljava/io/Reader;Lwg;)V
-		ARG 1 read
-		ARG 2 jsonListener
-	METHOD a numberToken (Llj;)Ljava/lang/String;
+CLASS ah argo/saj/SajParser
+	METHOD a parse (Ljava/io/Reader;Lacl;)V
 		ARG 1 in
-	METHOD a arrayString (Llj;Lwg;)V
-		ARG 1 pushbackReader
 		ARG 2 jsonListener
-	METHOD b nonNegativeNumberToken (Llj;)Ljava/lang/String;
+	METHOD a numberToken (Lvu;)Ljava/lang/String;
 		ARG 1 in
-	METHOD b objectString (Llj;Lwg;)V
+	METHOD a arrayString (Lvu;Lacl;)V
 		ARG 1 pushbackReader
 		ARG 2 jsonListener
-	METHOD c nonZeroDigitToken (Llj;)C
+	METHOD b nonNegativeNumberToken (Lvu;)Ljava/lang/String;
 		ARG 1 in
-	METHOD c aFieldToken (Llj;Lwg;)V
+	METHOD b objectString (Lvu;Lacl;)V
 		ARG 1 pushbackReader
 		ARG 2 jsonListener
-	METHOD d digitToken (Llj;)C
+	METHOD c nonZeroDigitToken (Lvu;)C
 		ARG 1 in
-	METHOD d aJsonValue (Llj;Lwg;)V
+	METHOD c aFieldToken (Lvu;Lacl;)V
 		ARG 1 pushbackReader
 		ARG 2 jsonListener
-	METHOD e digitString (Llj;)Ljava/lang/String;
-		ARG 1 pushbackReader
-	METHOD f possibleFractionalComponent (Llj;)Ljava/lang/String;
-		ARG 1 pushbackReader
-	METHOD g possibleExponent (Llj;)Ljava/lang/String;
-		ARG 1 pushbackReader
-	METHOD h possibleSign (Llj;)Ljava/lang/String;
-		ARG 1 pushbackReader
-	METHOD i stringToken (Llj;)Ljava/lang/String;
+	METHOD d digitToken (Lvu;)C
 		ARG 1 in
-	METHOD j escapedStringChar (Llj;)C
+	METHOD d aJsonValue (Lvu;Lacl;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
+	METHOD e digitString (Lvu;)Ljava/lang/String;
 		ARG 1 in
-	METHOD k hexadecimalNumber (Llj;)I
+	METHOD f possibleFractionalComponent (Lvu;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD g possibleExponent (Lvu;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD h possibleSign (Lvu;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD i stringToken (Lvu;)Ljava/lang/String;
 		ARG 1 in
-	METHOD l readNextNonWhitespaceChar (Llj;)I
+	METHOD j escapedStringChar (Lvu;)C
+		ARG 1 in
+	METHOD k hexidecimalNumber (Lvu;)I
+		ARG 1 in
+	METHOD l readNextNonWhitespaceChar (Lvu;)I
 		ARG 1 in

@@ -1,0 +1,14 @@
+CLASS pv net/minecraft/world/item/Tier
+	FIELD a WOOD Lpv;
+	FIELD b STONE Lpv;
+	FIELD c IRON Lpv;
+	FIELD d EMERALD Lpv;
+	FIELD e GOLD Lpv;
+	FIELD f level I
+	FIELD g uses I
+	FIELD h speed F
+	FIELD i damage I
+	METHOD a getUses ()I
+	METHOD b getSpeed ()F
+	METHOD c getAttackDamageBonus ()I
+	METHOD d getLevel ()I

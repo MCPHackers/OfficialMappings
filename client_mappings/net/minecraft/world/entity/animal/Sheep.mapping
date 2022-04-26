@@ -1,0 +1,3 @@
+CLASS bx net/minecraft/world/entity/animal/Sheep
+	FIELD a COLORARRAY_BY_COLOR [[F
+	METHOD a getRandomSheepColor (Ljava/util/Random;)I

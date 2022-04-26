@@ -1,0 +1,4 @@
+CLASS yv argo/jdom/JsonNodeSelectors$5
+	FIELD a index I
+	METHOD <init> (I)V
+		ARG 1 index

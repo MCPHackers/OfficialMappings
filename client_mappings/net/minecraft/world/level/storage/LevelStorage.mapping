@@ -1,0 +1,12 @@
+CLASS dd net/minecraft/world/level/storage/LevelStorage
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD b worldDir Ljava/io/File;
+	FIELD c playerDir Ljava/io/File;
+	FIELD d dataDir Ljava/io/File;
+	FIELD e sessionId J
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 file
+		ARG 2 name
+		ARG 3 isServer
+	METHOD a getFolder ()Ljava/io/File;
+	METHOD d initiateSession ()V

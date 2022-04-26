@@ -1,0 +1,7 @@
+CLASS ax net/minecraft/world/phys/Vec3
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD a clipX (Lax;D)Lax;
+	METHOD b clipY (Lax;D)Lax;
+	METHOD c clipZ (Lax;D)Lax;

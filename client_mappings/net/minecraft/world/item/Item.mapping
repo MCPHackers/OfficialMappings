@@ -1,0 +1,3 @@
+CLASS sv net/minecraft/world/item/Item
+	METHOD b getUseAnimation (Lul;)Lun;
+	METHOD c getUseDuration (Lul;)I

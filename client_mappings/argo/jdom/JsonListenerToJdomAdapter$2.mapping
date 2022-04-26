@@ -1,0 +1,6 @@
+CLASS wq argo/jdom/JsonListenerToJdomAdapter$2
+	FIELD a objectNodeBuilder Lkr;
+	FIELD b jdomAdapter Lwe;
+	METHOD <init> (Lwe;Lkr;)V
+		ARG 1 jdomAdapter
+		ARG 2 objectNodeBuilder

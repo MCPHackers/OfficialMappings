@@ -1,4 +1,2 @@
-CLASS qp net/minecraft/nbt/ByteTag
-	FIELD a byteValue B
-	METHOD <init> (B)V
-		ARG 1 byteValue
+CLASS jh net/minecraft/nbt/ByteTag
+	FIELD a data B

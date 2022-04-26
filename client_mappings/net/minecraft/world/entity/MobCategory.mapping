@@ -1,0 +1,12 @@
+CLASS vw net/minecraft/world/entity/MobCategory
+	FIELD a monster Lvw;
+	FIELD b creature Lvw;
+	FIELD c waterCreature Lvw;
+	FIELD d type Ljava/lang/Class;
+	FIELD e max I
+	FIELD g isFriendly Z
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILwa;Z)V
+		ARG 6 isFriendly
+	METHOD a getType ()Ljava/lang/Class;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD d isFriendly ()Z

@@ -1,0 +1,15 @@
+CLASS aam net/minecraft/client/renderer/entity/EntityRenderDispatcher
+	FIELD a instance Laam;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textureManager Lur;
+	FIELD g level Lrv;
+	FIELD i playerRotY F
+	FIELD j playerRotX F
+	FIELD k options Lfv;
+	FIELD l solidRender D
+	FIELD m shouldRenderShadow D
+	FIELD n renderHitBoxes D
+	FIELD o renderers Ljava/util/Map;
+	FIELD p font Lkh;

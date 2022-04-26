@@ -1,4 +1,4 @@
-CLASS oe argo/jdom/JsonArray
+CLASS xm argo/jdom/JsonArray
 	FIELD a elements Ljava/util/List;
 	METHOD <init> (Ljava/lang/Iterable;)V
 		ARG 1 elements

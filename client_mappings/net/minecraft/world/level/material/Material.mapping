@@ -1,2 +1,1 @@
-CLASS ln net/minecraft/world/level/material/Material
-	FIELD g water Lln;
+CLASS wa net/minecraft/world/level/material/Material

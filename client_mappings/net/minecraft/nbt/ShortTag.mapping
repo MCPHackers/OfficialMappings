@@ -1,4 +1,2 @@
-CLASS ul net/minecraft/nbt/ShortTag
-	FIELD a shortValue S
-	METHOD <init> (S)V
-		ARG 1 shortValue
+CLASS ll net/minecraft/nbt/ShortTag
+	FIELD a data S

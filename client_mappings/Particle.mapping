@@ -1,4 +1,0 @@
-CLASS xw Particle
-	METHOD a render (Lnw;FFFFFF)V
-	METHOD c setPower (F)Lxw;
-	METHOD d scale (F)Lxw;

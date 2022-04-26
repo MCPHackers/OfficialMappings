@@ -1,0 +1,2 @@
+CLASS ul net/minecraft/world/item/ItemInstance
+	FIELD c id I

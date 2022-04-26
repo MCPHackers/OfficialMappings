@@ -1,4 +1,0 @@
-CLASS jg net/minecraft/phys/HitResult
-	COMMENT might not be the correct name. rename later
-	FIELD a TILE Ljg;
-	FIELD b ENTITY Ljg;

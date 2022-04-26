@@ -1,0 +1,11 @@
+CLASS et util/Mth
+	FIELD a SIN [F
+	METHOD a sqrt (D)F
+	METHOD a absMax (DD)D
+	METHOD a sin (F)F
+	METHOD a nextInt (Ljava/util/Random;II)I
+	METHOD b floor (D)I
+	METHOD b cos (F)F
+	METHOD c lfloor (D)J
+	METHOD c sqrt (F)F
+	METHOD d floor (F)I

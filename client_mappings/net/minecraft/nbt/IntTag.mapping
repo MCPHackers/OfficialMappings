@@ -1,4 +1,2 @@
-CLASS pp net/minecraft/nbt/IntTag
-	FIELD a intValue I
-	METHOD <init> (I)V
-		ARG 1 intValue
+CLASS yl net/minecraft/nbt/IntTag
+	FIELD a data I

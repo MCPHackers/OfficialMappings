@@ -1,60 +1,26 @@
-CLASS nu net/minecraft/nbt/CompoundTag
-	FIELD a tagMap Ljava/util/Map;
+CLASS xb net/minecraft/nbt/CompoundTag
+	FIELD a tags Ljava/util/Map;
 	METHOD a putByte (Ljava/lang/String;B)V
-		ARG 1 name
-		ARG 2 byteValue
 	METHOD a putDouble (Ljava/lang/String;D)V
-		ARG 1 name
-		ARG 2 doubleValue
 	METHOD a putFloat (Ljava/lang/String;F)V
-		ARG 1 name
-		ARG 2 floatValue
 	METHOD a putInt (Ljava/lang/String;I)V
-		ARG 1 name
-		ARG 2 intValue
 	METHOD a putLong (Ljava/lang/String;J)V
-		ARG 1 name
-		ARG 2 longValue
-	METHOD a put (Ljava/lang/String;Lij;)V
-		ARG 1 name
-		ARG 2 tag
+	METHOD a put (Ljava/lang/String;Leq;)V
 	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 name
-		ARG 2 stringValue
-	METHOD a putCompound (Ljava/lang/String;Lnu;)V
-		ARG 1 name
-		ARG 2 compoundTag
+	METHOD a putCompoundTag (Ljava/lang/String;Lxb;)V
 	METHOD a putShort (Ljava/lang/String;S)V
-		ARG 1 name
-		ARG 2 shortValue
 	METHOD a putBoolean (Ljava/lang/String;Z)V
-		ARG 1 name
-		ARG 2 booleanValue
 	METHOD a putByteArray (Ljava/lang/String;[B)V
-		ARG 1 name
-		ARG 2 byteArrayValue
 	METHOD b contains (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD c getTagMap ()Ljava/util/Collection;
+	METHOD c getAllValues ()Ljava/util/Collection;
 	METHOD c getByte (Ljava/lang/String;)B
-		ARG 1 key
 	METHOD d getShort (Ljava/lang/String;)S
-		ARG 1 key
 	METHOD e getInt (Ljava/lang/String;)I
-		ARG 1 key
 	METHOD f getLong (Ljava/lang/String;)J
-		ARG 1 key
 	METHOD g getFloat (Ljava/lang/String;)F
-		ARG 1 key
 	METHOD h getDouble (Ljava/lang/String;)D
-		ARG 1 key
 	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 key
 	METHOD j getByteArray (Ljava/lang/String;)[B
-		ARG 1 key
-	METHOD k getCompound (Ljava/lang/String;)Lnu;
-		ARG 1 key
-	METHOD l getList (Ljava/lang/String;)Lsp;
-		ARG 1 key
-	METHOD m get (Ljava/lang/String;)Z
-		ARG 1 key
+	METHOD k getCompound (Ljava/lang/String;)Lxb;
+	METHOD l getList (Ljava/lang/String;)Lkk;
+	METHOD m getBoolean (Ljava/lang/String;)Z

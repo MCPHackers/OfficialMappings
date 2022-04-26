@@ -1,0 +1,6 @@
+CLASS dx net/minecraft/world/level/LevelSettings
+	FIELD a seed J
+	FIELD b gameType I
+	METHOD a getSeed ()J
+	METHOD b getGameType ()I
+	METHOD c isGenerateMapFeatures ()Z

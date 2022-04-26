@@ -1,0 +1,5 @@
+CLASS un net/minecraft/world/item/UseAnim
+	FIELD a none Lun;
+	FIELD b eat Lun;
+	FIELD c block Lun;
+	FIELD d bow Lun;

@@ -1,6 +1,0 @@
-CLASS pd
-	FIELD a linux Lpd;
-	FIELD b solaris Lpd;
-	FIELD c windows Lpd;
-	FIELD d macos Lpd;
-	FIELD e unknown Lpd;

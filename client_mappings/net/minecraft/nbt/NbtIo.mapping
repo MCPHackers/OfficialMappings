@@ -1,0 +1,8 @@
+CLASS aj net/minecraft/nbt/NbtIo
+	METHOD a read (Ljava/io/DataInput;)Lxb;
+	METHOD a read (Ljava/io/File;)Lxb;
+	METHOD a readCompressed (Ljava/io/InputStream;)Lxb;
+	METHOD a write (Lxb;Ljava/io/DataOutput;)V
+	METHOD a safeWrite (Lxb;Ljava/io/File;)V
+	METHOD a writeCompressed (Lxb;Ljava/io/OutputStream;)V
+	METHOD b write (Lxb;Ljava/io/File;)V

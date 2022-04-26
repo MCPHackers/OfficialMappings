@@ -1,0 +1,2 @@
+CLASS xe com/mojang/blaze3d/vertex/Tesselator
+	FIELD a instance Lxe;

@@ -1,4 +1,4 @@
-CLASS wg argo/saj/JsonListener
+CLASS acl argo/saj/JsonListener
 	METHOD a startField (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD b startDocument ()V

@@ -1,0 +1,6 @@
+CLASS uu net/minecraft/client/OS
+	FIELD a linux Luu;
+	FIELD b solaris Luu;
+	FIELD c windows Luu;
+	FIELD d macos Luu;
+	FIELD e unknown Luu;

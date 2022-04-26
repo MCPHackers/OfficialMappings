@@ -1,0 +1,15 @@
+CLASS rp net/minecraft/world/phys/AABB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD a clip (Lax;Lax;)Lma;
+	METHOD a clipXCollide (Lrp;D)D
+	METHOD b containsX (Lax;)Z
+	METHOD b clipYCollide (Lrp;D)D
+	METHOD c cloneMove (DDD)Lrp;
+	METHOD c containsY (Lax;)Z
+	METHOD c clipZCollide (Lrp;D)D
+	METHOD d containsZ (Lax;)Z

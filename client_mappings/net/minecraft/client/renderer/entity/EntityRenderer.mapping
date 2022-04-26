@@ -1,0 +1,4 @@
+CLASS px net/minecraft/client/renderer/entity/EntityRenderer
+	FIELD e tileRenderer Lqo;
+	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a render (Lkj;DDDFF)V
