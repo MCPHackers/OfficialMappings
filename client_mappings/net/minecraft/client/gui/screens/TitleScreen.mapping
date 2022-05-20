@@ -1,0 +1,2 @@
+CLASS sf net/minecraft/client/gui/screens/TitleScreen
+	FIELD a random Ljava/util/Random;

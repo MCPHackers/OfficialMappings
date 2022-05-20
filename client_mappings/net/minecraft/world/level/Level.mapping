@@ -6,5 +6,8 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
 	METHOD a getBrightness (Lrf;III)I
 	METHOD d getHeight (II)I
+	METHOD e getCloudColor (F)Lax;
 	METHOD f levelEvent (IIIII)V
+	METHOD k isDay ()Z
+	METHOD q animateTick (III)V
 	METHOD u getSharedSpawnPos ()Lps;

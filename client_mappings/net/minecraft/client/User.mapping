@@ -1,0 +1,4 @@
+CLASS dq net/minecraft/client/User
+	FIELD b name Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d mppass Ljava/lang/String;

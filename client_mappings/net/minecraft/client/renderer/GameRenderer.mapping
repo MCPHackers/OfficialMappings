@@ -1,0 +1,2 @@
+CLASS iw net/minecraft/client/renderer/GameRenderer
+	METHOD a pick (F)V

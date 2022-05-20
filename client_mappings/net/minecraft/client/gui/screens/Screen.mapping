@@ -8,6 +8,7 @@ CLASS qr net/minecraft/client/gui/screens/Screen
 	METHOD a render (IIF)V
 	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
 	METHOD d renderBackground (I)V
+	METHOD e isPauseScreen ()Z
 	METHOD e renderDirtBackground (I)V
 	METHOD k renderBackground ()V
 	METHOD p_ tick ()V

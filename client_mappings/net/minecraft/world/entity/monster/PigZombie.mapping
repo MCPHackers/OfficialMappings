@@ -1,0 +1,3 @@
+CLASS adn net/minecraft/world/entity/monster/PigZombie
+	FIELD a angerTime I
+	FIELD b playAngrySoundIn I

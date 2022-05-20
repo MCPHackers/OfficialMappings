@@ -1,1 +1,3 @@
 CLASS wt
+	FIELD h minecraft Lnet/minecraft/client/Minecraft;
+	METHOD c disconnect ()V

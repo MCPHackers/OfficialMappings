@@ -1,0 +1,2 @@
+CLASS jm net/minecraft/world/level/TickNextTickData
+	FIELD f counter J

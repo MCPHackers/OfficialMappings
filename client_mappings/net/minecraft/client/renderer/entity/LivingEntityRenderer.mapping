@@ -1,4 +1,6 @@
 CLASS dt net/minecraft/client/renderer/entity/LivingEntityRenderer
+	FIELD a model Lfo;
+	FIELD b layer Lfo;
 	METHOD a getFlipDegrees (Lwd;)F
 	METHOD b prepareArmor (Lwd;IF)Z
 		ARG 1 mob

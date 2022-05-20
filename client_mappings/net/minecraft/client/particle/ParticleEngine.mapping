@@ -1,0 +1,8 @@
+CLASS bz net/minecraft/client/particle/ParticleEngine
+	FIELD a level Lrv;
+	FIELD b renderOrder_ [Ljava/util/List;
+	FIELD c textureManager Lur;
+	FIELD d random Ljava/util/Random;
+	METHOD a tick ()V
+	METHOD a render (Lkj;F)V
+	METHOD a setLevel (Lrv;)V

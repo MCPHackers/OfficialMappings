@@ -1,4 +1,5 @@
 CLASS tz net/minecraft/world/entity/Mob
+	FIELD ar target Lkj;
 	FIELD as holdGround Z
 	METHOD a checkHurtTarget (Lkj;F)V
 		ARG 1 target

@@ -1,4 +1,11 @@
 CLASS px net/minecraft/client/renderer/entity/EntityRenderer
+	FIELD d entityRenderDispatcher Laam;
 	FIELD e tileRenderer Lqo;
+	FIELD f shadowRadius F
+	FIELD g shadowStrength F
+	METHOD a getFont ()Lkh;
 	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a renderFlame (Lkj;DDDF)V
 	METHOD a render (Lkj;DDDFF)V
+	METHOD b postRender (Lkj;DDDFF)V
+	METHOD c renderShadow (Lkj;DDDFF)V

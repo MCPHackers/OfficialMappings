@@ -1,0 +1,4 @@
+CLASS nv net/minecraft/client/particle/Particle
+	FIELD av xOff D
+	FIELD aw yOff D
+	FIELD ax zOff D

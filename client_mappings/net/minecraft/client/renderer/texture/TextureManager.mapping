@@ -1,1 +1,2 @@
 CLASS ur net/minecraft/client/renderer/texture/TextureManager
+	METHOD a tick ()V

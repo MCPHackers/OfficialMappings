@@ -3,12 +3,21 @@ CLASS net/minecraft/client/Minecraft
 	FIELD L fpsString Ljava/lang/String;
 	FIELD U timer Lyr;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD ab rightClickDelay I
 	FIELD f level Lrv;
 	FIELD g levelRenderer Li;
 	FIELD h player Lqs;
 	FIELD i cameraEntity Lwd;
+	FIELD j particleEngine Lbz;
+	FIELD k user Ldq;
+	FIELD o pause Z
 	FIELD p textureManager Lur;
 	FIELD q font Lkh;
+	FIELD r screen Lqr;
+	FIELD t gameRenderer Liw;
+	FIELD v gui Labj;
 	FIELD y hitResult Lma;
 	FIELD z options Lfv;
 	METHOD a setScreen (Lqr;)V
+	METHOD a setLevel (Lrv;)V
+	METHOD k tick ()V

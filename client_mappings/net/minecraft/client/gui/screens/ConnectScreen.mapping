@@ -1,0 +1,3 @@
+CLASS acd net/minecraft/client/gui/screens/ConnectScreen
+	FIELD a connection Lwt;
+	FIELD b aborted Z

@@ -1,0 +1,3 @@
+CLASS aby net/minecraft/client/renderer/blockentity/ChestRenderer
+	FIELD b chestModel Lzw;
+	FIELD c largeChestModel Lzw;

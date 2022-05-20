@@ -1,0 +1,2 @@
+CLASS it net/minecraft/client/renderer/blockentity/SignRenderer
+	FIELD b signModel Lzj;

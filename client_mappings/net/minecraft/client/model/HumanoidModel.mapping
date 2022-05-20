@@ -1,0 +1,12 @@
+CLASS rx net/minecraft/client/model/HumanoidModel
+	FIELD c head Lyn;
+	FIELD d hat Lyn;
+	FIELD e body Lyn;
+	FIELD f rightArm Lyn;
+	FIELD g leftArm Lyn;
+	FIELD k rightLeg Lyn;
+	FIELD l leftLeg Lyn;
+	FIELD m ear Lyn;
+	FIELD n cloak Lyn;
+	METHOD a renderEars (F)V
+	METHOD b renderCloak (F)V

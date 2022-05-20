@@ -1,1 +1,6 @@
 CLASS i net/minecraft/client/renderer/LevelRenderer
+	FIELD i level Lrv;
+	FIELD j textureManager Lur;
+	FIELD r minecraft Lnet/minecraft/client/Minecraft;
+	FIELD v ticks I
+	METHOD d tick ()V

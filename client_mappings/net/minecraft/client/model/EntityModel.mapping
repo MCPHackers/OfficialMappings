@@ -1,1 +1,4 @@
 CLASS fo net/minecraft/client/model/EntityModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD a render (Lkj;FFFFFF)V
+	METHOD a prepareMobModel (Lwd;FFF)V

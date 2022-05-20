@@ -13,3 +13,4 @@ CLASS aam net/minecraft/client/renderer/entity/EntityRenderDispatcher
 	FIELD n renderHitBoxes D
 	FIELD o renderers Ljava/util/Map;
 	FIELD p font Lkh;
+	METHOD a getFont ()Lkh;

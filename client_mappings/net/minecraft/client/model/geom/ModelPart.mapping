@@ -1,3 +1,23 @@
 CLASS yn net/minecraft/client/model/geom/ModelPart
+	FIELD a xTexSize F
+	FIELD b yTexSize F
+	FIELD c x F
+	FIELD d y F
+	FIELD e z F
+	FIELD f xRot F
+	FIELD g yRot F
+	FIELD h zRot F
+	FIELD o mirror Z
+	FIELD p visible Z
+	FIELD q neverRender Z
+	FIELD s cubes [Llg;
+	FIELD v compiled Z
+	FIELD w list I
+	METHOD a render (F)V
 	METHOD a setPos (FFF)V
 	METHOD a addBox (FFFIIIF)V
+	METHOD a setTexSize (II)Lyn;
+	METHOD a copyFrom (Lyn;)V
+	METHOD b renderRollable (F)V
+	METHOD c translateTo (F)V
+	METHOD d compile (F)V

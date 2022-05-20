@@ -21,6 +21,7 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD x xRot0 F
 	METHOD B getHeadHeight ()F
 	METHOD F getEncodeId ()Ljava/lang/String;
+	METHOD N displayFireAnimation ()Z
 	METHOD P isSneaking ()Z
 	METHOD Q isSprinting ()Z
 	METHOD a handleEntityEvent (B)V
