@@ -1,2 +1,0 @@
-CLASS jh net/minecraft/nbt/ByteTag
-	FIELD a data B

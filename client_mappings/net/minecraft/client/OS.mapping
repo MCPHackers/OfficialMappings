@@ -4,3 +4,4 @@ CLASS uu net/minecraft/client/OS
 	FIELD c windows Luu;
 	FIELD d macos Luu;
 	FIELD e unknown Luu;
+	METHOD values ()[Luu;

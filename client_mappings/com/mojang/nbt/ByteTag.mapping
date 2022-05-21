@@ -1,0 +1,2 @@
+CLASS jh com/mojang/nbt/ByteTag
+	FIELD a data B

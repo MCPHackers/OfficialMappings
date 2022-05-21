@@ -1,1 +1,5 @@
 CLASS le net/minecraft/isom/IsomPreview$Thread
+	FIELD a isomPreview Lpk;
+	METHOD <init> (Lpk;)V
+		ARG 1 isomPreview
+	METHOD run ()V

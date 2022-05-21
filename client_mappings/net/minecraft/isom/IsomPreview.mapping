@@ -49,5 +49,6 @@ CLASS pk net/minecraft/isom/IsomPreview
 		ARG 1 arg0
 	METHOD paint (Ljava/awt/Graphics;)V
 		ARG 1 _g
+	METHOD run ()V
 	METHOD update (Ljava/awt/Graphics;)V
 		ARG 1 g

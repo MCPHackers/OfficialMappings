@@ -62,6 +62,7 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD ay emeraldBlock Llr;
 	FIELD az workBench Llr;
 	FIELD bA id I
+	FIELD bN material Lwa;
 	FIELD ba fence Llr;
 	FIELD bb pumpkin Llr;
 	FIELD bc netherrack Llr;
@@ -95,6 +96,7 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD x stoneBrick Llr;
 	FIELD y wood Llr;
 	FIELD z sapling Llr;
+	METHOD a getTexture (I)I
 	METHOD a setDescriptionId (Ljava/lang/String;)Llr;
 	METHOD a addAABBs (Lrv;IIILrp;Ljava/util/ArrayList;)V
 	METHOD c getAABB (Lrv;III)Lrp;

@@ -1,0 +1,2 @@
+CLASS tk com/mojang/nbt/ByteArrayTag
+	FIELD a data [B

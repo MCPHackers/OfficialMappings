@@ -1,3 +1,4 @@
 CLASS adg net/minecraft/world/level/LevelSource
 	METHOD a getTile (III)I
+	METHOD c getBrightness (III)F
 	METHOD e getData (III)I

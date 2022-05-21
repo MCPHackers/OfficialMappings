@@ -1,4 +1,4 @@
-CLASS xb net/minecraft/nbt/CompoundTag
+CLASS xb com/mojang/nbt/CompoundTag
 	FIELD a tags Ljava/util/Map;
 	METHOD a putByte (Ljava/lang/String;B)V
 	METHOD a putDouble (Ljava/lang/String;D)V

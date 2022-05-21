@@ -1,2 +1,0 @@
-CLASS tk net/minecraft/nbt/ByteArrayTag
-	FIELD a data [B

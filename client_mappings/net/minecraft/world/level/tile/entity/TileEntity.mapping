@@ -1,4 +1,5 @@
 CLASS ij net/minecraft/world/level/tile/entity/TileEntity
+	FIELD i level Lrv;
 	FIELD j x I
 	FIELD k y I
 	FIELD l z I

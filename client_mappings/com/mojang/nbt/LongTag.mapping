@@ -1,0 +1,2 @@
+CLASS wk com/mojang/nbt/LongTag
+	FIELD a data J

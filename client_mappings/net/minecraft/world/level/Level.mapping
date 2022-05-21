@@ -5,6 +5,7 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD a addEntity (Lkj;)Z
 	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
 	METHOD a getBrightness (Lrf;III)I
+	METHOD c getChunk (II)Lvy;
 	METHOD d getHeight (II)I
 	METHOD e getCloudColor (F)Lax;
 	METHOD f levelEvent (IIIII)V

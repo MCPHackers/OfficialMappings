@@ -1,4 +1,4 @@
-CLASS eq net/minecraft/nbt/Tag
+CLASS eq com/mojang/nbt/Tag
 	FIELD a name Ljava/lang/String;
 	METHOD a getId ()B
 	METHOD a newTag (B)Leq;

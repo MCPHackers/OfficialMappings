@@ -1,2 +1,0 @@
-CLASS ll net/minecraft/nbt/ShortTag
-	FIELD a data S

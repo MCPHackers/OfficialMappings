@@ -1,4 +1,4 @@
-CLASS aj net/minecraft/nbt/NbtIo
+CLASS aj com/mojang/nbt/NbtIo
 	METHOD a read (Ljava/io/DataInput;)Lxb;
 	METHOD a read (Ljava/io/File;)Lxb;
 	METHOD a readCompressed (Ljava/io/InputStream;)Lxb;

@@ -1,2 +1,0 @@
-CLASS k net/minecraft/nbt/FloatTag
-	FIELD a data F

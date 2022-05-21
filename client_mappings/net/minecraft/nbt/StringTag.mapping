@@ -1,2 +1,0 @@
-CLASS adb net/minecraft/nbt/StringTag
-	FIELD a data Ljava/lang/String;
