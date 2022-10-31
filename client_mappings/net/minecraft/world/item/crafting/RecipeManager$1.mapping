@@ -1,0 +1,2 @@
+CLASS fy net/minecraft/world/item/crafting/RecipeManager$1
+	FIELD a recipeManager Lef;

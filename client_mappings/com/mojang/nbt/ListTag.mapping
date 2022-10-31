@@ -2,5 +2,7 @@ CLASS kk com/mojang/nbt/ListTag
 	FIELD a list Ljava/util/List;
 	FIELD b type B
 	METHOD a get (I)Leq;
+		ARG 1 index
 	METHOD a add (Leq;)V
+		ARG 1 tag
 	METHOD c size ()I

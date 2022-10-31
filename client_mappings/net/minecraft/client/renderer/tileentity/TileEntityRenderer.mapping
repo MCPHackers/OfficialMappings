@@ -1,0 +1,7 @@
+CLASS uo net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	FIELD a tileEntityRenderDispatcher Lvx;
+	METHOD a getFont ()Lkh;
+	METHOD a render (Lij;DDDF)V
+	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a setLevel (Lrv;)V
+	METHOD a init (Lvx;)V

@@ -1,0 +1,3 @@
+CLASS pg net/minecraft/client/renderer/ptexture/DynamicTexture
+	METHOD a tick ()V
+	METHOD a bindTexture (Lur;)V

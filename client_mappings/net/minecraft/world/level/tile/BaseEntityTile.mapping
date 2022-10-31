@@ -1,0 +1,2 @@
+CLASS zt net/minecraft/world/level/tile/BaseEntityTile
+	METHOD m_ newTileEntity ()Lij;

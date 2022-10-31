@@ -1,3 +1,8 @@
 CLASS ma net/minecraft/world/phys/HitResult
 	FIELD a type Lup;
-	FIELD f hitVector_ Lax;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e direction I
+	FIELD f location Lax;
+	FIELD g entity Lkj;

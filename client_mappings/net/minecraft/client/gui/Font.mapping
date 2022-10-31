@@ -1,1 +1,7 @@
 CLASS kh net/minecraft/client/gui/Font
+	FIELD a fontTexture I
+	FIELD b charWidths [I
+	METHOD a width (Ljava/lang/String;)I
+	METHOD a drawShadow (Ljava/lang/String;III)V
+	METHOD a draw (Ljava/lang/String;IIIZ)V
+	METHOD b draw (Ljava/lang/String;III)V

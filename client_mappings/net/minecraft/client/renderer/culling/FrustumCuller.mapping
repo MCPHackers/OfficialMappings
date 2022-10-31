@@ -1,0 +1,6 @@
+CLASS km net/minecraft/client/renderer/culling/FrustumCuller
+	FIELD a frustum Lqy;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	METHOD a cubeInFrustum (DDDDDD)Z

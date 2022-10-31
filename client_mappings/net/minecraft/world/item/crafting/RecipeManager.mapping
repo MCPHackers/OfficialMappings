@@ -1,0 +1,8 @@
+CLASS ef net/minecraft/world/item/crafting/RecipeManager
+	FIELD a instance Lef;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Lef;
+	METHOD a addShapedRecipe (Lul;[Ljava/lang/Object;)V
+	METHOD a getResult (Lwn;)Lul;
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lul;[Ljava/lang/Object;)V

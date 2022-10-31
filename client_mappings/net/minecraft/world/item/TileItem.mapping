@@ -1,0 +1,2 @@
+CLASS qi net/minecraft/world/item/TileItem
+	FIELD a tileId I

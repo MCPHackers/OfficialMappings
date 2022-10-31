@@ -1,1 +1,4 @@
 CLASS jl net/minecraft/world/entity/decoration/Painting
+	FIELD a direction I
+	FIELD e motive Lev;
+	METHOD b setDirection (I)V

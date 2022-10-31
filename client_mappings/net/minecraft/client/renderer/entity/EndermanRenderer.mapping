@@ -1,1 +1,3 @@
 CLASS op net/minecraft/client/renderer/entity/EndermanRenderer
+	FIELD c endermanModel Lpp;
+	FIELD h random Ljava/util/Random;

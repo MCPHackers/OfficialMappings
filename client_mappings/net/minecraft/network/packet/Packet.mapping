@@ -1,0 +1,14 @@
+CLASS vl net/minecraft/network/packet/Packet
+	METHOD a size ()I
+	METHOD a createPacket (I)Lvl;
+	METHOD a register (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 3 packetClass
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a readUtf (Ljava/io/DataInputStream;I)Ljava/lang/String;
+	METHOD a decode (Ljava/io/DataInputStream;Z)Lvl;
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a writeUtf (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkx;)V
+	METHOD a encode (Lvl;Ljava/io/DataOutputStream;)V
+	METHOD c getPacketId ()I

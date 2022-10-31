@@ -3,14 +3,20 @@ CLASS aam net/minecraft/client/renderer/entity/EntityRenderDispatcher
 	FIELD b xOff D
 	FIELD c yOff D
 	FIELD d zOff D
-	FIELD e textureManager Lur;
+	FIELD e textures Lur;
 	FIELD g level Lrv;
+	FIELD h cameraEntity Lwd;
 	FIELD i playerRotY F
 	FIELD j playerRotX F
 	FIELD k options Lfv;
-	FIELD l solidRender D
-	FIELD m shouldRenderShadow D
-	FIELD n renderHitBoxes D
+	FIELD l x D
+	FIELD m y D
+	FIELD n z D
 	FIELD o renderers Ljava/util/Map;
 	FIELD p font Lkh;
 	METHOD a getFont ()Lkh;
+	METHOD a distanceToSqr (DDD)D
+	METHOD a getRenderer (Ljava/lang/Class;)Lpx;
+	METHOD a getRenderer (Lkj;)Lpx;
+	METHOD a setLevel (Lrv;)V
+	METHOD a prepare (Lrv;Lur;Lkh;Lwd;Lfv;F)V

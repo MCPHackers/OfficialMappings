@@ -1,0 +1,2 @@
+CLASS mr net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen$ServerSelectionList
+	FIELD a screen Lwb;

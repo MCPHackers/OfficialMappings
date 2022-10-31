@@ -1,0 +1,10 @@
+CLASS si net/minecraft/world/level/pathfinder/PathFinder
+	FIELD a level Ladg;
+	FIELD b openSet Lvt;
+	FIELD d neighbors [Ld;
+	METHOD a reconstructPath (Ld;Ld;)Lqu;
+	METHOD a findPath (Lkj;DDDF)Lqu;
+	METHOD a findPath (Lkj;IIIF)Lqu;
+	METHOD a findPath (Lkj;Ld;Ld;Ld;F)Lqu;
+	METHOD a findPath (Lkj;Lkj;F)Lqu;
+	METHOD b getNeighbors (Lkj;Ld;Ld;Ld;F)I

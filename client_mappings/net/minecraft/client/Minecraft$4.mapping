@@ -1,0 +1,3 @@
+CLASS fn net/minecraft/client/Minecraft$4
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b thread Ljava/lang/Thread;

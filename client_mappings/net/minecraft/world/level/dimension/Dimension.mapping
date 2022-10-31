@@ -1,0 +1,15 @@
+CLASS acz net/minecraft/world/level/dimension/Dimension
+	FIELD a level Lrv;
+	FIELD d ultraWarm Z
+	FIELD e hasCeiling Z
+	FIELD f brightnessRamp [F
+	FIELD g type I
+	FIELD h sunriseCol [F
+	METHOD a getSunriseColor (FF)[F
+	METHOD a getValidSpawnPosition (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD b getFogColor (FF)Lax;
+	METHOD c hasGround ()Z
+	METHOD d getCloudHeight ()F
+	METHOD e updateLightRamp ()V
+	METHOD f mayRespawn ()Z

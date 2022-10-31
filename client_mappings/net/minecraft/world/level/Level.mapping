@@ -1,14 +1,65 @@
 CLASS rv net/minecraft/world/level/Level
 	FIELD C levelData Lrl;
+	FIELD I isClientSide Z
+	FIELD R cloudColor J
+	FIELD i players Ljava/util/List;
 	FIELD k skyDarken I
+	FIELD l randValue I
+	FIELD m addend I
+	FIELD n oRainLevel F
+	FIELD o rainLevel F
+	FIELD p oThunderLevel F
+	FIELD q thunderLevel F
+	FIELD s skyFlashTime I
+	FIELD v difficulty I
 	FIELD w random Ljava/util/Random;
+	FIELD y dimension Lacz;
+	METHOD B isThundering ()Z
+	METHOD C isRaining ()Z
+	METHOD F prepareWeather ()V
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a getSkyBrightness (F)I
+	METHOD a getTopTile (II)I
+	METHOD a setTime (J)V
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Lrp;)Ljava/util/List;
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a addEntity (Lkj;)Z
+	METHOD a broadcastEntityEvent (Lkj;B)V
+	METHOD a getSkyColor (Lkj;F)Lax;
 	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
+	METHOD a getCollisions (Lkj;Lrp;)Ljava/util/List;
+	METHOD a setSpawnPos (Lps;)V
 	METHOD a getBrightness (Lrf;III)I
+	METHOD a mayInteract (Lsz;III)Z
+	METHOD b getChunkAt (II)Lvy;
+	METHOD b setTile (IIIII)Z
+	METHOD b getEntities (Lkj;Lrp;)Ljava/util/List;
+	METHOD c getTimeOfDay (F)F
 	METHOD c getChunk (II)Lvy;
-	METHOD d getHeight (II)I
+	METHOD c containsFireBlock (Lrp;)Z
+	METHOD d getSunAngle (F)F
+	METHOD d getHeightmap (II)I
+	METHOD d hasChunkAt (III)Z
+	METHOD d setTile (IIII)Z
+	METHOD d setTileAndUpdate (IIIII)Z
+	METHOD e validateSpawn ()V
 	METHOD e getCloudColor (F)Lax;
 	METHOD f levelEvent (IIIII)V
+	METHOD g disconnect ()V
+	METHOD g getStarBrightness (F)F
+	METHOD g setTileAndUpdate (IIII)Z
+	METHOD h getThunderLevel (F)F
+	METHOD h update (IIII)V
+	METHOD i setInitialSpawn ()V
+	METHOD i getRainLevel (F)F
+	METHOD j setRainLevel (F)V
+	METHOD j updateNeighborsAt (IIII)V
 	METHOD k isDay ()Z
+	METHOD m neighborChanged (IIII)V
+	METHOD o updateSkyBrightness ()V
+	METHOD o removeBlockEntity (III)V
 	METHOD q animateTick (III)V
+	METHOD s getSeed ()J
+	METHOD t getTime ()J
+	METHOD t isRainingAt (III)Z
 	METHOD u getSharedSpawnPos ()Lps;

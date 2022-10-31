@@ -1,0 +1,5 @@
+CLASS ot net/minecraft/network/packet/PlayerSetSlotPacket
+	FIELD a entityID I
+	FIELD b slot I
+	FIELD c id I
+	FIELD d damage I

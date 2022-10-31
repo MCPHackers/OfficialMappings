@@ -1,0 +1,6 @@
+CLASS lp net/minecraft/client/player/Input
+	FIELD a leftImpulse F
+	FIELD b forwardImpulse F
+	FIELD d jumping Z
+	FIELD e sneakKeyDown Z
+	METHOD a tick (Lsz;)V

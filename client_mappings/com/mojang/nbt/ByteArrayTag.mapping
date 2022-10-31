@@ -1,2 +1,4 @@
 CLASS tk com/mojang/nbt/ByteArrayTag
 	FIELD a data [B
+	METHOD <init> ([B)V
+		ARG 1 data

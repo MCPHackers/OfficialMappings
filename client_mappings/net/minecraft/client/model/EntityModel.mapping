@@ -1,4 +1,6 @@
 CLASS fo net/minecraft/client/model/EntityModel
+	FIELD h attackTime F
+	FIELD i riding Z
 	METHOD a setupAnim (FFFFFF)V
 	METHOD a render (Lkj;FFFFFF)V
 	METHOD a prepareMobModel (Lwd;FFF)V

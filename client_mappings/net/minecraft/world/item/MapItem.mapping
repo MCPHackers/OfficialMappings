@@ -1,0 +1,2 @@
+CLASS ng net/minecraft/world/item/MapItem
+	METHOD a update (Lrv;Lkj;Luh;)V

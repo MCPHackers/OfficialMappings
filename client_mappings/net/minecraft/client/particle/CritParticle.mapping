@@ -1,0 +1,3 @@
+CLASS oi net/minecraft/client/particle/CritParticle
+	FIELD a size F
+	FIELD ay render Z

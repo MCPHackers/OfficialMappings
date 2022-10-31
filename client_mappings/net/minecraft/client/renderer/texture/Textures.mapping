@@ -1,2 +1,0 @@
-CLASS ur net/minecraft/client/renderer/texture/Textures
-	METHOD a tick ()V

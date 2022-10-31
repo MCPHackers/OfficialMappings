@@ -1,0 +1,2 @@
+CLASS zz net/minecraft/world/inventory/DispenserMenu
+	FIELD a dispenser Lan;

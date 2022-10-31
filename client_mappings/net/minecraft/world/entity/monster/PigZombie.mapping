@@ -1,3 +1,5 @@
 CLASS adn net/minecraft/world/entity/monster/PigZombie
 	FIELD a angerTime I
 	FIELD b playAngrySoundIn I
+	FIELD d HELD_ITEM Lul;
+	METHOD c makeAngry (Lkj;)V

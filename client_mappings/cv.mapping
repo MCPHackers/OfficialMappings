@@ -1,0 +1,3 @@
+CLASS cv
+	FIELD d level Lrv;
+	METHOD a getBrightness (Lrf;III)I

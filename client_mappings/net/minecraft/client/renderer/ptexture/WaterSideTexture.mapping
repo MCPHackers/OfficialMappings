@@ -1,0 +1,5 @@
+CLASS xn net/minecraft/client/renderer/ptexture/WaterSideTexture
+	FIELD a r [F
+	FIELD b g [F
+	FIELD c b [F
+	FIELD d a [F

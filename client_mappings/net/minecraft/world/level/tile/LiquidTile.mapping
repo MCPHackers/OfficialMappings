@@ -1,1 +1,2 @@
 CLASS zp net/minecraft/world/level/tile/LiquidTile
+	METHOD i fizz (Lrv;III)V

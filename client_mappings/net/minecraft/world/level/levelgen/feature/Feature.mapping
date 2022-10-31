@@ -1,0 +1,11 @@
+CLASS ir net/minecraft/world/level/levelgen/feature/Feature
+	METHOD a init (DDD)V
+		ARG 1 heightInit
+		ARG 3 widthInit
+		ARG 5 foliageDensityInit
+	METHOD a place (Lrv;Ljava/util/Random;III)Z
+		ARG 1 level
+		ARG 2 random
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

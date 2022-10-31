@@ -1,0 +1,6 @@
+CLASS pi net/minecraft/world/level/saveddata/maps/MapItemSavedData$MapDecoration
+	FIELD a type B
+	FIELD b x B
+	FIELD c y B
+	FIELD d rot B
+	FIELD e saveData Luh;

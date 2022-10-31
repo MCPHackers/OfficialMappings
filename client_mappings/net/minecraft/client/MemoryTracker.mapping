@@ -1,0 +1,10 @@
+CLASS dl net/minecraft/client/MemoryTracker
+	FIELD a lists Ljava/util/List;
+	FIELD b textures Ljava/util/List;
+	METHOD a releaseTextures ()V
+	METHOD a genLists (I)I
+	METHOD a genTextures (Ljava/nio/IntBuffer;)V
+	METHOD b releaseList (I)V
+	METHOD c createByteBuffer (I)Ljava/nio/ByteBuffer;
+	METHOD d createIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD e createFloatBuffer (I)Ljava/nio/FloatBuffer;

@@ -1,8 +1,12 @@
 CLASS bz net/minecraft/client/particle/ParticleEngine
 	FIELD a level Lrv;
-	FIELD b renderOrder_ [Ljava/util/List;
-	FIELD c textureManager Lur;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textures Lur;
 	FIELD d random Ljava/util/Random;
 	METHOD a tick ()V
+	METHOD a crack (IIII)V
+	METHOD a destroy (IIIII)V
 	METHOD a render (Lkj;F)V
+	METHOD a add (Lnv;)V
 	METHOD a setLevel (Lrv;)V
+	METHOD b countParticles ()Ljava/lang/String;

@@ -1,1 +1,2 @@
 CLASS bn net/minecraft/world/level/tile/entity/SpawnerTileEntity
+	METHOD a setEntityId (Ljava/lang/String;)V

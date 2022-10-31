@@ -14,3 +14,11 @@ CLASS tq net/minecraft/client/Option
 	FIELD m GRAPHICS Ltq;
 	FIELD n AMBIENT_OCCLUSION Ltq;
 	FIELD o GUI_SCALE Ltq;
+	FIELD p progressOption Z
+	FIELD q booleanOption Z
+	FIELD r captionId Ljava/lang/String;
+	METHOD a isProgress ()Z
+	METHOD a getOption (I)Ltq;
+	METHOD b isBoolean ()Z
+	METHOD c getId ()I
+	METHOD d getCaptionId ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS mn net/minecraft/client/gui/screens/achievement/AchievementWidget
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD i itemRenderer Lpj;

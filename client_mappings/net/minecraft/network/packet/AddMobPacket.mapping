@@ -1,0 +1,2 @@
+CLASS ut net/minecraft/network/packet/AddMobPacket
+	FIELD h entityData Labc;

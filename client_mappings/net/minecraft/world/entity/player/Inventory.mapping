@@ -1,0 +1,7 @@
+CLASS ui net/minecraft/world/entity/player/Inventory
+	FIELD a items [Lul;
+	FIELD c selected I
+	METHOD b load (Lkk;)V
+	METHOD b setCarried (Lul;)V
+	METHOD g tick ()V
+	METHOD j getCarried ()Lul;

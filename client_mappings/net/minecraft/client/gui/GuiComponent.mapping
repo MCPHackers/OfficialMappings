@@ -1,6 +1,9 @@
 CLASS lf net/minecraft/client/gui/GuiComponent
 	FIELD e blitOffset F
+	METHOD a hLine (IIII)V
+	METHOD a fill (IIIII)V
 	METHOD a fillGradient (IIIIII)V
 	METHOD a drawCenteredString (Lkh;Ljava/lang/String;III)V
+	METHOD b vLine (IIII)V
 	METHOD b blit (IIIIII)V
 	METHOD b drawString (Lkh;Ljava/lang/String;III)V

@@ -1,0 +1,4 @@
+CLASS wj net/minecraft/client/gui/screens/DirectJoinServerScreen
+	FIELD a lastScreen Lqr;
+	FIELD b ipEdit Lzq;
+	FIELD c serverData Lkv;

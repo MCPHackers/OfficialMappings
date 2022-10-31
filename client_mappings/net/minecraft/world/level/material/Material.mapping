@@ -1,7 +1,15 @@
 CLASS wa net/minecraft/world/level/material/Material
 	FIELD A cake Lwa;
 	FIELD B web Lwa;
+	FIELD C piston Lwa;
+	FIELD D color Lrc;
+	FIELD E flammable Z
+	FIELD F blocksMotion Z
+	FIELD G notSolidBlocking Z
+	FIELD H alwaysDestroyable Z
+	FIELD I pushReaction I
 	FIELD a air Lwa;
+	FIELD b grass Lwa;
 	FIELD c dirt Lwa;
 	FIELD d wood Lwa;
 	FIELD e stone Lwa;
@@ -26,3 +34,14 @@ CLASS wa net/minecraft/world/level/material/Material
 	FIELD x clay Lwa;
 	FIELD y vegetable Lwa;
 	FIELD z portal Lwa;
+	METHOD a isSolid ()Z
+	METHOD e notAlwaysDestroyable ()Lwa;
+	METHOD f flammable ()Lwa;
+	METHOD g isFlammable ()Z
+	METHOD h noCollider ()Lwa;
+	METHOD i blocksMotion ()Z
+	METHOD k isAlwaysDestroyable ()Z
+	METHOD l getPushReaction ()I
+	METHOD m destroyOnPush ()Lwa;
+	METHOD n notPushable ()Lwa;
+	METHOD o notSolidBlocking ()Lwa;

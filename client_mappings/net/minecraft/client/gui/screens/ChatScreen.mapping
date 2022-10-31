@@ -1,0 +1,2 @@
+CLASS so net/minecraft/client/gui/screens/ChatScreen
+	FIELD b frame I

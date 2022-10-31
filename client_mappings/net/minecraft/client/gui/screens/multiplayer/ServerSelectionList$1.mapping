@@ -1,0 +1,2 @@
+CLASS bd net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$1
+	FIELD a serverData Lkv;

@@ -1,0 +1,9 @@
+CLASS wb net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen
+	FIELD c lastScreen Lqr;
+	FIELD d serverSelectionList Lmr;
+	FIELD f servers Ljava/util/List;
+	FIELD g focused I
+	FIELD h editButton Lvj;
+	FIELD i selectButton Lvj;
+	FIELD j deleteButton Lvj;
+	METHOD c initButtons ()V

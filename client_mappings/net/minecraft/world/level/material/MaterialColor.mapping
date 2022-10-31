@@ -1,0 +1,18 @@
+CLASS rc net/minecraft/world/level/material/MaterialColor
+	FIELD a materialColors [Lrc;
+	FIELD b none Lrc;
+	FIELD c grass Lrc;
+	FIELD d sand Lrc;
+	FIELD e cloth Lrc;
+	FIELD f fire Lrc;
+	FIELD g ice Lrc;
+	FIELD h metal Lrc;
+	FIELD i plant Lrc;
+	FIELD j snow Lrc;
+	FIELD k clay Lrc;
+	FIELD l dirt Lrc;
+	FIELD m stone Lrc;
+	FIELD n water Lrc;
+	FIELD o wood Lrc;
+	FIELD p col I
+	FIELD q id I

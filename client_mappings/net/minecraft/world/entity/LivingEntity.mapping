@@ -1,10 +1,67 @@
 CLASS wd net/minecraft/world/entity/LivingEntity
+	FIELD a ambientSoundTime I
+	FIELD bB hurtTime I
+	FIELD bC hurtDuration I
+	FIELD bD hurtDir F
+	FIELD bE deathTime I
 	FIELD bF attackTime I
+	FIELD bI dead Z
 	FIELD bJ xpReward I
+	FIELD b lastHurtByPlayer Lsz;
+	FIELD bM animationSpeedOld F
+	FIELD bN animationSpeed F
+	FIELD bO animationPosition F
+	FIELD bR activeEffects Ljava/util/HashMap;
+	FIELD bS lerpSteps I
+	FIELD bT lerpX D
+	FIELD bU lerpY D
+	FIELD bV lerpZ D
+	FIELD bW lerpYRot D
+	FIELD bX lerpXRot D
+	FIELD bZ lastHurt I
+	FIELD bi oRun F
+	FIELD bj run F
+	FIELD bn textureName Ljava/lang/String;
+	FIELD bs deathScore I
+	FIELD bu isClientSide Z
+	FIELD bx oAttackAnim F
+	FIELD by attackAnim F
 	FIELD bz health I
+	FIELD c lastHurtByPlayerTime I
+	FIELD ca noActionTime I
+	FIELD cb xxa F
+	FIELD cc zza F
+	FIELD cd yRotA F
+	FIELD ce jumping Z
+	METHOD T getHandItem ()Lul;
+	METHOD a pick (DF)Lma;
+	METHOD a addEffect (Lade;)V
+	METHOD a die (Lje;)V
+	METHOD a knockback (Lkj;IDD)V
+	METHOD a hasEffect (Lud;)Z
+	METHOD aD tickEffects ()V
+	METHOD a_ travel (FF)V
+	METHOD ad isBlocking ()Z
+	METHOD af isImmobile ()Z
 	METHOD an isSleeping ()Z
+	METHOD ar jumpFromGround ()V
+	METHOD av shouldDropExperience ()Z
+	METHOD aw playAmbientSound ()V
+	METHOD b onEffectAdded (Lade;)V
+	METHOD b actuallyHurt (Lje;I)V
+	METHOD b getEffect (Lud;)Lade;
+	METHOD c onEffectUpdated (Lade;)V
+	METHOD d getAmbientSoundInterval ()I
+	METHOD d onEffectRemoved (Lade;)V
+	METHOD e heal (I)V
+	METHOD f getAttackAnim (F)F
+	METHOD f removeEffect (I)V
 	METHOD f_ getHurtSound ()Ljava/lang/String;
+	METHOD g getEyePosition (F)Lax;
 	METHOD j getAmbientSound ()Ljava/lang/String;
 	METHOD l getDeathSound ()Ljava/lang/String;
+	METHOD n onLadder ()Z
+	METHOD o_ serverAiStep ()V
 	METHOD p aiStep ()V
+	METHOD q_ getSoundVolume ()F
 	METHOD r_ canBreatheUnderwater ()Z

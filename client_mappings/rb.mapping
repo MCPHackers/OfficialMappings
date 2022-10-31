@@ -1,0 +1,3 @@
+CLASS rb
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a tick ()V

@@ -1,1 +1,2 @@
 CLASS abm net/minecraft/world/entity/monster/Slime
+	FIELD a targetSquish F

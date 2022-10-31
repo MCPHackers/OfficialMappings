@@ -1,0 +1,8 @@
+CLASS tl net/minecraft/world/level/saveddata/SavedData
+	FIELD a id Ljava/lang/String;
+	FIELD b dirty Z
+	METHOD a setDirty ()V
+	METHOD a load (Lxb;)V
+	METHOD a setDirty (Z)V
+	METHOD b isDirty ()Z
+	METHOD b save (Lxb;)V

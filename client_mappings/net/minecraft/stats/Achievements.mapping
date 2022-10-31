@@ -1,0 +1,20 @@
+CLASS cp net/minecraft/stats/Achievements
+	FIELD e achievements Ljava/util/List;
+	FIELD f openInventory Lxf;
+	FIELD g mineWood Lxf;
+	FIELD h buildWorkBench Lxf;
+	FIELD i buildPickaxe Lxf;
+	FIELD j buildFurnace Lxf;
+	FIELD k acquireIron Lxf;
+	FIELD l buildHoe Lxf;
+	FIELD m makeBread Lxf;
+	FIELD n bakeCake Lxf;
+	FIELD o buildBetterPickaxe Lxf;
+	FIELD p cookFish Lxf;
+	FIELD q onARail Lxf;
+	FIELD r buildSword Lxf;
+	FIELD s killEnemy Lxf;
+	FIELD t killCow Lxf;
+	FIELD u flyPig Lxf;
+	FIELD v snipeSkeleton Lxf;
+	METHOD a init ()V

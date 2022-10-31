@@ -1,0 +1,2 @@
+CLASS pr net/minecraft/world/inventory/FurnaceMenu
+	FIELD a container Laaa;

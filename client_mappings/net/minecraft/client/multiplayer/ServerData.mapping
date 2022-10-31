@@ -1,0 +1,7 @@
+CLASS kv net/minecraft/client/multiplayer/ServerData
+	FIELD a name Ljava/lang/String;
+	FIELD b ip Ljava/lang/String;
+	FIELD c status Ljava/lang/String;
+	FIELD d motd Ljava/lang/String;
+	FIELD e ping J
+	FIELD f pinged Z

@@ -1,0 +1,4 @@
+CLASS tc net/minecraft/world/item/crafting/ToolRecipes
+	FIELD a shapes [[Ljava/lang/String;
+	FIELD b materials [[Ljava/lang/Object;
+	METHOD a addRecipes (Lef;)V

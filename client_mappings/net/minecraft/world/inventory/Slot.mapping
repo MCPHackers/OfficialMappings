@@ -1,0 +1,8 @@
+CLASS sx net/minecraft/world/inventory/Slot
+	METHOD a getItem ()Lul;
+	METHOD a onTake (Lul;)V
+	METHOD b hasItem ()Z
+	METHOD b mayPlace (Lul;)Z
+	METHOD c setChanged ()V
+	METHOD c set (Lul;)V
+	METHOD d getMaxStackSize ()I

@@ -1,1 +1,2 @@
 CLASS se net/minecraft/world/entity/monster/Skeleton
+	FIELD a HELD_ITEM Lul;

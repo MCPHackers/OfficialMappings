@@ -1,0 +1,3 @@
+CLASS adu net/minecraft/client/renderer/culling/Culler
+	METHOD a prepare (DDD)V
+	METHOD a isVisible (Lrp;)Z

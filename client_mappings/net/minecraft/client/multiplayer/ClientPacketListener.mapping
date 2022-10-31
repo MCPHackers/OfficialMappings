@@ -1,0 +1,7 @@
+CLASS wt net/minecraft/client/multiplayer/ClientPacketListener
+	FIELD e random Ljava/util/Random;
+	FIELD h minecraft Lnet/minecraft/client/Minecraft;
+	FIELD i level Lgx;
+	METHOD b tick ()V
+	METHOD c disconnect ()V
+	METHOD c send (Lvl;)V

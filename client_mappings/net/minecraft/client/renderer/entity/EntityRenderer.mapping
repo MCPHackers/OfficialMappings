@@ -4,8 +4,13 @@ CLASS px net/minecraft/client/renderer/entity/EntityRenderer
 	FIELD f shadowRadius F
 	FIELD g shadowStrength F
 	METHOD a getFont ()Lkh;
+	METHOD a setDispatcher (Laam;)V
 	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a bindTexture (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD a renderFlame (Lkj;DDDF)V
 	METHOD a render (Lkj;DDDFF)V
+	METHOD a renderBlockShadow (Llr;DDDIIIFFDDD)V
+	METHOD a render (Lrp;DDD)V
+	METHOD b getLevel ()Lrv;
 	METHOD b postRender (Lkj;DDDFF)V
 	METHOD c renderShadow (Lkj;DDDFF)V

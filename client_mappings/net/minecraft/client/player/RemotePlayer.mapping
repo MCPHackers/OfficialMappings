@@ -1,0 +1,7 @@
+CLASS nx net/minecraft/client/player/RemotePlayer
+	FIELD ap lerpZ D
+	FIELD aq lerpYRot D
+	FIELD ar lerpXRot D
+	FIELD c lerpSteps I
+	FIELD d lerpX D
+	FIELD e lerpY D

@@ -1,0 +1,3 @@
+CLASS rg net/minecraft/world/inventory/ContainerListener
+	METHOD a setContainerData (Lcf;II)V
+	METHOD a slotChanged (Lcf;ILul;)V

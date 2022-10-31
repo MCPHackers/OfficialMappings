@@ -1,15 +1,26 @@
 CLASS net/minecraft/client/Minecraft
+	FIELD A applet Lnet/minecraft/client/MinecraftApplet;
+	FIELD B soundManager Loe;
 	FIELD K running Z
 	FIELD L fpsString Ljava/lang/String;
+	FIELD S hasCrashed Z
 	FIELD U timer Lyr;
+	FIELD X missTime I
 	FIELD a instance Lnet/minecraft/client/Minecraft;
 	FIELD ab rightClickDelay I
+	FIELD ag workDir Ljava/io/File;
+	FIELD b reserve [B
+	FIELD c gameMode Lhw;
+	FIELD d width I
+	FIELD e height I
 	FIELD f level Lrv;
 	FIELD g levelRenderer Li;
 	FIELD h player Lqs;
 	FIELD i cameraEntity Lwd;
 	FIELD j particleEngine Lbz;
 	FIELD k user Ldq;
+	FIELD m parent Ljava/awt/Canvas;
+	FIELD n appletMode Z
 	FIELD o pause Z
 	FIELD p textureManager Lur;
 	FIELD q font Lkh;
@@ -18,6 +29,37 @@ CLASS net/minecraft/client/Minecraft
 	FIELD v gui Labj;
 	FIELD y hitResult Lma;
 	FIELD z options Lfv;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 2 parent
+		ARG 3 applet
+		ARG 4 width
+		ARG 5 height
+		ARG 6 fullscreen
+	METHOD a init ()V
+	METHOD a displayCrashReport (Lgs;)V
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 applicationName
+	METHOD a play (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 userName
+		ARG 1 sessionId
+	METHOD a selectLevel (Ljava/lang/String;Ljava/lang/String;Ldx;)V
+	METHOD a play (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 userName
+		ARG 1 sessionId
+		ARG 2 server
 	METHOD a setScreen (Lqr;)V
 	METHOD a setLevel (Lrv;)V
+	METHOD a setLevel (Lrv;Ljava/lang/String;)V
+	METHOD a setLevel (Lrv;Ljava/lang/String;Lsz;)V
+	METHOD a respawn (ZI)V
+	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD b crash (Lgs;)V
+	METHOD c checkGlError (Ljava/lang/String;)V
+	METHOD d destroy ()V
+	METHOD e emergencySave ()V
+	METHOD f stop ()V
 	METHOD k tick ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD v useAmbientOcclusion ()Z
+	METHOD y getPlatform ()Lyb;

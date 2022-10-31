@@ -1,4 +1,0 @@
-CLASS ps net/minecraft/core/BlockPos
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I

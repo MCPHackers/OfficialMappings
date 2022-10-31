@@ -1,0 +1,12 @@
+CLASS aan net/minecraft/server/level/ServerPlayer
+	FIELD ci connection Lwt;
+	FIELD cl xLast D
+	FIELD cm yLast1 D
+	FIELD cn yLast D
+	FIELD co zLast D
+	FIELD cp yRotLast F
+	FIELD cq xRotLast F
+	FIELD cr lastOnGround Z
+	FIELD cs wasSneaking Z
+	FIELD ct wasSprinting Z
+	FIELD cu positionReminder I

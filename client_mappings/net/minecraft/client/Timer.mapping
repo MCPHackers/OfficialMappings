@@ -1,1 +1,7 @@
 CLASS yr net/minecraft/client/Timer
+	FIELD a ticksPerSecond F
+	FIELD b ticks I
+	FIELD c a F
+	FIELD d timeScale F
+	FIELD e passedTime F
+	METHOD a advanceTime ()V

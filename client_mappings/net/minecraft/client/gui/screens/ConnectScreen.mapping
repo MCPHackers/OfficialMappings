@@ -1,3 +1,6 @@
 CLASS acd net/minecraft/client/gui/screens/ConnectScreen
 	FIELD a connection Lwt;
 	FIELD b aborted Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 2 ip
+		ARG 3 port

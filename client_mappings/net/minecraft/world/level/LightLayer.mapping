@@ -1,4 +1,4 @@
 CLASS rf net/minecraft/world/level/LightLayer
-	FIELD a Sky Lrf;
-	FIELD b Block Lrf;
+	FIELD a SKY Lrf;
+	FIELD b BLOCK Lrf;
 	FIELD c surrounding I

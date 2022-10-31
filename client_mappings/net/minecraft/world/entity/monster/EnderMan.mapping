@@ -1,3 +1,4 @@
 CLASS gz net/minecraft/world/entity/monster/EnderMan
+	FIELD a creepy Z
 	METHOD r getCarryingTile ()I
 	METHOD s getCarryingData ()I

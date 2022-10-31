@@ -1,0 +1,2 @@
+CLASS gv net/minecraft/client/gui/screens/LevelLoadingScreen
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;

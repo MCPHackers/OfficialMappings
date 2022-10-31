@@ -1,0 +1,5 @@
+CLASS bj net/minecraft/client/gui/screens/OptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b lastScreen Lqr;
+	FIELD c options Lfv;
+	FIELD d OPTION_SCREEN_OPTIONS [Ltq;

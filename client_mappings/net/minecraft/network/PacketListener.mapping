@@ -1,0 +1,14 @@
+CLASS kx net/minecraft/network/PacketListener
+	METHOD a handleMapItemData (Laa;)V
+	METHOD a handleSignUpdate (Labh;)V
+	METHOD a handleDisconnect (Ladw;)V
+	METHOD a handleLevelEvent (Lde;)V
+	METHOD a handleAnimate (Lhs;)V
+	METHOD a handleAddExperienceOrb (Lis;)V
+	METHOD a handleAddEntity (Lkl;)V
+	METHOD a handleContainerSetSlot (Lot;)V
+	METHOD a handleSetTime (Lth;)V
+	METHOD a handleSetEntityData (Lut;)V
+	METHOD a handle (Lvl;)V
+	METHOD a handleLogin (Lxh;)V
+	METHOD a handleChat (Lyc;)V

@@ -1,4 +1,16 @@
 CLASS nv net/minecraft/client/particle/Particle
+	FIELD ap lifetime I
+	FIELD aq quadSize F
+	FIELD ar gravity F
+	FIELD as rCol F
+	FIELD at gCol F
+	FIELD au bCol F
 	FIELD av xOff D
 	FIELD aw yOff D
 	FIELD ax zOff D
+	FIELD b sprite I
+	FIELD e age I
+	METHOD a render (Lxe;FFFFFF)V
+	METHOD d setPower (F)Lnv;
+	METHOD e scale (F)Lnv;
+	METHOD m getRenderType ()I

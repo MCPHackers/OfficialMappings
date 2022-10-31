@@ -1,0 +1,2 @@
+CLASS dh net/minecraft/client/CrashReportPanel$Logo
+	FIELD a image Ljava/awt/image/BufferedImage;

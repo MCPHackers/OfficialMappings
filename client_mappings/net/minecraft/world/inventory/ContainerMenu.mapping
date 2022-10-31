@@ -1,0 +1,18 @@
+CLASS cf net/minecraft/world/inventory/ContainerMenu
+	FIELD a changeUid S
+	FIELD d lastSlots Ljava/util/List;
+	FIELD e slots Ljava/util/List;
+	FIELD f containerId I
+	FIELD g containerListeners Ljava/util/List;
+	METHOD a broadcastChanges ()V
+	METHOD a quickMoveStack (I)Lul;
+	METHOD a clicked (IIZLsz;)Lul;
+	METHOD a setItem (ILul;)V
+	METHOD a slotsChanged (Lgl;)V
+	METHOD a addSlot (Lsx;)V
+	METHOD a removed (Lsz;)V
+	METHOD a backup (Lui;)S
+	METHOD a moveItemStackTo (Lul;IIZ)Z
+	METHOD a setAll ([Lul;)V
+	METHOD b getSlot (I)Lsx;
+	METHOD b stillValid (Lsz;)Z

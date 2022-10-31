@@ -1,0 +1,2 @@
+CLASS vd net/minecraft/world/item/crafting/CraftingRecipes
+	METHOD a addRecipes (Lef;)V

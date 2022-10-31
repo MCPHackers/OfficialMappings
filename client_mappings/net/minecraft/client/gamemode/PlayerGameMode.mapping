@@ -1,0 +1,10 @@
+CLASS hw net/minecraft/client/gamemode/PlayerGameMode
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a handleInventoryMouseClick (IIIZLsz;)Lul;
+	METHOD a flip (Lsz;)V
+	METHOD a useItemOn (Lsz;Lrv;Lul;IIII)Z
+	METHOD b createPlayer (Lrv;)Lsz;
+	METHOD b attack (Lsz;Lkj;)V
+	METHOD c tick ()V
+	METHOD c releaseUsingItem (Lsz;)V
+	METHOD d canHurtPlayer ()Z

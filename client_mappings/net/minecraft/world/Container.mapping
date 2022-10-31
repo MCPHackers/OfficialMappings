@@ -1,0 +1,5 @@
+CLASS gl net/minecraft/world/Container
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lul;
+	METHOD a stillValid (Lsz;)Z
+	METHOD c getDisplayName ()Ljava/lang/String;

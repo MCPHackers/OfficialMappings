@@ -1,0 +1,4 @@
+CLASS oz net/minecraft/world/item/crafting/ArmorRecipes
+	FIELD a shapes [[Ljava/lang/String;
+	FIELD b materials [[Ljava/lang/Object;
+	METHOD a addRecipes (Lef;)V

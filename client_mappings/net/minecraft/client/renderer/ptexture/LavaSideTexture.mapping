@@ -1,0 +1,5 @@
+CLASS eo net/minecraft/client/renderer/ptexture/LavaSideTexture
+	FIELD a r [F
+	FIELD b g [F
+	FIELD c b [F
+	FIELD d a [F

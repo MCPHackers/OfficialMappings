@@ -1,0 +1,6 @@
+CLASS oe net/minecraft/client/sounds/SoundManager
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD f options Lfv;
+	FIELD g loaded Z
+	METHOD a play (Ljava/lang/String;FF)V
+	METHOD b destroy ()V

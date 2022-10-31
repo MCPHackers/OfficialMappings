@@ -1,0 +1,2 @@
+CLASS adp
+	FIELD n random Ljava/util/Random;

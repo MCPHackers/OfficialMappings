@@ -1,0 +1,2 @@
+CLASS gh net/minecraft/client/player/KeyboardInput
+	FIELD f options Lfv;

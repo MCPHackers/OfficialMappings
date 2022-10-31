@@ -1,0 +1,4 @@
+CLASS r net/minecraft/world/inventory/InventoryMenu
+	FIELD a craftSlots Lwn;
+	FIELD b resultSlots Lgl;
+	FIELD c active Z

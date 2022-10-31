@@ -2,6 +2,16 @@ CLASS ax net/minecraft/world/phys/Vec3
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D
+	METHOD a xRot (F)V
 	METHOD a clipX (Lax;D)Lax;
+	METHOD b yRot (F)V
+	METHOD b dot (Lax;)D
 	METHOD b clipY (Lax;D)Lax;
+	METHOD c normalize ()Lax;
+	METHOD c add (DDD)Lax;
+	METHOD c cross (Lax;)Lax;
 	METHOD c clipZ (Lax;D)Lax;
+	METHOD d length ()D
+	METHOD d distanceToSqr (DDD)D
+	METHOD d distanceTo (Lax;)D
+	METHOD e distanceToSqr (Lax;)D

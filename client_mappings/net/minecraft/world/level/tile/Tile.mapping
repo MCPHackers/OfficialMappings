@@ -15,9 +15,13 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD N glass Llr;
 	FIELD O lapisOre Llr;
 	FIELD P lapisBlock Llr;
+	FIELD Q dispenser Llr;
 	FIELD R sandStone Llr;
+	FIELD S musicBlock Llr;
 	FIELD T bed Llr;
 	FIELD U goldenRail Llr;
+	FIELD V detectorRail Llr;
+	FIELD W pistonStickyBase Llr;
 	FIELD X web Llr;
 	FIELD Y tallgrass Ljx;
 	FIELD Z deadBush Lez;
@@ -31,20 +35,27 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD aH rail Llr;
 	FIELD aI stairs_stone Llr;
 	FIELD aJ wallSign Llr;
+	FIELD aK lever Llr;
+	FIELD a descriptionId Ljava/lang/String;
 	FIELD aM door_iron Llr;
 	FIELD aO redStoneOre Llr;
 	FIELD aP redStoneOre_lit Llr;
+	FIELD aS button Llr;
 	FIELD aT topSnow Llr;
 	FIELD aU ice Llr;
 	FIELD aV snow Llr;
 	FIELD aW cactus Llr;
 	FIELD aX clay Llr;
 	FIELD aY reeds Llr;
+	FIELD aZ jukebox Llr;
+	FIELD aa pistonBase Llr;
+	FIELD ab pistonHead Lom;
 	FIELD ac cloth Llr;
+	FIELD ad movingPiston Llq;
 	FIELD ae flower Lms;
 	FIELD af rose Lms;
-	FIELD ag mushroom1 Lms;
-	FIELD ah mushroom2 Lms;
+	FIELD ag mushroomBrown Lms;
+	FIELD ah mushroomRed Lms;
 	FIELD ai goldBlock Llr;
 	FIELD aj ironBlock Llr;
 	FIELD ak stoneSlab Llr;
@@ -56,21 +67,35 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD aq obsidian Llr;
 	FIELD ar torch Llr;
 	FIELD as fire Ladv;
+	FIELD at mobSpawner Llr;
 	FIELD au stairs_wood Llr;
 	FIELD av chest Llr;
+	FIELD aw redstoneDust Llr;
 	FIELD ax emeraldOre Llr;
 	FIELD ay emeraldBlock Llr;
 	FIELD az workBench Llr;
 	FIELD bA id I
+	FIELD bF minX D
+	FIELD bG minY D
+	FIELD bH minZ D
+	FIELD bI maxX D
+	FIELD bJ maxY D
+	FIELD bK maxZ D
 	FIELD bN material Lwa;
+	FIELD bO friction F
 	FIELD ba fence Llr;
 	FIELD bb pumpkin Llr;
-	FIELD bc netherrack Llr;
+	FIELD bc hellrock Llr;
+	FIELD bd hellsand Llr;
 	FIELD be lightGem Llr;
-	FIELD bf litPumpkin Lae;
+	FIELD bf portal Lae;
+	FIELD bg litPumpkin Llr;
 	FIELD bh cake Llr;
+	FIELD bk lockedChest Llr;
 	FIELD bl trapdoor Llr;
 	FIELD bn stoneBrickSmooth Llr;
+	FIELD bo mushroomTileBrown Llr;
+	FIELD bp mushroomTileRed Llr;
 	FIELD bq ironFence Llr;
 	FIELD br thinGlass Llr;
 	FIELD bs melon Llr;
@@ -80,6 +105,7 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD bw fenceGate Llr;
 	FIELD bx stairs_brick Llr;
 	FIELD by stairs_stoneBrickSmooth Llr;
+	FIELD bz tex I
 	FIELD d SOUND_NORMAL Lqm;
 	FIELD e SOUND_WOOD Lqm;
 	FIELD f SOUND_GRAVEL Lqm;
@@ -97,6 +123,67 @@ CLASS lr net/minecraft/world/level/tile/Tile
 	FIELD y wood Llr;
 	FIELD z sapling Llr;
 	METHOD a getTexture (I)I
+		ARG 1 face
+	METHOD a getTexture (II)I
+		ARG 1 face
+		ARG 2 id
+	METHOD a (ILjava/util/Random;)I
+		ARG 2 random
+	METHOD a shouldRenderFace (Ladg;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD a setDescriptionId (Ljava/lang/String;)Llr;
+	METHOD a (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a neighborChanged (Lrv;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+	METHOD a triggerEvent (Lrv;IIIII)V
 	METHOD a addAABBs (Lrv;IIILrp;Ljava/util/ArrayList;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 box
+	METHOD a use (Lrv;IIILsz;)V
+	METHOD a setPlacedBy (Lrv;IIILwd;)V
+	METHOD a playerDestroy (Lrv;Lsz;IIII)V
+	METHOD a (Lsz;)F
+		ARG 1 player
+	METHOD b isCollisionShapeFullBlock ()Z
+	METHOD c getRenderLayer ()I
+	METHOD c getLightColor (Ladg;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c (Ladg;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD c getAABB (Lrv;III)Lrp;
+		ARG 1 level
+	METHOD d getTexture (Ladg;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD d getTileAABB (Lrv;III)Lrp;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e getPistonPushReaction ()I
+	METHOD f getTickDelay ()I
+	METHOD g dropResources (Lrv;IIII)V
+	METHOD o getName ()Ljava/lang/String;
+	METHOD p getDescriptionId ()Ljava/lang/String;

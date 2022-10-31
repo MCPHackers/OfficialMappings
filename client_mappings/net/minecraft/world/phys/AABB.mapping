@@ -1,15 +1,67 @@
 CLASS rp net/minecraft/world/phys/AABB
-	FIELD a minX D
-	FIELD b minY D
-	FIELD c minZ D
-	FIELD d maxX D
-	FIELD e maxY D
-	FIELD f maxZ D
+	FIELD a x0 D
+	FIELD b y0 D
+	FIELD c z0 D
+	FIELD d x1 D
+	FIELD e y1 D
+	FIELD f z1 D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
+	METHOD a expand (DDD)Lrp;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD a contains (Lax;)Z
 	METHOD a clip (Lax;Lax;)Lma;
+	METHOD a intersects (Lrp;)Z
+		ARG 1 c
 	METHOD a clipXCollide (Lrp;D)D
+		ARG 1 c
+		ARG 2 xa
+	METHOD b grow (DDD)Lrp;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD b of (DDDDDD)Lrp;
+		ARG 0 x0
+		ARG 2 y0
+		ARG 4 z0
+		ARG 6 x1
+		ARG 8 y1
+		ARG 10 z1
 	METHOD b containsX (Lax;)Z
+	METHOD b (Lrp;)V
+		ARG 1 c
 	METHOD b clipYCollide (Lrp;D)D
+		ARG 1 c
+		ARG 2 ya
+	METHOD c getSize ()D
 	METHOD c cloneMove (DDD)Lrp;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD c (DDDDDD)Lrp;
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
 	METHOD c containsY (Lax;)Z
 	METHOD c clipZCollide (Lrp;D)D
+		ARG 1 c
+		ARG 2 za
+	METHOD d move (DDD)Lrp;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
 	METHOD d containsZ (Lax;)Z
+	METHOD e deflate (DDD)Lrp;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za

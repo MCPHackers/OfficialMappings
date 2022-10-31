@@ -1,1 +1,5 @@
 CLASS ado net/minecraft/client/gui/screens/inventory/SignEditScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b sign Lod;
+	FIELD c frame I
+	FIELD d line I

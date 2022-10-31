@@ -1,0 +1,12 @@
+CLASS acc net/minecraft/stats/Stat
+	FIELD a formatter Lna;
+	FIELD b NUMBER_FORMAT Ljava/text/NumberFormat;
+	FIELD c DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD e id I
+	FIELD f name Ljava/lang/String;
+	FIELD i DEFAULT Lna;
+	FIELD j TIME Lna;
+	FIELD k DISTANCE Lna;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD i getNumberFormat ()Ljava/text/NumberFormat;
+	METHOD j getDecimalFormat ()Ljava/text/DecimalFormat;

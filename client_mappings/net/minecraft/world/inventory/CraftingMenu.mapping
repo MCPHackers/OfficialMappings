@@ -1,0 +1,4 @@
+CLASS uf net/minecraft/world/inventory/CraftingMenu
+	FIELD a craftSlots Lwn;
+	FIELD b resultSlots Lgl;
+	FIELD c level Lrv;

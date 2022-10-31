@@ -1,1 +1,13 @@
 CLASS qs net/minecraft/client/player/LocalPlayer
+	FIELD a input Llp;
+	FIELD ap xBob F
+	FIELD aq yBobO F
+	FIELD ar xBobO F
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c sprintTriggerTime I
+	FIELD d sprintTime I
+	FIELD e yBob F
+	METHOD a chat (Ljava/lang/String;)V
+	METHOD c setExperienceValues (III)V
+	METHOD f blocked (III)Z
+	METHOD u_ getFieldOfViewModifier ()F

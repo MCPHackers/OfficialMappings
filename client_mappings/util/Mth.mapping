@@ -3,9 +3,13 @@ CLASS et util/Mth
 	METHOD a sqrt (D)F
 	METHOD a absMax (DD)D
 	METHOD a sin (F)F
+	METHOD a abs (I)I
+	METHOD a intFloorDiv (II)I
+	METHOD a isNullOrEmpty (Ljava/lang/String;)Z
 	METHOD a nextInt (Ljava/util/Random;II)I
 	METHOD b floor (D)I
 	METHOD b cos (F)F
 	METHOD c lfloor (D)J
 	METHOD c sqrt (F)F
 	METHOD d floor (F)I
+	METHOD e abs (F)F

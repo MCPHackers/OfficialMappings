@@ -1,0 +1,7 @@
+CLASS jj net/minecraft/client/gui/screens/ConfirmScreen
+	FIELD a lastScreen Lqr;
+	FIELD b title1 Ljava/lang/String;
+	FIELD c title2 Ljava/lang/String;
+	FIELD d yesButton Ljava/lang/String;
+	FIELD f noButton Ljava/lang/String;
+	FIELD g delayTicker I

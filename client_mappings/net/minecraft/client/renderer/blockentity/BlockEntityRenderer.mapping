@@ -1,2 +1,0 @@
-CLASS uo net/minecraft/client/renderer/blockentity/BlockEntityRenderer
-	METHOD a render (Lij;DDDF)V

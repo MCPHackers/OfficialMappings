@@ -1,0 +1,3 @@
+CLASS aar net/minecraft/world/item/crafting/OreBlockRecipes
+	FIELD a recipes [[Ljava/lang/Object;
+	METHOD a addRecipes (Lef;)V

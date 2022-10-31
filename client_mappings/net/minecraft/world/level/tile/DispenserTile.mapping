@@ -1,0 +1,2 @@
+CLASS adh net/minecraft/world/level/tile/DispenserTile
+	FIELD a random Ljava/util/Random;

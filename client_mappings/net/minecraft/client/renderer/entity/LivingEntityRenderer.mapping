@@ -1,7 +1,14 @@
 CLASS dt net/minecraft/client/renderer/entity/LivingEntityRenderer
 	FIELD a model Lfo;
 	FIELD b layer Lfo;
+	METHOD a setLayer (Lfo;)V
 	METHOD a getFlipDegrees (Lwd;)F
+	METHOD a getAttackAnim (Lwd;F)F
+	METHOD a (Lwd;IF)Z
+		ARG 1 mob
+		ARG 2 layer
+		ARG 3 a
+	METHOD b getBob (Lwd;F)F
 	METHOD b prepareArmor (Lwd;IF)Z
 		ARG 1 mob
 		ARG 2 layer

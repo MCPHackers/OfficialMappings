@@ -1,0 +1,2 @@
+CLASS adw net/minecraft/network/packet/DisconnectPacket
+	FIELD a reason Ljava/lang/String;

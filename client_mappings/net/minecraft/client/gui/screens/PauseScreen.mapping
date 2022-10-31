@@ -1,0 +1,2 @@
+CLASS in net/minecraft/client/gui/screens/PauseScreen
+	FIELD b delayTicker I

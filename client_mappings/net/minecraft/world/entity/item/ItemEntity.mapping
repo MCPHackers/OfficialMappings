@@ -1,1 +1,7 @@
 CLASS ee net/minecraft/world/entity/item/ItemEntity
+	FIELD a item Lul;
+	FIELD ap health I
+	FIELD b age I
+	FIELD c pickupDelay I
+	FIELD d bobOffs F
+	FIELD e age1 I

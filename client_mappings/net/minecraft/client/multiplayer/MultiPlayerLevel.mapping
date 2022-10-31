@@ -1,0 +1,3 @@
+CLASS gx net/minecraft/client/multiplayer/MultiPlayerLevel
+	FIELD N connection Lwt;
+	METHOD a addEntity (ILkj;)V

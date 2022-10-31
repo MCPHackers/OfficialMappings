@@ -1,0 +1,7 @@
+CLASS em net/minecraft/client/gui/screens/inventory/AbstractContainerScreen
+	FIELD a itemRenderer Lpj;
+	FIELD b imageWidth I
+	FIELD c imageHeight I
+	FIELD d menu Lcf;
+	METHOD a renderBg (F)V
+	METHOD c renderLabels ()V

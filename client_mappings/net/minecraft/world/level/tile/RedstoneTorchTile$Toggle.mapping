@@ -1,0 +1,5 @@
+CLASS adk net/minecraft/world/level/tile/RedstoneTorchTile$Toggle
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d when J

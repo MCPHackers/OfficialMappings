@@ -1,0 +1,6 @@
+CLASS yb net/minecraft/client/Minecraft$OS
+	FIELD a linux Lyb;
+	FIELD b solaris Lyb;
+	FIELD c windows Lyb;
+	FIELD d macos Lyb;
+	FIELD e unknown Lyb;

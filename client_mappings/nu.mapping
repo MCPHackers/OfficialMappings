@@ -1,0 +1,5 @@
+CLASS nu
+	FIELD g PLAYER_SPAWN_BIOMES Ljava/util/List;
+	METHOD a getPlayerSpawnBiomes ()Ljava/util/List;
+	METHOD a getBiome (II)Lvh;
+	METHOD a getBiome (Loh;)Lvh;

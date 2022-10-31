@@ -1,2 +1,22 @@
 CLASS ul net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
 	FIELD c id I
+	FIELD d damage I
+	METHOD a getItem ()Lsv;
+	METHOD a releaseUsing (Lrv;Lsz;I)V
+	METHOD a useOn (Lsz;Lrv;IIII)Z
+	METHOD a matches (Lul;Lul;)Z
+	METHOD b setDamageValue (I)V
+	METHOD b save (Lxb;)Lxb;
+	METHOD c getMaxStackSize ()I
+	METHOD c load (Lxb;)V
+	METHOD d isStackable ()Z
+	METHOD e isDamageableItem ()Z
+	METHOD g isDamaged ()Z
+	METHOD h getDamage ()I
+	METHOD i getDamageValue ()I
+	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lul;
+	METHOD m getUseDuration ()I
+	METHOD n getUseAnimation ()Lun;

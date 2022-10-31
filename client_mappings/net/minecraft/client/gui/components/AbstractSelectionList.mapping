@@ -1,0 +1,24 @@
+CLASS ge net/minecraft/client/gui/components/AbstractSelectionList
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b width I
+	FIELD c height I
+	FIELD d x1 I
+	FIELD e x0 I
+	FIELD h y0 I
+	FIELD i y1 I
+	FIELD j itemHeight I
+	FIELD m yDrag F
+	FIELD r renderSelection Z
+	FIELD s renderHeader Z
+	FIELD t headerHeight I
+	METHOD a getItemCount ()I
+	METHOD a render (IIF)V
+	METHOD a renderHoleBackground (IIII)V
+	METHOD a render (IIIILxe;)V
+	METHOD a renderHeader (IILxe;)V
+	METHOD a setRenderSelection (Z)V
+	METHOD a setRenderHeader (ZI)V
+	METHOD a_ isFocused (I)Z
+	METHOD b getMaxPosition ()I
+	METHOD b renderDecorations (II)V
+	METHOD c renderBackground ()V

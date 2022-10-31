@@ -1,0 +1,2 @@
+CLASS ii net/minecraft/client/gui/screens/inventory/FurnaceScreen
+	FIELD f furnace Laaa;

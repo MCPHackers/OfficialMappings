@@ -1,2 +1,0 @@
-CLASS qo
-	METHOD a renderTile (Llr;IF)V

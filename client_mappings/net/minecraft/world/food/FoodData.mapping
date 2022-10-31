@@ -1,0 +1,18 @@
+CLASS kc net/minecraft/world/food/FoodData
+	FIELD a foodLevel I
+	FIELD b saturationLevel F
+	FIELD c exhaustionLevel F
+	FIELD d tickTimer I
+	FIELD e lastFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a eat (IF)V
+	METHOD a eat (Laea;)V
+	METHOD a tick (Lsz;)V
+	METHOD a readAdditionalSaveData (Lxb;)V
+	METHOD b getLastFoodLevel ()I
+	METHOD b setSaturation (F)V
+	METHOD b addAdditionalSaveData (Lxb;)V
+	METHOD c needsFood ()Z
+	METHOD d getSaturationLevel ()F

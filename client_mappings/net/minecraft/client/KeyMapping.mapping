@@ -1,3 +1,13 @@
 CLASS ys net/minecraft/client/KeyMapping
+	FIELD a all Ljava/util/List;
+	FIELD b map Lvc;
 	FIELD c name Ljava/lang/String;
 	FIELD d key I
+	FIELD e isDown Z
+	FIELD f clickCount I
+	METHOD a setAll ()V
+	METHOD a click (I)V
+	METHOD a set (IZ)V
+	METHOD b resetMapping ()V
+	METHOD c consumeClick ()Z
+	METHOD d release ()V

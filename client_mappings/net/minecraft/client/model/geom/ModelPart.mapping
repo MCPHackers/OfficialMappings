@@ -10,7 +10,6 @@ CLASS yn net/minecraft/client/model/geom/ModelPart
 	FIELD o mirror Z
 	FIELD p visible Z
 	FIELD q neverRender Z
-	FIELD s cubes [Llg;
 	FIELD v compiled Z
 	FIELD w list I
 	METHOD a render (F)V

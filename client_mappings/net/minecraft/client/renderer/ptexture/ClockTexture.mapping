@@ -1,0 +1,4 @@
+CLASS fu net/minecraft/client/renderer/ptexture/ClockTexture
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD d rotation D
+	FIELD e rota D

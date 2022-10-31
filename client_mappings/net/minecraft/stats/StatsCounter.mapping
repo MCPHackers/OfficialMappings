@@ -1,0 +1,2 @@
+CLASS add net/minecraft/stats/StatsCounter
+	METHOD d tick ()V

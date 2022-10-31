@@ -1,0 +1,2 @@
+CLASS hj net/minecraft/world/item/crafting/DyeRecipes
+	METHOD a addRecipes (Lef;)V

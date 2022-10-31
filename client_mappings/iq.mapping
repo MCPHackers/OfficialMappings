@@ -1,0 +1,3 @@
+CLASS iq
+	FIELD h socket Ljava/net/Socket;
+	FIELD p packetListener Lkx;

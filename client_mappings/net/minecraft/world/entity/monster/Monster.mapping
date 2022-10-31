@@ -1,1 +1,2 @@
 CLASS tb net/minecraft/world/entity/monster/Monster
+	METHOD b doHurtTarget (Lkj;)Z

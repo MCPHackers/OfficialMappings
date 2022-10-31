@@ -1,0 +1,45 @@
+CLASS ua net/minecraft/world/level/levelgen/feature/BasicTree
+	FIELD a axisConversionArray [B
+	FIELD b rnd Ljava/util/Random;
+	FIELD c thisLevel Lrv;
+	FIELD d origin [I
+	FIELD e height I
+	FIELD f trunkHeight I
+	FIELD g trunkHeightScale D
+	FIELD h branchDensity D
+	FIELD i branchSlope D
+	FIELD j widthScale D
+	FIELD k foliageDensity D
+	FIELD l trunkWidth I
+	FIELD m heightVariance I
+	FIELD n foliageHeight I
+	FIELD o foliageCoords [[I
+	METHOD a prepare ()V
+	METHOD a treeShape (I)F
+		ARG 1 y
+	METHOD a foliageCluster (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a crossection (IIIFBI)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 radius
+		ARG 5 direction
+		ARG 6 material
+	METHOD a checkLine ([I[I)I
+		ARG 1 start
+		ARG 2 end
+	METHOD a limb ([I[II)V
+		ARG 1 start
+		ARG 2 end
+		ARG 3 material
+	METHOD b makeFoliage ()V
+	METHOD b foliageShape (I)F
+		ARG 1 y
+	METHOD c makeTrunk ()V
+	METHOD c trimBranches (I)Z
+		ARG 1 localY
+	METHOD d makeBranches ()V
+	METHOD e checkLocation ()Z

@@ -1,0 +1,2 @@
+CLASS xk net/minecraft/world/item/crafting/FoodRecipes
+	METHOD a addRecipes (Lef;)V

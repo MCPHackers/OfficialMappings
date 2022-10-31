@@ -1,1 +1,3 @@
 CLASS aea net/minecraft/world/item/FoodItem
+	METHOD l getNutrition ()I
+	METHOD m getSaturationModifier ()F

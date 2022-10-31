@@ -1,2 +1,10 @@
 CLASS iw net/minecraft/client/renderer/GameRenderer
+	FIELD W random Ljava/util/Random;
+	FIELD m colorBuffer Ljava/nio/FloatBuffer;
+	FIELD r minecraft Lnet/minecraft/client/Minecraft;
 	METHOD a pick (F)V
+	METHOD a updateColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD a render (FJ)V
+	METHOD a setupFog (IF)V
+	METHOD c renderSnowAndRain (F)V
+	METHOD g setupClearColor (F)V

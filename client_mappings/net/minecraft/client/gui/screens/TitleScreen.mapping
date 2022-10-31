@@ -1,2 +1,9 @@
 CLASS sf net/minecraft/client/gui/screens/TitleScreen
 	FIELD a random Ljava/util/Random;
+	FIELD b time F
+	FIELD c splash Ljava/lang/String;
+	FIELD d multiplayerButton Lvj;
+	FIELD f delayTicker I
+	METHOD a renderBlur (F)V
+	METHOD b renderCubeMap (IIF)V
+	METHOD c renderPanorama (IIF)V

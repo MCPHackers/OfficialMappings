@@ -1,1 +1,2 @@
-CLASS yw net/minecraft/client/gui/screens/OutOfMemoryScreen
+CLASS oy net/minecraft/client/gui/screens/OutOfMemoryScreen
+	FIELD a delayTicker I

@@ -1,0 +1,2 @@
+CLASS yw net/minecraft/client/gui/screens/LevelConflictScreen
+	FIELD a delayTicker I

@@ -1,0 +1,2 @@
+CLASS bc net/minecraft/client/gui/screens/achievement/StatsScreen$ItemStatisticsList
+	FIELD a statsScreen Lce;

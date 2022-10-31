@@ -1,0 +1,2 @@
+CLASS ko net/minecraft/client/gui/screens/achievement/StatsScreen$GeneralStatisticsList
+	FIELD a statsScreen Lce;

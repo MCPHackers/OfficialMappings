@@ -1,0 +1,11 @@
+CLASS ade net/minecraft/world/effect/MobEffectInstance
+	FIELD a effect I
+	FIELD b duration I
+	FIELD c amplifier I
+	METHOD a getId ()I
+	METHOD a update (Lade;)V
+	METHOD a tick (Lwd;)Z
+	METHOD b getDuration ()I
+	METHOD b applyEffect (Lwd;)V
+	METHOD c getAmplifier ()I
+	METHOD d tickDownDuration ()I

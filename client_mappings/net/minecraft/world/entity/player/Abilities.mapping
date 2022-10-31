@@ -1,0 +1,5 @@
+CLASS nb net/minecraft/world/entity/player/Abilities
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c mayfly Z
+	FIELD d instabuild Z

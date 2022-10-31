@@ -1,10 +1,38 @@
 CLASS kj net/minecraft/world/entity/Entity
+	FIELD A horizontalCollision Z
+	FIELD B verticalCollision Z
+	FIELD C collision Z
+	FIELD D hurtMarked Z
+	FIELD E stuck Z
 	FIELD G removed Z
+	FIELD H heightOffset F
+	FIELD I bbWidth F
+	FIELD J bbHeight F
+	FIELD K walkDistO F
+	FIELD L walkDist F
+	FIELD M fallDistance F
 	FIELD N xOld D
 	FIELD O yOld D
 	FIELD P zOld D
+	FIELD S noPhysics Z
+	FIELD T pushthrough F
 	FIELD U random Ljava/util/Random;
+	FIELD V tickCount I
+	FIELD W fireImmuneTicks I
+	FIELD X remainingFireTicks I
+	FIELD Y maxAirSupply I
+	FIELD Z wasInWater Z
+	FIELD a entityCounter I
+	FIELD aa invulnerableTime I
+	FIELD ab airSupply I
+	FIELD ae fireImmune Z
 	FIELD af entityData Labc;
+	FIELD ao hasImpulse Z
+	FIELD b nextStep I
+	FIELD c firstTick Z
+	FIELD f id I
+	FIELD i passanger Lkj;
+	FIELD j vehicle Lkj;
 	FIELD k level Lrv;
 	FIELD l xo D
 	FIELD m yo D
@@ -19,9 +47,18 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD v xRot F
 	FIELD w yRot0 F
 	FIELD x xRot0 F
+	FIELD y bb Lrp;
+	FIELD z onGround Z
+	METHOD A isInWater ()Z
 	METHOD B getHeadHeight ()F
+	METHOD C isInLava ()Z
+	METHOD D markHurt ()V
 	METHOD F getEncodeId ()Ljava/lang/String;
+	METHOD G isAlive ()Z
+	METHOD H isInWall ()Z
+	METHOD I rideTick ()V
 	METHOD N displayFireAnimation ()Z
+	METHOD O isPassenger ()Z
 	METHOD P isSneaking ()Z
 	METHOD Q isSprinting ()Z
 	METHOD a handleEntityEvent (B)V
@@ -29,19 +66,57 @@ CLASS kj net/minecraft/world/entity/Entity
 		ARG 1 xd
 		ARG 3 yd
 		ARG 5 zd
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a checkFallDamage (DZ)V
+	METHOD a getLightColor (F)I
+	METHOD a setSize (FF)V
+	METHOD a moveRelative (FFF)V
+	METHOD a burn (I)V
 	METHOD a setSharedFlag (IZ)V
+	METHOD a thunderHit (Lc;)V
+	METHOD a hurt (Lje;I)Z
+	METHOD a awardKillScore (Lkj;I)V
 	METHOD a setLevel (Lrv;)V
+	METHOD a killed (Lwd;)V
 	METHOD a readAdditionalSaveData (Lxb;)V
 		ARG 1 entityTag
+	METHOD a newDoubleList ([D)Lkk;
+	METHOD a newFloatList ([F)Lkk;
+	METHOD a_ playerTouch (Lsz;)V
+	METHOD b defineSynchedData ()V
+	METHOD b move (DDD)V
 	METHOD b absMoveTo (DDDFF)V
+	METHOD b getBrightness (F)F
 	METHOD b setRot (FF)V
 	METHOD b addAdditionalSaveData (Lxb;)V
 		ARG 1 entityTag
+	METHOD c push (DDD)V
 	METHOD c moveTo (DDDFF)V
+	METHOD c causeFallDamage (F)V
+	METHOD c turn (FF)V
 	METHOD c save (Lxb;)Z
 	METHOD c setSprinting (Z)V
 	METHOD d setPos (DDD)V
 	METHOD d getSharedFlag (I)Z
+	METHOD d distanceTo (Lkj;)F
 	METHOD d saveWithoutId (Lxb;)V
+	METHOD e isFree (DDD)Z
+	METHOD e distanceToSqr (Lkj;)D
 	METHOD e load (Lxb;)V
+	METHOD f makeStepSound ()Z
+	METHOD f distanceToSqr (DDD)D
+	METHOD f push (Lkj;)V
+	METHOD g checkAndHandleWater ()Z
+	METHOD g distanceTo (DDD)D
+	METHOD g_ getCollideBox ()Lrp;
+	METHOD h checkInBlock (DDD)Z
+	METHOD k animateHurt ()V
+	METHOD o makeStuck ()V
+	METHOD t getEntityData ()Labc;
+	METHOD u resetPos ()V
 	METHOD v remove ()V
+	METHOD w baseTick ()V
+	METHOD w_ tick ()V
+	METHOD x lavaHurt ()V
+	METHOD y outOfWorld ()V
+	METHOD z isInWaterOrRain ()Z

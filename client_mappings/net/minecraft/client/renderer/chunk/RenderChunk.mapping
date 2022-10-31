@@ -1,0 +1,16 @@
+CLASS bv net/minecraft/client/renderer/chunk/RenderChunk
+	FIELD C lists I
+	FIELD D t Lxe;
+	FIELD a level Lrv;
+	FIELD b updateCounter I
+	FIELD q x I
+	FIELD r y I
+	FIELD s z I
+	FIELD u dirty Z
+	FIELD v bb Lrp;
+	METHOD a setOrigin (III)V
+	METHOD a distanceToSqr (Lkj;)F
+	METHOD b reset ()V
+	METHOD c releaseBuffers ()V
+	METHOD d render ()V
+	METHOD f setDirty ()V

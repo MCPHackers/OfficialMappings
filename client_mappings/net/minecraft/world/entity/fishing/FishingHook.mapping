@@ -1,0 +1,6 @@
+CLASS wg net/minecraft/world/entity/fishing/FishingHook
+	FIELD ar inGround Z
+	FIELD as life I
+	FIELD b owner Lsz;
+	FIELD c hookedIn Lkj;
+	METHOD m retrieve ()I

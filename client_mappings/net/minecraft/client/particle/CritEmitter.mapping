@@ -1,0 +1,4 @@
+CLASS eg net/minecraft/client/particle/CritEmitter
+	FIELD a entity Lkj;
+	FIELD ay life I
+	FIELD az lifeTime I

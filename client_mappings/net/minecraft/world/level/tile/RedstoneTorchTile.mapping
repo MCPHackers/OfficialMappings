@@ -1,0 +1,3 @@
+CLASS qq net/minecraft/world/level/tile/RedstoneTorchTile
+	FIELD a lit Z
+	FIELD b RECENT_TOGGLES Ljava/util/List;

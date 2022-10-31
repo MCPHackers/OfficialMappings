@@ -25,21 +25,31 @@ CLASS sv net/minecraft/world/item/Item
 	FIELD X chestplate_cloth Lsv;
 	FIELD Y leggings_cloth Lsv;
 	FIELD Z boots_cloth Lsv;
+	FIELD aA minecart Lsv;
 	FIELD aB saddle Lsv;
-	FIELD aC door_iron Lsv;
+	FIELD aC doorIron Lsv;
+	FIELD aD redstone Lsv;
 	FIELD aE snowBall Lsv;
+	FIELD aF boat Lsv;
 	FIELD aG leather Lsv;
+	FIELD aH milk Lsv;
+	FIELD a maxDamage I
 	FIELD aI brick Lsv;
 	FIELD aJ clay Lsv;
 	FIELD aK reeds Lsv;
 	FIELD aL paper Lsv;
 	FIELD aM book Lsv;
 	FIELD aN slimeBall Lsv;
+	FIELD aO minecartChest Lsv;
+	FIELD aP minecartFurnace Lsv;
 	FIELD aQ egg Lsv;
 	FIELD aR compass Lsv;
+	FIELD aS fishingRod Lsv;
 	FIELD aT clock Lsv;
 	FIELD aU yellowDust Lsv;
-	FIELD aX dye_powder Lsv;
+	FIELD aV fishRaw Lsv;
+	FIELD aW fishCooked Lsv;
+	FIELD aX dyePowder Lsv;
 	FIELD aY bone Lsv;
 	FIELD aZ sugar Lsv;
 	FIELD aa helmet_chain Lsv;
@@ -62,18 +72,33 @@ CLASS sv net/minecraft/world/item/Item
 	FIELD ar porkChop_raw Lsv;
 	FIELD as porkChop_cooked Lsv;
 	FIELD at painting Lsv;
+	FIELD au appleGold Lsv;
 	FIELD av sign Lsv;
 	FIELD aw door_wood Lsv;
 	FIELD ax bucket Lsv;
+	FIELD ay bucketWater Lsv;
+	FIELD az bucketLava Lsv;
+	FIELD b craftingRemainingItem Lsv;
 	FIELD ba cake Lsv;
 	FIELD bb bed Lsv;
+	FIELD bc diode Lsv;
+	FIELD bd cookie Lsv;
+	FIELD be map Lng;
 	FIELD bf shears Lat;
 	FIELD bg melon Lsv;
+	FIELD bh seeds_pumpkin Lsv;
 	FIELD bi seeds_melon Lsv;
-	FIELD bj beef_raw Lsv;
-	FIELD bk beef_cooked Lsv;
-	FIELD bl chicken_raw Lsv;
-	FIELD bm chicken_cooked Lsv;
+	FIELD bj beefRaw Lsv;
+	FIELD bk beefCooked Lsv;
+	FIELD bl chickenRaw Lsv;
+	FIELD bm chickenCooked Lsv;
+	FIELD bn rottenFlesh Lsv;
+	FIELD bo enderPearl Lsv;
+	FIELD bp record13 Lsv;
+	FIELD bq recordCat Lsv;
+	FIELD br id I
+	FIELD bs maxStackSize I
+	FIELD c descriptionId Ljava/lang/String;
 	FIELD e random Ljava/util/Random;
 	FIELD f items [Lsv;
 	FIELD g shovel_iron Lsv;
@@ -96,5 +121,14 @@ CLASS sv net/minecraft/world/item/Item
 	FIELD x shovel_stone Lsv;
 	FIELD y pickAxe_stone Lsv;
 	FIELD z hatchet_stone Lsv;
+	METHOD a setIcon (II)Lsv;
+	METHOD a setDescriptionId (Ljava/lang/String;)Lsv;
+	METHOD a releaseUsing (Lul;Lrv;Lsz;I)V
+	METHOD a useOn (Lul;Lsz;Lrv;IIII)Z
 	METHOD b getUseAnimation (Lul;)Lun;
 	METHOD c getUseDuration (Lul;)I
+	METHOD d getMaxStackSize ()I
+	METHOD e stacksTo (I)Lsv;
+	METHOD f getMaxDamage ()I
+	METHOD f setMaxDamage (I)Lsv;
+	METHOD g canBeDepleted ()Z

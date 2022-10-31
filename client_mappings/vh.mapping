@@ -1,4 +1,0 @@
-CLASS vh
-	FIELD v monsterSpawner Ljava/util/List;
-	FIELD w creatureSpawner Ljava/util/List;
-	FIELD x waterCreatureSpawner Ljava/util/List;

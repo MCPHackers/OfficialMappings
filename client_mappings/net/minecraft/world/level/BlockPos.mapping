@@ -1,0 +1,4 @@
+CLASS ps net/minecraft/world/level/BlockPos
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

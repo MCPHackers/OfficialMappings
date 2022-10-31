@@ -1,0 +1,5 @@
+CLASS ra net/minecraft/world/item/crafting/Recipe
+	METHOD a size ()I
+	METHOD a matches (Lwn;)Z
+	METHOD b getResultItem ()Lul;
+	METHOD b assemble (Lwn;)Lul;

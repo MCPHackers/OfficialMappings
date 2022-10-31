@@ -1,0 +1,4 @@
+CLASS tn net/minecraft/client/gui/screens/inventory/ContainerScreen
+	FIELD f inventory Lgl;
+	FIELD g container Lgl;
+	FIELD h containerRows I

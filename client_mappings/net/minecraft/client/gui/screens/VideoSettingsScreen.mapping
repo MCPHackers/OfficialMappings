@@ -1,0 +1,5 @@
+CLASS ho net/minecraft/client/gui/screens/VideoSettingsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b lastScreen Lqr;
+	FIELD c options Lfv;
+	FIELD d OPTION_SCREEN_OPTIONS [Ltq;

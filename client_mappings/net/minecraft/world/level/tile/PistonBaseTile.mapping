@@ -1,0 +1,2 @@
+CLASS ux net/minecraft/world/level/tile/PistonBaseTile
+	FIELD a isSticky Z

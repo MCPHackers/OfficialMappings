@@ -1,1 +1,7 @@
 CLASS mt net/minecraft/world/item/ArmorItem
+	FIELD a material I
+	FIELD b slot I
+	FIELD bw defenses [I
+	FIELD bx durabilities [I
+	FIELD c defense I
+	FIELD d renderIndex I

@@ -1,0 +1,23 @@
+CLASS vx net/minecraft/client/renderer/tileentity/TileEntityRenderDispatcher
+	FIELD a instance Lvx;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textureManager Lur;
+	FIELD f level Lrv;
+	FIELD g camera Lwd;
+	FIELD h yRot F
+	FIELD i xRot F
+	FIELD j x D
+	FIELD k y D
+	FIELD l z D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n font Lkh;
+	METHOD a getFont ()Lkh;
+	METHOD a hasRenderer (Lij;)Z
+	METHOD a render (Lij;DDDF)V
+	METHOD a render (Lij;F)V
+	METHOD a getRenderer (Ljava/lang/Class;)Luo;
+	METHOD a setLevel (Lrv;)V
+	METHOD a prepare (Lrv;Lur;Lkh;Lwd;F)V
+	METHOD b getRenderer (Lij;)Luo;

@@ -1,0 +1,3 @@
+CLASS jd net/minecraft/client/particle/TerrainParticle
+	FIELD a tile Llr;
+	METHOD a init (III)Ljd;

@@ -1,0 +1,13 @@
+CLASS ce net/minecraft/client/gui/screens/achievement/StatsScreen
+	FIELD a lastScreen Lqr;
+	FIELD b title Ljava/lang/String;
+	FIELD c itemRenderer Lpj;
+	FIELD d statsList Lko;
+	FIELD f mobsStatsList Lbc;
+	FIELD g itemStatsList Ldj;
+	FIELD h stats Ladd;
+	FIELD i activeList Lge;
+	METHOD a blitSlotIcon (II)V
+	METHOD b initButtons ()V
+	METHOD c blitSlot (III)V
+	METHOD c blitSlotIcon (IIII)V

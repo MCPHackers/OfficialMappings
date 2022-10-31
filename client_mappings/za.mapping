@@ -1,0 +1,6 @@
+CLASS za
+	FIELD c guiScale I
+	FIELD d guiScaledWidth I
+	FIELD e guiScaledHeight I
+	METHOD a getGuiScaledWidth ()I
+	METHOD b getGuiScaledHeight ()I

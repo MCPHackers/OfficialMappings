@@ -1,0 +1,5 @@
+CLASS lo net/minecraft/client/gui/screens/ControlsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b lastScreen Lqr;
+	FIELD c options Lfv;
+	FIELD d selectedKey I

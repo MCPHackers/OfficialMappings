@@ -1,0 +1,5 @@
+CLASS np net/minecraft/client/gamemode/MultiPlayerGameMode
+	FIELD k isCreative Z
+	FIELD l connection Lwt;
+	FIELD m carriedIndex I
+	METHOD j ensureHasSentCarriedItem ()V

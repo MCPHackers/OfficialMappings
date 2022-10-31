@@ -1,0 +1,8 @@
+CLASS qu net/minecraft/world/level/pathfinder/Path
+	FIELD a size I
+	FIELD b nodes [Ld;
+	FIELD c index I
+	METHOD a next ()V
+	METHOD a getPos (Lkj;)Lax;
+	METHOD b isDone ()Z
+	METHOD c last ()Ld;

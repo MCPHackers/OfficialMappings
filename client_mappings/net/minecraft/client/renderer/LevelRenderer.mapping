@@ -1,6 +1,24 @@
 CLASS i net/minecraft/client/renderer/LevelRenderer
+	FIELD F lastViewDistance I
+	FIELD H totalEntities I
+	FIELD I renderedEntities I
+	FIELD J culledEntities I
+	FIELD K totalChunks I
+	FIELD N renderedChunks I
 	FIELD i level Lrv;
 	FIELD j textureManager Lur;
 	FIELD r minecraft Lnet/minecraft/client/Minecraft;
 	FIELD v ticks I
+	FIELD w starList I
+	FIELD x skyList I
+	FIELD y darkList I
+	METHOD a allChanged ()V
+	METHOD a renderSky (F)V
+	METHOD a setLevel (Lrv;)V
+	METHOD a setupRender (Lwd;ID)I
+	METHOD b getChunkStatistics ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD c getEntityStatistics ()Ljava/lang/String;
+	METHOD c renderCloudsFancy (F)V
 	METHOD d tick ()V
+	METHOD e clear ()V

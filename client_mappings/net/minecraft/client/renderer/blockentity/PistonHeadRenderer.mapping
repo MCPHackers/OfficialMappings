@@ -1,0 +1,2 @@
+CLASS ej net/minecraft/client/renderer/blockentity/PistonHeadRenderer
+	FIELD b tileRenderer Lqo;

@@ -1,0 +1,6 @@
+CLASS qy net/minecraft/client/renderer/culling/FrustumData
+	FIELD a frustumData [[F
+	FIELD b projectionMatrix [F
+	FIELD c modelViewMatrix [F
+	FIELD d clip [F
+	METHOD a cubeInFrustum (DDDDDD)Z

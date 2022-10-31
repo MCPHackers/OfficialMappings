@@ -1,0 +1,3 @@
+CLASS yq net/minecraft/world/inventory/InventoryMenu$1
+	FIELD e index I
+	FIELD f inventoryMenu Lr;

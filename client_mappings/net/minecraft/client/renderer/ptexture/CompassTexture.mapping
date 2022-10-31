@@ -1,0 +1,4 @@
+CLASS ph net/minecraft/client/renderer/ptexture/CompassTexture
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c rotation D
+	FIELD d rota D

@@ -1,1 +1,19 @@
 CLASS abj net/minecraft/client/gui/Gui
+	FIELD c vignetteBrightness F
+	FIELD d itemRenderer Lpj;
+	FIELD f chatMessages Ljava/util/List;
+	FIELD g random Ljava/util/Random;
+	FIELD h minecraft Lnet/minecraft/client/Minecraft;
+	FIELD i tickCount I
+	FIELD j overlayMessageString Ljava/lang/String;
+	FIELD k overlayMessageTime I
+	FIELD l animateOverlayMessageColor Z
+	METHOD a tick ()V
+	METHOD a renderVignette (FII)V
+	METHOD a render (FZII)V
+	METHOD a renderPumpkin (II)V
+	METHOD a renderSlot (IIIF)V
+	METHOD a addMessage (Ljava/lang/String;)V
+	METHOD b clearMessages ()V
+	METHOD b renderPortalOverlay (FII)V
+	METHOD b setNowPlaying (Ljava/lang/String;)V

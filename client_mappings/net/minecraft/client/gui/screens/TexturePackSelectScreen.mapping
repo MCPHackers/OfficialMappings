@@ -1,0 +1,4 @@
+CLASS df net/minecraft/client/gui/screens/TexturePackSelectScreen
+	FIELD a lastScreen Lqr;
+	FIELD b selected I
+	FIELD c texturePackDirectory Ljava/lang/String;

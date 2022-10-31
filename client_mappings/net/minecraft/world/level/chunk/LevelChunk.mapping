@@ -1,0 +1,4 @@
+CLASS vy net/minecraft/world/level/chunk/LevelChunk
+	METHOD a getFluid (III)I
+	METHOD b getTile (II)I
+	METHOD h isEmpty ()Z

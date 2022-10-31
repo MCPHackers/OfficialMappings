@@ -1,0 +1,2 @@
+CLASS qo net/minecraft/client/renderer/TileRenderer
+	METHOD a renderTile (Llr;IF)V

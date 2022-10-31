@@ -1,1 +1,9 @@
 CLASS aaa net/minecraft/world/level/tile/entity/FurnaceTileEntity
+	FIELD a litTime I
+	FIELD b cookingTotalTime I
+	FIELD c cookingProgress I
+	FIELD d items [Lul;
+	METHOD a getBurnDuration (Lul;)I
+	METHOD g isLit ()Z
+	METHOD n burn ()V
+	METHOD o canBurn ()Z

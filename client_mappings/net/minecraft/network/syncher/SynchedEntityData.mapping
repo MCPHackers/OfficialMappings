@@ -1,6 +1,0 @@
-CLASS abc net/minecraft/network/syncher/SynchedEntityData
-	FIELD a ENTITY_ID_POOL Ljava/util/HashMap;
-	FIELD b itemsById Ljava/util/Map;
-	FIELD c isDirty Z
-	METHOD a get (I)B
-	METHOD a define (ILjava/lang/Object;)V

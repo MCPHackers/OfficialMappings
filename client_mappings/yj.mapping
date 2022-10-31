@@ -1,0 +1,4 @@
+CLASS yj
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+	METHOD a levelEvent (Lsz;IIIII)V

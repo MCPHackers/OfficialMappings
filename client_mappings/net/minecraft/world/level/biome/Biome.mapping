@@ -1,0 +1,17 @@
+CLASS vh net/minecraft/world/level/biome/Biome
+	FIELD a BIOMES [Lvh;
+	FIELD b OCEAN Lvh;
+	FIELD c PLAINS Lvh;
+	FIELD d DESERT Lvh;
+	FIELD e EXTREME_HILLS Lvh;
+	FIELD f FOREST Lvh;
+	FIELD g TAIGA Lvh;
+	FIELD h SWAMPLAND Lvh;
+	FIELD i RIVER Lvh;
+	FIELD j HELL Lvh;
+	FIELD k SKY Lvh;
+	FIELD l name Ljava/lang/String;
+	FIELD v monsterSpawner Ljava/util/List;
+	FIELD w creatureSpawner Ljava/util/List;
+	FIELD x waterCreatureSpawner Ljava/util/List;
+	METHOD a setName (Ljava/lang/String;)Lvh;

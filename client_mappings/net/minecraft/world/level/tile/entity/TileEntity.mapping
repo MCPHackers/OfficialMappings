@@ -3,5 +3,9 @@ CLASS ij net/minecraft/world/level/tile/entity/TileEntity
 	FIELD j x I
 	FIELD k y I
 	FIELD l z I
+	METHOD a distanceToSqr (DDD)D
 	METHOD a load (Lxb;)V
 	METHOD b save (Lxb;)V
+	METHOD b_ tick ()V
+	METHOD h setRemoved ()V
+	METHOD l setChanged ()V

@@ -1,0 +1,3 @@
+CLASS kg net/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer
+	FIELD a player Lsz;
+	FIELD d saveData Luh;

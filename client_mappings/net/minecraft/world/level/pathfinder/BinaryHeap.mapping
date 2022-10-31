@@ -1,0 +1,5 @@
+CLASS vt net/minecraft/world/level/pathfinder/BinaryHeap
+	METHOD a clear ()V
+	METHOD a insert (Ld;)Ld;
+	METHOD b pop ()Ld;
+	METHOD c isEmpty ()Z

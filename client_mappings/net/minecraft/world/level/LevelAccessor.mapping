@@ -1,0 +1,10 @@
+CLASS adg net/minecraft/world/level/LevelAccessor
+	METHOD a getTile (III)I
+	METHOD b getHeight ()I
+	METHOD b getBlockEntity (III)Lij;
+	METHOD b getLightColor (IIII)I
+	METHOD c getBrightness (III)F
+	METHOD e getData (III)I
+	METHOD f getMaterial (III)Lwa;
+	METHOD g isSolidTile (III)Z
+	METHOD i isEmptyTile (III)Z
