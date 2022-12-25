@@ -1,2 +1,6 @@
 CLASS abm net/minecraft/world/entity/monster/Slime
-	FIELD a targetSquish F
+	FIELD a squish F
+	FIELD b oSquish F
+	FIELD c jumpDelay I
+	METHOD U getSize ()I
+	METHOD b setSize (I)V

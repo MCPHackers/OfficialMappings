@@ -1,1 +1,2 @@
 CLASS acb net/minecraft/world/inventory/FurnaceResultSlot
+	FIELD e player Lsz;

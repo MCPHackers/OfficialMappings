@@ -1,0 +1,4 @@
+CLASS us net/minecraft/client/gui/screens/worldselection/EditWorldScreen
+	FIELD a parent Lqr;
+	FIELD b nameEdit Lzq;
+	FIELD c levelId Ljava/lang/String;

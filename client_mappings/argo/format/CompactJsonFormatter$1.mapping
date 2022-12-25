@@ -1,0 +1,2 @@
+CLASS ga argo/format/CompactJsonFormatter$1
+	FIELD a $SwitchMap$argo$jdom$JsonNodeType [I

@@ -4,6 +4,7 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD C collision Z
 	FIELD D hurtMarked Z
 	FIELD E stuck Z
+	FIELD F slide Z
 	FIELD G removed Z
 	FIELD H heightOffset F
 	FIELD I bbWidth F
@@ -14,6 +15,8 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD N xOld D
 	FIELD O yOld D
 	FIELD P zOld D
+	FIELD Q ySlideOffset F
+	FIELD R footSize F
 	FIELD S noPhysics Z
 	FIELD T pushthrough F
 	FIELD U random Ljava/util/Random;
@@ -27,6 +30,13 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD ab airSupply I
 	FIELD ae fireImmune Z
 	FIELD af entityData Labc;
+	FIELD ag inChunk Z
+	FIELD ah xChunk I
+	FIELD ai yChunk I
+	FIELD aj zChunk I
+	FIELD ak xp I
+	FIELD al yp I
+	FIELD am zp I
 	FIELD ao hasImpulse Z
 	FIELD b nextStep I
 	FIELD c firstTick Z
@@ -50,14 +60,15 @@ CLASS kj net/minecraft/world/entity/Entity
 	FIELD y bb Lrp;
 	FIELD z onGround Z
 	METHOD A isInWater ()Z
-	METHOD B getHeadHeight ()F
+	METHOD B getEyeHeight ()F
 	METHOD C isInLava ()Z
 	METHOD D markHurt ()V
 	METHOD F getEncodeId ()Ljava/lang/String;
 	METHOD G isAlive ()Z
 	METHOD H isInWall ()Z
 	METHOD I rideTick ()V
-	METHOD N displayFireAnimation ()Z
+	METHOD J getRidingHeight ()D
+	METHOD N isOnFire ()Z
 	METHOD O isPassenger ()Z
 	METHOD P isSneaking ()Z
 	METHOD Q isSprinting ()Z
@@ -72,11 +83,14 @@ CLASS kj net/minecraft/world/entity/Entity
 	METHOD a setSize (FF)V
 	METHOD a moveRelative (FFF)V
 	METHOD a burn (I)V
+	METHOD a spawnAtLocation (IIF)Lee;
 	METHOD a setSharedFlag (IZ)V
 	METHOD a thunderHit (Lc;)V
 	METHOD a hurt (Lje;I)Z
+	METHOD a getCollideAgainstBox (Lkj;)Lrp;
 	METHOD a awardKillScore (Lkj;I)V
 	METHOD a setLevel (Lrv;)V
+	METHOD a spawnAtLocation (Lul;F)Lee;
 	METHOD a killed (Lwd;)V
 	METHOD a readAdditionalSaveData (Lxb;)V
 		ARG 1 entityTag
@@ -88,6 +102,8 @@ CLASS kj net/minecraft/world/entity/Entity
 	METHOD b absMoveTo (DDDFF)V
 	METHOD b getBrightness (F)F
 	METHOD b setRot (FF)V
+	METHOD b spawnAtLocation (II)Lee;
+	METHOD b interact (Lsz;)Z
 	METHOD b addAdditionalSaveData (Lxb;)V
 		ARG 1 entityTag
 	METHOD c push (DDD)V
@@ -100,16 +116,21 @@ CLASS kj net/minecraft/world/entity/Entity
 	METHOD d getSharedFlag (I)Z
 	METHOD d distanceTo (Lkj;)F
 	METHOD d saveWithoutId (Lxb;)V
+	METHOD d_ isPickable ()Z
 	METHOD e isFree (DDD)Z
 	METHOD e distanceToSqr (Lkj;)D
 	METHOD e load (Lxb;)V
+	METHOD e_ isPushable ()Z
 	METHOD f makeStepSound ()Z
 	METHOD f distanceToSqr (DDD)D
 	METHOD f push (Lkj;)V
 	METHOD g checkAndHandleWater ()Z
 	METHOD g distanceTo (DDD)D
+	METHOD g startRiding (Lkj;)V
 	METHOD g_ getCollideBox ()Lrp;
+	METHOD h getRideHeight ()D
 	METHOD h checkInBlock (DDD)Z
+	METHOD h_ positionRider ()V
 	METHOD k animateHurt ()V
 	METHOD o makeStuck ()V
 	METHOD t getEntityData ()Labc;

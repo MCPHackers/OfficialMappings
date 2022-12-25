@@ -1,8 +1,15 @@
 CLASS sx net/minecraft/world/inventory/Slot
+	FIELD a container Lgl;
+	FIELD b index I
+	FIELD c x I
+	FIELD d y I
+	FIELD e slot I
 	METHOD a getItem ()Lul;
+	METHOD a remove (I)Lul;
 	METHOD a onTake (Lul;)V
 	METHOD b hasItem ()Z
 	METHOD b mayPlace (Lul;)Z
 	METHOD c setChanged ()V
 	METHOD c set (Lul;)V
 	METHOD d getMaxStackSize ()I
+	METHOD e getNoItemIcon ()I

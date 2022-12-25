@@ -1,0 +1,6 @@
+CLASS uj net/minecraft/client/renderer/MapRenderer
+	FIELD a texture [I
+	FIELD b textureId I
+	FIELD c options Lfv;
+	FIELD d font Lkh;
+	METHOD a render (Lsz;Lur;Luh;)V

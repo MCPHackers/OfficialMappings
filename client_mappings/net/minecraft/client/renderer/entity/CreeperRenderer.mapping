@@ -1,1 +1,2 @@
 CLASS or net/minecraft/client/renderer/entity/CreeperRenderer
+	FIELD c powerLayer Lfo;

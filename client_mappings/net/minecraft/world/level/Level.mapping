@@ -1,8 +1,12 @@
 CLASS rv net/minecraft/world/level/Level
+	FIELD A chunkSource Lbf;
 	FIELD C levelData Lrl;
 	FIELD I isClientSide Z
 	FIELD R cloudColor J
+	FIELD T allPlayersSleeping Z
+	FIELD g entities Ljava/util/List;
 	FIELD i players Ljava/util/List;
+	FIELD j globalEntities Ljava/util/List;
 	FIELD k skyDarken I
 	FIELD l randValue I
 	FIELD m addend I
@@ -14,9 +18,11 @@ CLASS rv net/minecraft/world/level/Level
 	FIELD v difficulty I
 	FIELD w random Ljava/util/Random;
 	FIELD y dimension Lacz;
+	METHOD A allPlayersAreAsleep ()Z
 	METHOD B isThundering ()Z
 	METHOD C isRaining ()Z
 	METHOD F prepareWeather ()V
+	METHOD G stopWeather ()V
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a getSkyBrightness (F)I
 	METHOD a getTopTile (II)I
@@ -25,14 +31,19 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a addEntity (Lkj;)Z
 	METHOD a broadcastEntityEvent (Lkj;B)V
+	METHOD a explode (Lkj;DDDF)Lzf;
+	METHOD a explode (Lkj;DDDFZ)Lzf;
 	METHOD a getSkyColor (Lkj;F)Lax;
 	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
 	METHOD a getCollisions (Lkj;Lrp;)Ljava/util/List;
 	METHOD a setSpawnPos (Lps;)V
 	METHOD a getBrightness (Lrf;III)I
+	METHOD a addPlayer (Lsz;)V
 	METHOD a mayInteract (Lsz;III)Z
+	METHOD a levelEvent (Lsz;IIIII)V
 	METHOD b getChunkAt (II)Lvy;
 	METHOD b setTile (IIIII)Z
+	METHOD b removeEntity (Lkj;)V
 	METHOD b getEntities (Lkj;Lrp;)Ljava/util/List;
 	METHOD c getTimeOfDay (F)F
 	METHOD c getChunk (II)Lvy;
@@ -44,9 +55,12 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD d setTileAndUpdate (IIIII)Z
 	METHOD e validateSpawn ()V
 	METHOD e getCloudColor (F)Lax;
+	METHOD e removeBlockEntity (IIIII)V
+	METHOD e addGlobalEntity (Lkj;)Z
 	METHOD f levelEvent (IIIII)V
 	METHOD g disconnect ()V
 	METHOD g getStarBrightness (F)F
+	METHOD g hasChunk (II)Z
 	METHOD g setTileAndUpdate (IIII)Z
 	METHOD h getThunderLevel (F)F
 	METHOD h update (IIII)V
@@ -55,7 +69,9 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD j setRainLevel (F)V
 	METHOD j updateNeighborsAt (IIII)V
 	METHOD k isDay ()Z
+	METHOD m getEntityCount ()Ljava/lang/String;
 	METHOD m neighborChanged (IIII)V
+	METHOD n gatherChunkSourceStats ()Ljava/lang/String;
 	METHOD o updateSkyBrightness ()V
 	METHOD o removeBlockEntity (III)V
 	METHOD q animateTick (III)V
@@ -63,3 +79,6 @@ CLASS rv net/minecraft/world/level/Level
 	METHOD t getTime ()J
 	METHOD t isRainingAt (III)Z
 	METHOD u getSharedSpawnPos ()Lps;
+	METHOD x getLevelData ()Lrl;
+	METHOD y updateSleepingPlayerList ()V
+	METHOD z wakeAllPlayersUp ()V

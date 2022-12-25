@@ -1,1 +1,3 @@
 CLASS pu net/minecraft/world/level/tile/RedStoneOreTile
+	FIELD a lit Z
+	METHOD i spawnParticles (Lrv;III)V

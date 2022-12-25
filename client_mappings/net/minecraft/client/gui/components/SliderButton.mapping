@@ -1,1 +1,4 @@
 CLASS ace net/minecraft/client/gui/components/SliderButton
+	FIELD j value F
+	FIELD k dragged Z
+	FIELD l option Ltq;

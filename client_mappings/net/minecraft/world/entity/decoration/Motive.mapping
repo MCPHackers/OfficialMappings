@@ -1,4 +1,9 @@
 CLASS ev net/minecraft/world/entity/decoration/Motive
+	FIELD A name Ljava/lang/String;
+	FIELD B width I
+	FIELD C height I
+	FIELD D x I
+	FIELD E y I
 	FIELD a Kebab Lev;
 	FIELD b Aztec Lev;
 	FIELD c Alban Lev;
@@ -24,3 +29,4 @@ CLASS ev net/minecraft/world/entity/decoration/Motive
 	FIELD w BurningSkull Lev;
 	FIELD x Skeleton Lev;
 	FIELD y DonkeyKong Lev;
+	FIELD z maxNameLength I

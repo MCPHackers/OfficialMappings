@@ -1,0 +1,6 @@
+CLASS abi net/minecraft/client/model/SilverfishModel
+	FIELD a bodyParts [Lyn;
+	FIELD b bodyLayers [Lyn;
+	FIELD c zPlacement [F
+	FIELD d BODY_SIZES [[I
+	FIELD e BODY_TEXS [[I

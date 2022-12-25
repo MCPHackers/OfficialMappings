@@ -1,1 +1,12 @@
 CLASS os net/minecraft/client/model/WolfModel
+	FIELD a head Lyn;
+	FIELD b body Lyn;
+	FIELD c leg0 Lyn;
+	FIELD d leg1 Lyn;
+	FIELD e leg2 Lyn;
+	FIELD f leg3 Lyn;
+	FIELD g ear0 Lyn;
+	FIELD k ear1 Lyn;
+	FIELD l nose Lyn;
+	FIELD m tail Lyn;
+	FIELD n upperBody Lyn;

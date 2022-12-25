@@ -1,3 +1,1 @@
-CLASS dn net/minecraft/client/gui/screens/achievement/StatsScreen$ItemStatisticsList$ItemComparator
-	FIELD a statsScreen Lce;
-	FIELD b itemStatisticsList Lbc;
+CLASS yo net/minecraft/client/gui/screens/achievement/StatsScreen$ItemStatisticsList$ItemComparator

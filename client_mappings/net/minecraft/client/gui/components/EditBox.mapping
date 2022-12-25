@@ -1,3 +1,15 @@
 CLASS zq net/minecraft/client/gui/components/EditBox
+	FIELD a focused Z
+	FIELD c font Lkh;
+	FIELD d x I
+	FIELD f y I
+	FIELD g width I
+	FIELD h height I
+	FIELD i value Ljava/lang/String;
+	FIELD j maxLength I
+	FIELD k frame I
+	METHOD a getValue ()Ljava/lang/String;
+	METHOD a setMaxLength (I)V
+	METHOD a setValue (Ljava/lang/String;)V
 	METHOD b tick ()V
 	METHOD c render ()V

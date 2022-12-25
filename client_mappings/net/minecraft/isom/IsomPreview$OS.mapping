@@ -1,4 +1,4 @@
-CLASS uu
+CLASS uu net/minecraft/isom/IsomPreview$OS
 	FIELD a linux Luu;
 	FIELD b solaris Luu;
 	FIELD c windows Luu;

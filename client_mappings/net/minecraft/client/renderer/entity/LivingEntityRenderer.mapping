@@ -4,7 +4,9 @@ CLASS dt net/minecraft/client/renderer/entity/LivingEntityRenderer
 	METHOD a setLayer (Lfo;)V
 	METHOD a getFlipDegrees (Lwd;)F
 	METHOD a getAttackAnim (Lwd;F)F
-	METHOD a (Lwd;IF)Z
+	METHOD a getOverlayColor (Lwd;FF)I
+	METHOD a setupRotations (Lwd;FFF)V
+	METHOD a renderLayer (Lwd;IF)Z
 		ARG 1 mob
 		ARG 2 layer
 		ARG 3 a
@@ -13,6 +15,7 @@ CLASS dt net/minecraft/client/renderer/entity/LivingEntityRenderer
 		ARG 1 mob
 		ARG 2 layer
 		ARG 3 a
-	METHOD c (Lwd;F)V
+	METHOD c renderArrows (Lwd;F)V
 		ARG 1 mob
 		ARG 2 a
+	METHOD d scale (Lwd;F)V

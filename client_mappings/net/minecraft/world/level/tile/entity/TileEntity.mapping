@@ -3,9 +3,17 @@ CLASS ij net/minecraft/world/level/tile/entity/TileEntity
 	FIELD j x I
 	FIELD k y I
 	FIELD l z I
+	FIELD m remove Z
+	FIELD n data I
+	FIELD o tile Llr;
 	METHOD a distanceToSqr (DDD)D
 	METHOD a load (Lxb;)V
+	METHOD b clearCache ()V
+	METHOD b triggerEvent (II)V
 	METHOD b save (Lxb;)V
 	METHOD b_ tick ()V
+	METHOD c loadStatic (Lxb;)Lij;
 	METHOD h setRemoved ()V
+	METHOD k isRemoved ()Z
 	METHOD l setChanged ()V
+	METHOD m clearRemoved ()V

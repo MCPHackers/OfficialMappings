@@ -1,0 +1,6 @@
+CLASS zn net/minecraft/network/packet/ExplodePacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d power F
+	FIELD e toBlow Ljava/util/Set;

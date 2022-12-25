@@ -1,0 +1,7 @@
+CLASS lx net/minecraft/util/WeighedRandom
+	METHOD a getTotalWeight (Ljava/util/Collection;)I
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/Collection;)Lbi;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/Collection;I)Lbi;
+	METHOD a getRandomItem (Ljava/util/Random;[Lbi;)Lbi;
+	METHOD a getRandomItem (Ljava/util/Random;[Lbi;I)Lbi;
+	METHOD a getTotalWeight ([Lbi;)I

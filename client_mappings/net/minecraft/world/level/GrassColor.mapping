@@ -1,0 +1,4 @@
+CLASS tv net/minecraft/world/level/GrassColor
+	FIELD a pixels [I
+	METHOD a get (DD)I
+	METHOD a init ([I)V

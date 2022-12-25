@@ -1,1 +1,3 @@
 CLASS aeb net/minecraft/world/inventory/ResultSlot
+	FIELD e craftSlots Lgl;
+	FIELD f player Lsz;

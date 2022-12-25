@@ -2,5 +2,10 @@ CLASS abc net/minecraft/world/entity/EntityData
 	FIELD a DATA_TYPES Ljava/util/HashMap;
 	FIELD b itemsById Ljava/util/Map;
 	FIELD c isDirty Z
-	METHOD a get (I)B
+	METHOD a getByte (I)B
 	METHOD a define (ILjava/lang/Object;)V
+	METHOD a writeDataItem (Ljava/io/DataOutputStream;Lwi;)V
+	METHOD a pack (Ljava/util/List;Ljava/io/DataOutputStream;)V
+	METHOD b getInt (I)I
+	METHOD b set (ILjava/lang/Object;)V
+	METHOD c getString (I)Ljava/lang/String;

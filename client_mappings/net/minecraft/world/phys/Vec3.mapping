@@ -4,6 +4,7 @@ CLASS ax net/minecraft/world/phys/Vec3
 	FIELD c z D
 	METHOD a xRot (F)V
 	METHOD a clipX (Lax;D)Lax;
+	METHOD b of (DDD)Lax;
 	METHOD b yRot (F)V
 	METHOD b dot (Lax;)D
 	METHOD b clipY (Lax;D)Lax;

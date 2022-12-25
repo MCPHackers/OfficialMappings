@@ -1,4 +1,22 @@
 CLASS vy net/minecraft/world/level/chunk/LevelChunk
+	FIELD e loaded Z
+	FIELD f level Lrv;
+	FIELD g data Lmy;
+	FIELD h skyLight Lmy;
+	FIELD i blockLight Lmy;
+	FIELD j heightMap [B
+	FIELD l x I
+	FIELD m z I
+	FIELD o entitySections [Ljava/util/List;
+	FIELD p terrainPopulated Z
+	FIELD s lastSaveHadEntities Z
+	FIELD t lastSaveTime J
 	METHOD a getFluid (III)I
+	METHOD a setTileEntity (IIILij;)V
+	METHOD a addTileEntity (Lij;)V
+	METHOD a addEntity (Lkj;)V
+	METHOD a removeEntity (Lkj;I)V
 	METHOD b getTile (II)I
+	METHOD b removeEntity (Lkj;)V
+	METHOD d createTileEntity (III)Lij;
 	METHOD h isEmpty ()Z

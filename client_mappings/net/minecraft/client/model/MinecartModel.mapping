@@ -1,1 +1,2 @@
 CLASS wz net/minecraft/client/model/MinecartModel
+	FIELD a cubes [Lyn;

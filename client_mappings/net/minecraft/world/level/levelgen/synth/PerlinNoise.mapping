@@ -1,0 +1,9 @@
+CLASS lh net/minecraft/world/level/levelgen/synth/PerlinNoise
+	FIELD a noiseLevels [Lag;
+	FIELD b levels I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 levels
+	METHOD a getValue (DD)D
+		ARG 1 x
+		ARG 3 y

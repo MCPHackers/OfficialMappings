@@ -1,0 +1,23 @@
+CLASS fw net/minecraft/client/gui/GuiParticle
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c x D
+	FIELD d y D
+	FIELD e xd D
+	FIELD f yd D
+	FIELD g power D
+	FIELD h removed Z
+	FIELD i age I
+	FIELD j lifetime I
+	FIELD k fadeR D
+	FIELD l fadeG D
+	FIELD m fadeB D
+	FIELD n fadeA D
+	FIELD o r D
+	FIELD p g D
+	FIELD q b D
+	FIELD r a D
+	FIELD s random Ljava/util/Random;
+	METHOD a update ()V
+	METHOD a tick (Lrb;)V
+	METHOD b remove ()V

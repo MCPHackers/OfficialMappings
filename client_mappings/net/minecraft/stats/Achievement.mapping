@@ -1,1 +1,4 @@
 CLASS xf net/minecraft/stats/Achievement
+	FIELD c parent Lxf;
+	FIELD m requirementsStrategy Lsy;
+	METHOD a requirements (Lsy;)Lxf;

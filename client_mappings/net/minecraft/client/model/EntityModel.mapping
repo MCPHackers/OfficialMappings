@@ -1,6 +1,8 @@
 CLASS fo net/minecraft/client/model/EntityModel
 	FIELD h attackTime F
 	FIELD i riding Z
+	FIELD j modelParts Ljava/util/List;
 	METHOD a setupAnim (FFFFFF)V
+	METHOD a getRandomModelPart (Ljava/util/Random;)Lyn;
 	METHOD a render (Lkj;FFFFFF)V
 	METHOD a prepareMobModel (Lwd;FFF)V

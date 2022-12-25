@@ -1,0 +1,4 @@
+CLASS mw net/minecraft/core/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

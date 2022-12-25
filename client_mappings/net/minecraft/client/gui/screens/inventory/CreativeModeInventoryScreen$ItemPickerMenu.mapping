@@ -1,1 +1,3 @@
 CLASS li net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$ItemPickerMenu
+	FIELD a items Ljava/util/List;
+	METHOD a scrollTo (F)V

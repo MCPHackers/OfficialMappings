@@ -1,1 +1,4 @@
 CLASS c net/minecraft/world/entity/global/LightningBolt
+	FIELD a seed J
+	FIELD b life I
+	FIELD c flashes I

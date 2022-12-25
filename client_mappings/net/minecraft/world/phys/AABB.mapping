@@ -5,6 +5,7 @@ CLASS rp net/minecraft/world/phys/AABB
 	FIELD d x1 D
 	FIELD e y1 D
 	FIELD f z1 D
+	FIELD h count I
 	METHOD <init> (DDDDDD)V
 		ARG 1 x0
 		ARG 3 y0
@@ -16,6 +17,13 @@ CLASS rp net/minecraft/world/phys/AABB
 		ARG 1 xa
 		ARG 3 ya
 		ARG 5 za
+	METHOD a (DDDDDD)Lrp;
+		ARG 0 x0
+		ARG 2 y0
+		ARG 4 z0
+		ARG 6 x1
+		ARG 8 y1
+		ARG 10 z1
 	METHOD a contains (Lax;)Z
 	METHOD a clip (Lax;Lax;)Lma;
 	METHOD a intersects (Lrp;)Z
@@ -27,7 +35,7 @@ CLASS rp net/minecraft/world/phys/AABB
 		ARG 1 xa
 		ARG 3 ya
 		ARG 5 za
-	METHOD b of (DDDDDD)Lrp;
+	METHOD b (DDDDDD)Lrp;
 		ARG 0 x0
 		ARG 2 y0
 		ARG 4 z0

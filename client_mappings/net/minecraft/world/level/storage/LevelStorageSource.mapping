@@ -1,0 +1,2 @@
+CLASS hr net/minecraft/world/level/storage/LevelStorageSource
+	METHOD b getDataTagFor (Ljava/lang/String;)Lrl;

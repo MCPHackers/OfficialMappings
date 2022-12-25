@@ -3,7 +3,12 @@ CLASS lk net/minecraft/world/level/tile/entity/PistonMovingTileEntity
 	FIELD b blockData I
 	FIELD c facing I
 	FIELD d extending Z
+	FIELD e isSourcePiston Z
 	FIELD f progress F
 	FIELD g progressO F
 	METHOD a getProgress (F)F
+	METHOD a (FF)V
+	METHOD d isExtending ()Z
+	METHOD e getFacing ()I
+	METHOD f isSourcePiston ()Z
 	METHOD g finalTick ()V

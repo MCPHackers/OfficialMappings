@@ -151,12 +151,16 @@ CLASS lr net/minecraft/world/level/tile/Tile
 		ARG 3 y
 		ARG 4 z
 		ARG 5 box
-	METHOD a use (Lrv;IIILsz;)V
+	METHOD a attack (Lrv;IIILsz;)V
 	METHOD a setPlacedBy (Lrv;IIILwd;)V
 	METHOD a playerDestroy (Lrv;Lsz;IIII)V
 	METHOD a (Lsz;)F
 		ARG 1 player
 	METHOD b isCollisionShapeFullBlock ()Z
+	METHOD b wasExploded (Lrv;III)V
+	METHOD b animateTick (Lrv;IIILjava/util/Random;)V
+	METHOD b stepOn (Lrv;IIILkj;)V
+	METHOD b use (Lrv;IIILsz;)Z
 	METHOD c getRenderLayer ()I
 	METHOD c getLightColor (Ladg;III)I
 		ARG 1 level

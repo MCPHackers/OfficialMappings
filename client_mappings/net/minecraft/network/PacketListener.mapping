@@ -2,13 +2,30 @@ CLASS kx net/minecraft/network/PacketListener
 	METHOD a handleMapItemData (Laa;)V
 	METHOD a handleSignUpdate (Labh;)V
 	METHOD a handleDisconnect (Ladw;)V
+	METHOD a handleSetHealth (Lcs;)V
 	METHOD a handleLevelEvent (Lde;)V
+	METHOD a handleContainerSetSlot (Lei;)V
+	METHOD a handleOpenScreen (Ley;)V
+	METHOD a handleEntityEvent (Lfb;)V
+	METHOD a handleSetExperience (Lgg;)V
+	METHOD a handleHandshake (Lgy;)V
 	METHOD a handleAnimate (Lhs;)V
+	METHOD a handleContainerAck (Lid;)V
+	METHOD a handleRespawn (Lik;)V
 	METHOD a handleAddExperienceOrb (Lis;)V
 	METHOD a handleAddEntity (Lkl;)V
+	METHOD a handleAddPainting (Lml;)V
 	METHOD a handleContainerSetSlot (Lot;)V
+	METHOD a handleTakeItemEntity (Lqv;)V
+	METHOD a handleUpdateMobEffect (Lqx;)V
+	METHOD a handleAddGlobalEntity (Lrs;)V
+	METHOD a handleSetEntityMotion (Lsr;)V
 	METHOD a handleSetTime (Lth;)V
-	METHOD a handleSetEntityData (Lut;)V
+	METHOD a handleAddMob (Lut;)V
 	METHOD a handle (Lvl;)V
+	METHOD a handleRemoveMobEffect (Lww;)V
+	METHOD a handleSetVehicle (Lxa;)V
 	METHOD a handleLogin (Lxh;)V
 	METHOD a handleChat (Lyc;)V
+	METHOD a handleSetSpawn (Lzi;)V
+	METHOD a handleExplosion (Lzn;)V

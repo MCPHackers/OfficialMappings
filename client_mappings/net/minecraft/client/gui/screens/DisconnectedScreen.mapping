@@ -1,0 +1,3 @@
+CLASS cw net/minecraft/client/gui/screens/DisconnectedScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b reason Ljava/lang/String;

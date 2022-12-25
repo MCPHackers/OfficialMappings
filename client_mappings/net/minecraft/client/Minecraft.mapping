@@ -3,11 +3,15 @@ CLASS net/minecraft/client/Minecraft
 	FIELD B soundManager Loe;
 	FIELD K running Z
 	FIELD L fpsString Ljava/lang/String;
+	FIELD R fullscreen Z
 	FIELD S hasCrashed Z
 	FIELD U timer Lyr;
 	FIELD X missTime I
 	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD aa levelSource Lhr;
 	FIELD ab rightClickDelay I
+	FIELD ac connectToIp Ljava/lang/String;
+	FIELD ad connectToPort I
 	FIELD ag workDir Ljava/io/File;
 	FIELD b reserve [B
 	FIELD c gameMode Lhw;
@@ -27,6 +31,7 @@ CLASS net/minecraft/client/Minecraft
 	FIELD r screen Lqr;
 	FIELD t gameRenderer Liw;
 	FIELD v gui Labj;
+	FIELD w noRender Z
 	FIELD y hitResult Lma;
 	FIELD z options Lfv;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
@@ -35,10 +40,13 @@ CLASS net/minecraft/client/Minecraft
 		ARG 4 width
 		ARG 5 height
 		ARG 6 fullscreen
+	METHOD C pickBlock ()V
 	METHOD a init ()V
+	METHOD a resize (II)V
 	METHOD a displayCrashReport (Lgs;)V
 	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 applicationName
+	METHOD a connectToServer (Ljava/lang/String;I)V
 	METHOD a play (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 userName
 		ARG 1 sessionId
@@ -54,10 +62,13 @@ CLASS net/minecraft/client/Minecraft
 	METHOD a respawn (ZI)V
 	METHOD b getWorkingDirectory ()Ljava/io/File;
 	METHOD b crash (Lgs;)V
+	METHOD c getLevelSource ()Lhr;
 	METHOD c checkGlError (Ljava/lang/String;)V
 	METHOD d destroy ()V
 	METHOD e emergencySave ()V
 	METHOD f stop ()V
+	METHOD i pauseGame ()V
+	METHOD j toggleFullscreen ()V
 	METHOD k tick ()V
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args

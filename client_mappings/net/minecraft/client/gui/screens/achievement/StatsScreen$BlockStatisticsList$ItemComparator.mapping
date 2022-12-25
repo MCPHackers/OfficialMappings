@@ -1,0 +1,3 @@
+CLASS dn net/minecraft/client/gui/screens/achievement/StatsScreen$BlockStatisticsList$ItemComparator
+	FIELD a statsScreen Lce;
+	FIELD b itemStatisticsList Lbc;

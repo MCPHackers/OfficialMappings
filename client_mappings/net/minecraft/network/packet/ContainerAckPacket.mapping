@@ -1,0 +1,4 @@
+CLASS id net/minecraft/network/packet/ContainerAckPacket
+	FIELD a containerId I
+	FIELD b uid S
+	FIELD c accepted Z

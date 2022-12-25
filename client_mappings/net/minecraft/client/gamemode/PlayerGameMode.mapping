@@ -1,10 +1,22 @@
 CLASS hw net/minecraft/client/gamemode/PlayerGameMode
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a stopDestroyBlock ()V
+	METHOD a startDestroyBlock (IIII)V
 	METHOD a handleInventoryMouseClick (IIIZLsz;)Lul;
+	METHOD a setLevel (Lrv;)V
 	METHOD a flip (Lsz;)V
+	METHOD a interact (Lsz;Lkj;)V
 	METHOD a useItemOn (Lsz;Lrv;Lul;IIII)Z
+	METHOD a handleCreativeModeItemDrop (Lul;)V
+	METHOD a handleCreativeModeItemAdd (Lul;I)V
+	METHOD b getPickRange ()F
+	METHOD b destroyBlock (IIII)Z
 	METHOD b createPlayer (Lrv;)Lsz;
 	METHOD b attack (Lsz;Lkj;)V
 	METHOD c tick ()V
+	METHOD c continueDestroyBlock (IIII)V
 	METHOD c releaseUsingItem (Lsz;)V
 	METHOD d canHurtPlayer ()Z
+	METHOD g isSurvival ()Z
+	METHOD h isCreative ()Z
+	METHOD i hasFarPickRange ()Z

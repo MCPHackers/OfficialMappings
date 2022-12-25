@@ -1,0 +1,3 @@
+CLASS bf net/minecraft/world/level/levelgen/RandomLevelSource_
+	METHOD a hasChunk (II)Z
+	METHOD c gatherStats ()Ljava/lang/String;

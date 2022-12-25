@@ -4,4 +4,5 @@ CLASS em net/minecraft/client/gui/screens/inventory/AbstractContainerScreen
 	FIELD c imageHeight I
 	FIELD d menu Lcf;
 	METHOD a renderBg (F)V
+	METHOD a slotClicked (Lsx;IIZ)V
 	METHOD c renderLabels ()V

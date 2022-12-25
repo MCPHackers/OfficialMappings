@@ -1,3 +1,7 @@
 CLASS bx net/minecraft/world/entity/animal/Sheep
 	FIELD a COLORARRAY_BY_COLOR [[F
 	METHOD a getRandomSheepColor (Ljava/util/Random;)I
+	METHOD b setColor (I)V
+	METHOD b setSheared (Z)V
+	METHOD n_ getColor ()I
+	METHOD q isSheared ()Z

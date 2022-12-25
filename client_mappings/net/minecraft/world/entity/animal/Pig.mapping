@@ -1,1 +1,2 @@
 CLASS mx net/minecraft/world/entity/animal/Pig
+	METHOD r hasSaddle ()Z

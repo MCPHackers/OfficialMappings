@@ -1,1 +1,5 @@
 CLASS wx net/minecraft/client/model/SlimeModel
+	FIELD a cube Lyn;
+	FIELD b eye0 Lyn;
+	FIELD c eye1 Lyn;
+	FIELD d mouth Lyn;

@@ -1,1 +1,12 @@
 CLASS kd net/minecraft/client/model/SpiderModel
+	FIELD a head Lyn;
+	FIELD b body0 Lyn;
+	FIELD c body1 Lyn;
+	FIELD d leg0 Lyn;
+	FIELD e leg1 Lyn;
+	FIELD f leg2 Lyn;
+	FIELD g leg3 Lyn;
+	FIELD k leg4 Lyn;
+	FIELD l leg5 Lyn;
+	FIELD m leg6 Lyn;
+	FIELD n lrg7 Lyn;

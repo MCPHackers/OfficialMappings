@@ -1,5 +1,9 @@
 CLASS gl net/minecraft/world/Container
 	METHOD a getContainerSize ()I
 	METHOD a removeItem (II)Lul;
+	METHOD a setItem (ILul;)V
 	METHOD a stillValid (Lsz;)Z
 	METHOD c getDisplayName ()Ljava/lang/String;
+	METHOD d getMaxStackSize ()I
+	METHOD d_ getItem (I)Lul;
+	METHOD l setChanged ()V

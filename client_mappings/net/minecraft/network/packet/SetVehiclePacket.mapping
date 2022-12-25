@@ -1,0 +1,3 @@
+CLASS xa net/minecraft/network/packet/SetVehiclePacket
+	FIELD a passenger I
+	FIELD b vehicle I

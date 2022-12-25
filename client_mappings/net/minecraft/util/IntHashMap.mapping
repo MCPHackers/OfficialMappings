@@ -1,6 +1,7 @@
 CLASS vc net/minecraft/util/IntHashMap
 	METHOD a clear ()V
-	METHOD a has (I)Ljava/lang/Object;
+	METHOD a get (I)Ljava/lang/Object;
 	METHOD a put (ILjava/lang/Object;)V
+	METHOD b has (I)Z
 	METHOD d remove (I)Ljava/lang/Object;
 	METHOD g hash (I)I

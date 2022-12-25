@@ -1,0 +1,3 @@
+CLASS lb
+	METHOD a read (Lrv;Lxb;)Lvy;
+	METHOD a write (Lvy;Lrv;Lxb;)V

@@ -1,1 +1,7 @@
 CLASS xu net/minecraft/client/gamemode/SurvivalPlayerGameMode
+	FIELD c destroyTileX I
+	FIELD d destroyTileY I
+	FIELD e destroyTileZ I
+	FIELD f destroyProgress F
+	FIELD h destroyTicks F
+	FIELD i destroyDelay I

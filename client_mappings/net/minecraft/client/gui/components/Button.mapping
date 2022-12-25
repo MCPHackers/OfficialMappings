@@ -7,6 +7,7 @@ CLASS vj net/minecraft/client/gui/components/Button
 	FIELD g id I
 	FIELD h active Z
 	FIELD i visible Z
+	METHOD a onRelease (II)V
 	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
 	METHOD a getYImage (Z)I
 		ARG 1 selected

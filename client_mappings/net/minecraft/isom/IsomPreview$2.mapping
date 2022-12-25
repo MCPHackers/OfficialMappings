@@ -1,0 +1,4 @@
+CLASS le net/minecraft/isom/IsomPreview$2
+	FIELD a isomPreview Lpk;
+	METHOD <init> (Lpk;)V
+		ARG 1 isomPreview

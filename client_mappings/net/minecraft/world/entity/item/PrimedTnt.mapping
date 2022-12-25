@@ -1,1 +1,3 @@
 CLASS ze net/minecraft/world/entity/item/PrimedTnt
+	FIELD a life I
+	METHOD m explode ()V

@@ -1,1 +1,6 @@
 CLASS is net/minecraft/network/packet/AddExperienceOrbPacket
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e value I

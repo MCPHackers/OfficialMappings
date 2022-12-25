@@ -1,4 +1,4 @@
-CLASS cf net/minecraft/world/inventory/ContainerMenu
+CLASS cf net/minecraft/world/inventory/AbstractContainerMenu
 	FIELD a changeUid S
 	FIELD d lastSlots Ljava/util/List;
 	FIELD e slots Ljava/util/List;

@@ -1,3 +1,6 @@
-CLASS gx net/minecraft/client/multiplayer/MultiPlayerLevel
+CLASS gx net/minecraft/client/multiplayer/MultiplayerLevel
 	FIELD N connection Lwt;
+	FIELD P entitiesById Lvc;
+	METHOD a getEntity (I)Lkj;
 	METHOD a addEntity (ILkj;)V
+	METHOD b removeEntity (I)Lkj;

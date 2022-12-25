@@ -1,1 +1,4 @@
 CLASS tg net/minecraft/client/model/CowModel
+	FIELD a udder Lyn;
+	FIELD k horn0 Lyn;
+	FIELD l horn1 Lyn;

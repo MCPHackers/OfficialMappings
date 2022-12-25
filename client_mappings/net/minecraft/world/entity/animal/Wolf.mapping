@@ -1,1 +1,2 @@
 CLASS ss net/minecraft/world/entity/animal/Wolf
+	METHOD X getTailAngle ()F

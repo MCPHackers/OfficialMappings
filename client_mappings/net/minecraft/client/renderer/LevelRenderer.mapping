@@ -8,6 +8,7 @@ CLASS i net/minecraft/client/renderer/LevelRenderer
 	FIELD i level Lrv;
 	FIELD j textureManager Lur;
 	FIELD r minecraft Lnet/minecraft/client/Minecraft;
+	FIELD s tileRenderer Lqo;
 	FIELD v ticks I
 	FIELD w starList I
 	FIELD x skyList I

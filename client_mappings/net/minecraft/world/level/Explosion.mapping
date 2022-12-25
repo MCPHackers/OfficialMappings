@@ -1,0 +1,12 @@
+CLASS zf net/minecraft/world/level/Explosion
+	FIELD a fire Z
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e source Lkj;
+	FIELD f radius F
+	FIELD g toBlow Ljava/util/Set;
+	FIELD h random Ljava/util/Random;
+	FIELD i level Lrv;
+	METHOD a explode ()V
+	METHOD a finalizeExplosion (Z)V

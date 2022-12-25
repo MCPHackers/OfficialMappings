@@ -1,0 +1,2 @@
+CLASS rr net/minecraft/client/model/BoatModel
+	FIELD a cubes [Lyn;

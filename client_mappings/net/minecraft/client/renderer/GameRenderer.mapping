@@ -1,10 +1,29 @@
 CLASS iw net/minecraft/client/renderer/GameRenderer
+	FIELD M fov F
+	FIELD N oldFov F
+	FIELD O fovModifier F
 	FIELD W random Ljava/util/Random;
+	FIELD X rainSoundTime I
+	FIELD a anaglyph3d Z
+	FIELD c itemInHandRenderer Ljo;
 	FIELD m colorBuffer Ljava/nio/FloatBuffer;
+	FIELD q panoramicMode I
 	FIELD r minecraft Lnet/minecraft/client/Minecraft;
+	FIELD s renderDistance F
+	FIELD t tick I
+	METHOD a tick ()V
+	METHOD a turnOffLightLayer (D)V
 	METHOD a pick (F)V
 	METHOD a updateColorBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a render (FJ)V
+	METHOD a getFov (FZ)F
 	METHOD a setupFog (IF)V
+	METHOD b turnOnLightLayer (D)V
+	METHOD b render (F)V
+	METHOD b renderItemInHand (FI)V
+	METHOD c tickFov ()V
 	METHOD c renderSnowAndRain (F)V
+	METHOD d bobHurt (F)V
+	METHOD e bobView (F)V
+	METHOD f tickRain ()V
 	METHOD g setupClearColor (F)V

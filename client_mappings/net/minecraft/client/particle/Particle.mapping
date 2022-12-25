@@ -9,6 +9,8 @@ CLASS nv net/minecraft/client/particle/Particle
 	FIELD aw yOff D
 	FIELD ax zOff D
 	FIELD b sprite I
+	FIELD c uo F
+	FIELD d vo F
 	FIELD e age I
 	METHOD a render (Lxe;FFFFFF)V
 	METHOD d setPower (F)Lnv;

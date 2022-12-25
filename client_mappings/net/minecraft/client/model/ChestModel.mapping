@@ -1,1 +1,5 @@
 CLASS zw net/minecraft/client/model/ChestModel
+	FIELD a lid Lyn;
+	FIELD b bototm Lyn;
+	FIELD c lock Lyn;
+	METHOD a render ()V

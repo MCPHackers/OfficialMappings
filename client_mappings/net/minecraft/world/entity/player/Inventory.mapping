@@ -1,7 +1,12 @@
 CLASS ui net/minecraft/world/entity/player/Inventory
 	FIELD a items [Lul;
+	FIELD b armor [Lul;
 	FIELD c selected I
+	FIELD d player Lsz;
+	FIELD e changed Z
+	FIELD f carried Lul;
 	METHOD b load (Lkk;)V
 	METHOD b setCarried (Lul;)V
 	METHOD g tick ()V
+	METHOD h getArmorValue ()I
 	METHOD j getCarried ()Lul;

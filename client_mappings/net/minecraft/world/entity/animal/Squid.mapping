@@ -1,1 +1,15 @@
 CLASS adj net/minecraft/world/entity/animal/Squid
+	FIELD aA tz F
+	FIELD a xBodyRot F
+	FIELD ap oldTentacleMovement F
+	FIELD aq tentacleAngle F
+	FIELD au oldTentacleAngle F
+	FIELD av speed F
+	FIELD aw tentacleSpeed F
+	FIELD ax rotateSpeed F
+	FIELD ay tx F
+	FIELD az ty F
+	FIELD b xBodyRotO F
+	FIELD c zBodyRot F
+	FIELD d zBodyRotO F
+	FIELD e tentacleMovement F

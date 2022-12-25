@@ -1,4 +1,11 @@
 CLASS np net/minecraft/client/gamemode/MultiPlayerGameMode
+	FIELD c destroyTileX I
+	FIELD d destroyTileY I
+	FIELD e destroyTileZ I
+	FIELD f destroyProgress F
+	FIELD h destroyTicks F
+	FIELD i destroyDelay I
+	FIELD j isDestroying Z
 	FIELD k isCreative Z
 	FIELD l connection Lwt;
 	FIELD m carriedIndex I

@@ -1,1 +1,2 @@
 CLASS gw net/minecraft/client/renderer/entity/SlimeRenderer
+	FIELD c slimeModel Lfo;

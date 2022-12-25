@@ -1,1 +1,9 @@
 CLASS aai net/minecraft/client/model/ChickenModel
+	FIELD a head Lyn;
+	FIELD b body Lyn;
+	FIELD c leg0 Lyn;
+	FIELD d leg1 Lyn;
+	FIELD e wing0 Lyn;
+	FIELD f wing1 Lyn;
+	FIELD g beak Lyn;
+	FIELD k redThing Lyn;

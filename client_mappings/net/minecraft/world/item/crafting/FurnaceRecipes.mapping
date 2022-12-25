@@ -1,0 +1,7 @@
+CLASS cx net/minecraft/world/item/crafting/FurnaceRecipes
+	FIELD a instance Lcx;
+	FIELD b recipes Ljava/util/Map;
+	METHOD a getInstance ()Lcx;
+	METHOD a getResult (I)Lul;
+	METHOD a addRecipe (ILul;)V
+	METHOD b getRecipes ()Ljava/util/Map;

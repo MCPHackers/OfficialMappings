@@ -3,7 +3,7 @@ CLASS ce net/minecraft/client/gui/screens/achievement/StatsScreen
 	FIELD b title Ljava/lang/String;
 	FIELD c itemRenderer Lpj;
 	FIELD d statsList Lko;
-	FIELD f mobsStatsList Lbc;
+	FIELD f blockStatsList Lbc;
 	FIELD g itemStatsList Ldj;
 	FIELD h stats Ladd;
 	FIELD i activeList Lge;

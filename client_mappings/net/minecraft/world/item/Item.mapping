@@ -123,10 +123,12 @@ CLASS sv net/minecraft/world/item/Item
 	FIELD z hatchet_stone Lsv;
 	METHOD a setIcon (II)Lsv;
 	METHOD a setDescriptionId (Ljava/lang/String;)Lsv;
+	METHOD a inventoryTick (Lul;Lrv;Lkj;IZ)V
 	METHOD a releaseUsing (Lul;Lrv;Lsz;I)V
 	METHOD a useOn (Lul;Lsz;Lrv;IIII)Z
 	METHOD b getUseAnimation (Lul;)Lun;
 	METHOD c getUseDuration (Lul;)I
+	METHOD c onCraftedBy (Lul;Lrv;Lsz;)V
 	METHOD d getMaxStackSize ()I
 	METHOD e stacksTo (I)Lsv;
 	METHOD f getMaxDamage ()I

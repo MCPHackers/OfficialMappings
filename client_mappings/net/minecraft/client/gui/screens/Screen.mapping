@@ -1,10 +1,12 @@
 CLASS qr net/minecraft/client/gui/screens/Screen
+	FIELD a lastClickButton Lvj;
 	FIELD l minecraft Lnet/minecraft/client/Minecraft;
 	FIELD m width I
 	FIELD n height I
 	FIELD o buttons Ljava/util/List;
 	FIELD p passEvents Z
 	FIELD q font Lkh;
+	FIELD r overlay Lrb;
 	METHOD a init ()V
 	METHOD a keyPressed (CI)V
 	METHOD a render (IIF)V
@@ -14,6 +16,7 @@ CLASS qr net/minecraft/client/gui/screens/Screen
 	METHOD d renderBackground (I)V
 	METHOD e isPauseScreen ()Z
 	METHOD e renderDirtBackground (I)V
+	METHOD h getClipboard ()Ljava/lang/String;
 	METHOD i updateEvents ()V
 	METHOD k renderBackground ()V
 	METHOD p_ tick ()V

@@ -7,6 +7,7 @@ CLASS qs net/minecraft/client/player/LocalPlayer
 	FIELD c sprintTriggerTime I
 	FIELD d sprintTime I
 	FIELD e yBob F
+	METHOD V getArmorValue ()I
 	METHOD a chat (Ljava/lang/String;)V
 	METHOD c setExperienceValues (III)V
 	METHOD f blocked (III)Z

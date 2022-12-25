@@ -1,1 +1,7 @@
 CLASS ht net/minecraft/client/model/QuadrupedModel
+	FIELD b head Lyn;
+	FIELD c body Lyn;
+	FIELD d leg0 Lyn;
+	FIELD e leg1 Lyn;
+	FIELD f leg2 Lyn;
+	FIELD g leg3 Lyn;

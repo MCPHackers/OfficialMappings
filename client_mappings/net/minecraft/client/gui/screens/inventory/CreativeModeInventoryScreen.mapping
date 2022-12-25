@@ -1,1 +1,5 @@
 CLASS on net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen
+	FIELD f container Ljf;
+	FIELD g scrollOffs F
+	FIELD h scrolling Z
+	FIELD i hasClicked Z

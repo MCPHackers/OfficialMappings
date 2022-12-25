@@ -1,1 +1,9 @@
 CLASS pz net/minecraft/world/entity/projectile/Snowball
+	FIELD a shake I
+	FIELD ap inGround Z
+	FIELD ar life I
+	FIELD as flightTime I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I

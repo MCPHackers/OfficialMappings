@@ -4,4 +4,4 @@ CLASS ee net/minecraft/world/entity/item/ItemEntity
 	FIELD b age I
 	FIELD c pickupDelay I
 	FIELD d bobOffs F
-	FIELD e age1 I
+	FIELD e tickCount1 I

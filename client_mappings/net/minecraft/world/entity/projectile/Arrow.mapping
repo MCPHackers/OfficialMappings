@@ -1,7 +1,15 @@
 CLASS ki net/minecraft/world/entity/projectile/Arrow
+	FIELD a player Z
 	FIELD ap yTile I
 	FIELD aq zTile I
+	FIELD ar inTile I
+	FIELD as inData I
+	FIELD at inGround Z
 	FIELD au life I
+	FIELD av inGroundTime I
+	FIELD b shake I
+	FIELD c owner Lkj;
+	FIELD d isCritArrow Z
 	FIELD e xTile I
 	METHOD a shoot (DDDFF)V
 		ARG 1 xd

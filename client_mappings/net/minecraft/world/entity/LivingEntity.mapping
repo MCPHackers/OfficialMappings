@@ -11,6 +11,7 @@ CLASS wd net/minecraft/world/entity/LivingEntity
 	FIELD bM animationSpeedOld F
 	FIELD bN animationSpeed F
 	FIELD bO animationPosition F
+	FIELD bP arrowCount I
 	FIELD bR activeEffects Ljava/util/HashMap;
 	FIELD bS lerpSteps I
 	FIELD bT lerpX D
@@ -19,8 +20,15 @@ CLASS wd net/minecraft/world/entity/LivingEntity
 	FIELD bW lerpYRot D
 	FIELD bX lerpXRot D
 	FIELD bZ lastHurt I
+	FIELD bd invulnerableDuration I
+	FIELD be timeOffs F
+	FIELD bf rotA F
+	FIELD bg yBodyRot F
+	FIELD bh yBodyRotO F
 	FIELD bi oRun F
 	FIELD bj run F
+	FIELD bk yHeadRot F
+	FIELD bl yHeadRotO F
 	FIELD bn textureName Ljava/lang/String;
 	FIELD bs deathScore I
 	FIELD bu isClientSide Z
@@ -38,6 +46,7 @@ CLASS wd net/minecraft/world/entity/LivingEntity
 	METHOD a addEffect (Lade;)V
 	METHOD a die (Lje;)V
 	METHOD a knockback (Lkj;IDD)V
+	METHOD a getExperienceReward (Lsz;)I
 	METHOD a hasEffect (Lud;)Z
 	METHOD aD tickEffects ()V
 	METHOD a_ travel (FF)V
@@ -50,6 +59,7 @@ CLASS wd net/minecraft/world/entity/LivingEntity
 	METHOD b onEffectAdded (Lade;)V
 	METHOD b actuallyHurt (Lje;I)V
 	METHOD b getEffect (Lud;)Lade;
+	METHOD c canSpawn ()Z
 	METHOD c onEffectUpdated (Lade;)V
 	METHOD d getAmbientSoundInterval ()I
 	METHOD d onEffectRemoved (Lade;)V

@@ -1,0 +1,6 @@
+CLASS rn net/minecraft/client/particle/ItemPickupParticle
+	FIELD aA lifeTime I
+	FIELD aB yOffs F
+	FIELD a itemEntity Lkj;
+	FIELD ay target Lkj;
+	FIELD az life I

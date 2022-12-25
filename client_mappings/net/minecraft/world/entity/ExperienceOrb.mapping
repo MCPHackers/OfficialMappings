@@ -1,1 +1,10 @@
 CLASS bg net/minecraft/world/entity/ExperienceOrb
+	FIELD a tickCount1 I
+	FIELD ap value I
+	FIELD b age I
+	FIELD c throwTime I
+	FIELD d bobOffs F
+	FIELD e health I
+	METHOD b getExperienceValue (I)I
+	METHOD i getIcon ()I
+	METHOD j_ getValue ()I

@@ -3,4 +3,7 @@ CLASS oe net/minecraft/client/sounds/SoundManager
 	FIELD f options Lfv;
 	FIELD g loaded Z
 	METHOD a play (Ljava/lang/String;FF)V
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD b destroy ()V
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V

@@ -1,1 +1,4 @@
 CLASS zj net/minecraft/client/model/SignModel
+	FIELD a sign Lyn;
+	FIELD b stick Lyn;
+	METHOD a render ()V

@@ -42,15 +42,21 @@ CLASS sz net/minecraft/world/entity/player/Player
 	METHOD a drop (Lee;)V
 	METHOD a openContainer (Lgl;)V
 	METHOD a openTextEdit (Lod;)V
+	METHOD a setRespawnPosition (Lps;)V
 	METHOD a drop (Lul;)V
 	METHOD a drop (Lul;Z)V
+	METHOD a stopSleepInBed (ZZZ)V
 	METHOD aG giveExperienceLevel ()V
 	METHOD aa getTicksUsingItem ()I
 	METHOD ab releaseUsingItem ()V
 	METHOD ac stopUsingItem ()V
 	METHOD ag getScore ()I
 	METHOD ah drop ()V
+	METHOD aj getItemInHand ()Lul;
 	METHOD al swing ()V
+	METHOD ao isSleepingLongEnough ()Z
+	METHOD ap getSleepTimer ()I
+	METHOD aq getRespawnPosition ()Lps;
 	METHOD as getXpNeededForNextLevel ()I
 	METHOD at getFoodData ()Lkc;
 	METHOD au isHurt ()Z
@@ -61,5 +67,6 @@ CLASS sz net/minecraft/world/entity/player/Player
 	METHOD c giveExperiencePoints (I)V
 	METHOD d causeFoodExhaustion (F)V
 	METHOD h attack (Lkj;)V
+	METHOD i checkMovementStatistics (DDD)V
 	METHOD j checkRidingStatistiscs (DDD)V
 	METHOD j touch (Lkj;)V

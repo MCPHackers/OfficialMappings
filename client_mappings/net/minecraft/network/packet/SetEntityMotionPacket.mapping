@@ -1,0 +1,5 @@
+CLASS sr net/minecraft/network/packet/SetEntityMotionPacket
+	FIELD a id I
+	FIELD b xa I
+	FIELD c ya I
+	FIELD d za I

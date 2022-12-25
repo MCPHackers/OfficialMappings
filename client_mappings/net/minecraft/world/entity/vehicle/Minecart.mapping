@@ -1,1 +1,22 @@
 CLASS ads net/minecraft/world/entity/vehicle/Minecart
+	FIELD aA lxd D
+	FIELD aB lyd D
+	FIELD aC lzd D
+	FIELD a damage I
+	FIELD ap xPush D
+	FIELD aq zPush D
+	FIELD ar items [Lul;
+	FIELD as flipped Z
+	FIELD at EXITS [[[I
+	FIELD au lSteps I
+	FIELD av lx D
+	FIELD aw ly D
+	FIELD ax lz D
+	FIELD ay lyr D
+	FIELD az lxr D
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d type I
+	FIELD e fuel I
+	METHOD a getPosOffs (DDDD)Lax;
+	METHOD i getPos (DDD)Lax;

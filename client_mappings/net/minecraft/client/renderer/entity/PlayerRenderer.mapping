@@ -1,1 +1,6 @@
 CLASS qz net/minecraft/client/renderer/entity/PlayerRenderer
+	FIELD c playerModel Lrx;
+	FIELD h armorModel Lrx;
+	FIELD i leggingsModel Lrx;
+	FIELD j armorMaterials [Ljava/lang/String;
+	METHOD b renderHand ()V

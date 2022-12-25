@@ -1,1 +1,13 @@
 CLASS di net/minecraft/world/entity/vehicle/Boat
+	FIELD a damage I
+	FIELD ap ly D
+	FIELD aq lz D
+	FIELD ar lyr D
+	FIELD as lxr D
+	FIELD at lxd D
+	FIELD au lyd D
+	FIELD av lzd D
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d lSteps I
+	FIELD e lx D

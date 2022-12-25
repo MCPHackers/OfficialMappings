@@ -4,6 +4,7 @@ CLASS aam net/minecraft/client/renderer/entity/EntityRenderDispatcher
 	FIELD c yOff D
 	FIELD d zOff D
 	FIELD e textures Lur;
+	FIELD f itemInHandRenderer Ljo;
 	FIELD g level Lrv;
 	FIELD h cameraEntity Lwd;
 	FIELD i playerRotY F
@@ -18,5 +19,7 @@ CLASS aam net/minecraft/client/renderer/entity/EntityRenderDispatcher
 	METHOD a distanceToSqr (DDD)D
 	METHOD a getRenderer (Ljava/lang/Class;)Lpx;
 	METHOD a getRenderer (Lkj;)Lpx;
+	METHOD a render (Lkj;DDDFF)V
+	METHOD a render (Lkj;F)V
 	METHOD a setLevel (Lrv;)V
 	METHOD a prepare (Lrv;Lur;Lkh;Lwd;Lfv;F)V

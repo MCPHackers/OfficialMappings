@@ -1,1 +1,2 @@
 CLASS cl net/minecraft/client/model/PigModel
+	FIELD a nose Lyn;

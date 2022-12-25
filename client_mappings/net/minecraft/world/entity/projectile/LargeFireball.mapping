@@ -1,1 +1,13 @@
 CLASS ba net/minecraft/world/entity/projectile/LargeFireball
+	FIELD a shake I
+	FIELD ap xTile I
+	FIELD aq yTile I
+	FIELD ar zTile I
+	FIELD as inTile I
+	FIELD at inGround Z
+	FIELD au life I
+	FIELD av flightTime I
+	FIELD b owner Lwd;
+	FIELD c xPower D
+	FIELD d yPower D
+	FIELD e zPower D

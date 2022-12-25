@@ -1,1 +1,3 @@
 CLASS sn net/minecraft/world/entity/monster/Creeper
+	METHOD U isPowered ()Z
+	METHOD d getSwelling (F)F

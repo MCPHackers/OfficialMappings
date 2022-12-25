@@ -1,3 +1,0 @@
-CLASS rn net/minecraft/client/particle/MagicCritParticle
-	FIELD aA lifeTime I
-	FIELD az life I

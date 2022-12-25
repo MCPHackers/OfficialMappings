@@ -4,12 +4,20 @@ CLASS ul net/minecraft/world/item/ItemInstance
 	FIELD c id I
 	FIELD d damage I
 	METHOD a getItem ()Lsv;
+	METHOD a split (I)Lul;
+	METHOD a mineBlock (IIIILsz;)V
+	METHOD a hurt (ILkj;)V
+	METHOD a inventoryTick (Lrv;Lkj;IZ)V
 	METHOD a releaseUsing (Lrv;Lsz;I)V
 	METHOD a useOn (Lsz;Lrv;IIII)Z
-	METHOD a matches (Lul;Lul;)Z
+	METHOD a sameItem (Lul;)Z
+	METHOD a hurtEnemy (Lwd;Lsz;)V
+	METHOD a of (Lxb;)Lul;
 	METHOD b setDamageValue (I)V
+	METHOD b copy (Lul;)Lul;
 	METHOD b save (Lxb;)Lxb;
 	METHOD c getMaxStackSize ()I
+	METHOD c onCraftedBy (Lrv;Lsz;)V
 	METHOD c load (Lxb;)V
 	METHOD d isStackable ()Z
 	METHOD e isDamageableItem ()Z
