@@ -1,0 +1,36 @@
+CLASS da net/minecraft/client/gui/screens/Screen
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c width I
+	FIELD d height I
+	FIELD e buttons Ljava/util/List;
+	FIELD f passEvents Z
+	FIELD g font Lsj;
+	METHOD a tick ()V
+	METHOD a keyPressed (CI)V
+		ARG 1 ch
+		ARG 2 key
+	METHOD a render (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 f
+	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 btn
+	METHOD a buttonClicked (Lke;)V
+		ARG 1 button
+	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 x
+		ARG 3 y
+	METHOD a confirmResult (ZI)V
+	METHOD b init ()V
+	METHOD b renderDirtBackground (I)V
+	METHOD c isPauseScreen ()Z
+	METHOD d getClipboard ()Ljava/lang/String;
+	METHOD e updateEvents ()V
+	METHOD f mouseEvent ()V
+	METHOD g keyboardEvent ()V
+	METHOD h removed ()V
+	METHOD i renderBackground ()V
+	METHOD j updateTabButtonSelection ()V

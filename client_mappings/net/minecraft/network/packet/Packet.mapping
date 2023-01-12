@@ -1,0 +1,26 @@
+CLASS ki net/minecraft/network/packet/Packet
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	METHOD a size ()I
+	METHOD a createPacket (I)Lki;
+		ARG 0 id
+	METHOD a register (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 3 pclass
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dis
+	METHOD a readUtf (Ljava/io/DataInputStream;I)Ljava/lang/String;
+		ARG 0 dis
+		ARG 1 len
+	METHOD a decode (Ljava/io/DataInputStream;Z)Lki;
+		ARG 0 dis
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dos
+	METHOD a writeUtf (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+		ARG 0 str
+		ARG 1 dos
+	METHOD a encode (Lki;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dos
+	METHOD a handle (Lti;)V
+	METHOD c getPacketId ()I

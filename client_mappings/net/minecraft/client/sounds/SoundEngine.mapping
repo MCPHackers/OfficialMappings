@@ -1,0 +1,6 @@
+CLASS yo net/minecraft/client/sounds/SoundEngine
+	FIELD a soundsystem Lpaulscode/sound/SoundSystem;
+	FIELD f options Lkv;
+	FIELD g loaded Z
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
+	METHOD b play (Ljava/lang/String;FFFFF)V

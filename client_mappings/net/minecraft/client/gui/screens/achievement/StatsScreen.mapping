@@ -1,0 +1,2 @@
+CLASS dv net/minecraft/client/gui/screens/achievement/StatsScreen
+	FIELD i title Ljava/lang/String;

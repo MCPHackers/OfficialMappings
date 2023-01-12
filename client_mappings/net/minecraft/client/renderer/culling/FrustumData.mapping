@@ -1,0 +1,2 @@
+CLASS dr net/minecraft/client/renderer/culling/FrustumData
+	METHOD a cubeFullyInFrustum (DDDDDD)Z

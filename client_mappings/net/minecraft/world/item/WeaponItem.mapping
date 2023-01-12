@@ -1,0 +1,5 @@
+CLASS qd net/minecraft/world/item/WeaponItem
+	FIELD a attackDamage I
+	METHOD <init> (ILbu;)V
+		ARG 1 id
+		ARG 2 tier

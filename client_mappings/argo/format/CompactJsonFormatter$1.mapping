@@ -1,0 +1,2 @@
+CLASS kz argo/format/CompactJsonFormatter$1
+	FIELD a nodeTypeValue [I

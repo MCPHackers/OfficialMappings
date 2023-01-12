@@ -1,0 +1,14 @@
+CLASS sj net/minecraft/client/gui/Font
+	FIELD a fontTexture I
+	FIELD b charWidths [I
+	METHOD <init> (Lkv;Ljava/lang/String;Lji;)V
+		ARG 1 options
+		ARG 2 str
+	METHOD a width (Ljava/lang/String;)I
+	METHOD a drawShadow (Ljava/lang/String;III)V
+	METHOD a draw (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD b draw (Ljava/lang/String;III)V

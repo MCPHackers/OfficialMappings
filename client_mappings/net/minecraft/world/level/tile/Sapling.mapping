@@ -1,0 +1,9 @@
+CLASS he net/minecraft/world/level/tile/Sapling
+	METHOD c growTree (Lfd;IIILjava/util/Random;)V
+		COMMENT i wasted way too much time on figuring out what level.e does or what level.a does
+		COMMENT and i still have no clue
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random

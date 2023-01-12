@@ -1,0 +1,10 @@
+CLASS ey net/minecraft/world/item/crafting/FurnaceRecipes
+	FIELD a instance Ley;
+	FIELD b recipes Ljava/util/Map;
+	METHOD a getInstance ()Ley;
+	METHOD a getResult (I)Liz;
+		ARG 1 idx
+	METHOD a addFurnaceRecipe (ILiz;)V
+		ARG 1 id
+		ARG 2 itemInstance
+	METHOD b getRecipes ()Ljava/util/Map;

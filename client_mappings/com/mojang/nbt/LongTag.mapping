@@ -1,0 +1,4 @@
+CLASS mi com/mojang/nbt/LongTag
+	FIELD a longValue J
+	METHOD <init> (J)V
+		ARG 1 longValue

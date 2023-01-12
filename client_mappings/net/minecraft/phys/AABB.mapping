@@ -1,33 +1,60 @@
 CLASS eq net/minecraft/phys/AABB
-	FIELD a minX D
-	FIELD b minY D
-	FIELD c minZ D
-	FIELD d maxX D
-	FIELD e maxY D
-	FIELD f maxZ D
-	FIELD g boundingBoxes Ljava/util/List;
+	FIELD a x0 D
+	FIELD b y0 D
+	FIELD c z0 D
+	FIELD d x1 D
+	FIELD e y1 D
+	FIELD f z1 D
+	FIELD h count I
 	METHOD <init> (DDDDDD)V
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
+	METHOD a expand (DDD)Leq;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
 	METHOD a contains (Lbt;)Z
 	METHOD a clip (Lbt;Lbt;)Lvf;
 	METHOD a intersects (Leq;)Z
 	METHOD a clipXCollide (Leq;D)D
+		ARG 1 c
+		ARG 2 xa
+	METHOD b grow (DDD)Leq;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
 	METHOD b containsX (Lbt;)Z
 	METHOD b (Leq;)V
 		ARG 1 aabb
 	METHOD b clipYCollide (Leq;D)D
-	METHOD c setBounds (DDDDDD)Leq;
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
+		ARG 1 c
+		ARG 2 ya
+	METHOD c getSize ()D
+	METHOD c cloneMove (DDD)Leq;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD c (DDDDDD)Leq;
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
 	METHOD c containsY (Lbt;)Z
 	METHOD c clipZCollide (Leq;D)D
+		ARG 1 c
+		ARG 2 za
+	METHOD d move (DDD)Leq;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
 	METHOD d containsZ (Lbt;)Z
+	METHOD e deflate (DDD)Leq;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za

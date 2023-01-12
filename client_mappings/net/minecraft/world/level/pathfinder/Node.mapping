@@ -1,0 +1,11 @@
+CLASS d net/minecraft/world/level/pathfinder/Node
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d heapIdx I
+	FIELD h cameFrom Ld;
+	FIELD i reached Z
+	FIELD j hash I
+	METHOD a isOpenSet ()Z
+	METHOD a createHash (III)I
+	METHOD a distanceTo (Ld;)F

@@ -1,0 +1,13 @@
+CLASS ls net/minecraft/world/entity/Mob
+	FIELD ae attackTime I
+	METHOD b die (Lsn;)V
+	METHOD d canSpawn ()Z
+	METHOD d_ isWaterMob ()Z
+	METHOD e getAmbientSoundInterval ()I
+	METHOD g getAmbientSound ()Ljava/lang/String;
+	METHOD i getDeathSound ()Ljava/lang/String;
+	METHOD j getDeathLoot ()I
+	METHOD j_ getHurtSound ()Ljava/lang/String;
+	METHOD o aiStep ()V
+	METHOD q dropDeathLoot ()V
+	METHOD r_ getCarriedItem ()Liz;

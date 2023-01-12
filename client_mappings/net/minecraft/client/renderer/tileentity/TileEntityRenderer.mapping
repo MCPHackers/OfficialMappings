@@ -1,0 +1,8 @@
+CLASS je net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	FIELD a tileEntityRenderDispatcher Lll;
+	METHOD a getFont ()Lsj;
+	METHOD a onNewLevel (Lfd;)V
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 path
+	METHOD a init (Lll;)V
+	METHOD a render (Low;DDDF)V

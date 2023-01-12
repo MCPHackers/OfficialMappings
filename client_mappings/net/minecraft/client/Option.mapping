@@ -1,0 +1,22 @@
+CLASS ht net/minecraft/client/Option
+	FIELD a MUSIC Lht;
+	FIELD b SOUND Lht;
+	FIELD c INVERT_MOUSE Lht;
+	FIELD d SENSITIVITY Lht;
+	FIELD e RENDER_DISTANCE Lht;
+	FIELD f VIEW_BOBBING Lht;
+	FIELD g ANAGLYPH Lht;
+	FIELD h ADVANCED_OPENGL Lht;
+	FIELD i FRAMERATE_LIMIT Lht;
+	FIELD j DIFFICULTY Lht;
+	FIELD k GRAPHICS Lht;
+	FIELD l AMBIENT_OCCLUSION Lht;
+	FIELD m GUI_SCALE Lht;
+	FIELD n progressOption Z
+	FIELD o booleanOption Z
+	FIELD p captionId Ljava/lang/String;
+	METHOD a isProgress ()Z
+	METHOD a getOption (I)Lht;
+	METHOD b isBoolean ()Z
+	METHOD c getId ()I
+	METHOD d getCaptionId ()Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS hz net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer
+	FIELD a file Lqj;
+	FIELD b x I
+	FIELD c z I
+	METHOD <init> (Lqj;II)V
+		ARG 1 file
+		ARG 2 x
+		ARG 3 z

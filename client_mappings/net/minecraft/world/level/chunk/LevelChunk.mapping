@@ -1,5 +1,26 @@
 CLASS lm net/minecraft/world/level/chunk/LevelChunk
+	FIELD b blocks [B
+	FIELD d level Lfd;
+	FIELD e data Lwi;
+	FIELD f skyLight Lwi;
+	FIELD g blockLight Lwi;
+	FIELD h heightMap [B
+	FIELD j x I
+	FIELD k z I
+	FIELD n terrainPopulated Z
+	METHOD <init> (Lfd;II)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z
 	METHOD a setTileRaw (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a (IIILow;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a addTileEntity (Low;)V
 	METHOD a getEntities (Lsn;Leq;Ljava/util/List;)V
 	METHOD d getTileEntity (III)Low;

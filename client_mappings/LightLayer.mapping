@@ -1,3 +1,0 @@
-CLASS eb LightLayer
-	FIELD a Sky Leb;
-	FIELD b Block Leb;

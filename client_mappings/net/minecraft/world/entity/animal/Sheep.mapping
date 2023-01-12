@@ -1,0 +1,8 @@
+CLASS dl net/minecraft/world/entity/animal/Sheep
+	FIELD a COLOR [[F
+	METHOD a getSheepColor (Ljava/util/Random;)I
+	METHOD a setSheared (Z)V
+		ARG 1 sheared
+	METHOD e_ setColor (I)V
+	METHOD r getColor ()I
+	METHOD s getSheared ()Z

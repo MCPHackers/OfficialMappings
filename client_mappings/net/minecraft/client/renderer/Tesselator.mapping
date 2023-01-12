@@ -1,0 +1,85 @@
+CLASS nw net/minecraft/client/renderer/Tesselator
+	FIELD A vboCounts I
+	FIELD B size I
+	FIELD a instance Lnw;
+	FIELD b TRIANGLE_MODE Z
+	FIELD c USE_VBO Z
+	FIELD d buffer Ljava/nio/ByteBuffer;
+	FIELD e ib Ljava/nio/IntBuffer;
+	FIELD f fb Ljava/nio/FloatBuffer;
+	FIELD g array [I
+	FIELD h vertices I
+	FIELD i u D
+	FIELD j v D
+	FIELD k col I
+	FIELD l hasColor Z
+	FIELD m hasTexture Z
+	FIELD n hasNormal Z
+	FIELD o p I
+	FIELD p count I
+	FIELD q noColor Z
+	FIELD r mode I
+	FIELD s xo D
+	FIELD t yo D
+	FIELD u zo D
+	FIELD v normal I
+	FIELD w tesselating Z
+	FIELD x vboMode Z
+	FIELD y vboIds Ljava/nio/IntBuffer;
+	FIELD z vboId I
+	METHOD <init> (I)V
+		ARG 1 size
+	METHOD a end ()V
+	METHOD a tex (DD)V
+		ARG 1 u
+		ARG 3 v
+	METHOD a vertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a vertexUV (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 u
+		ARG 9 v
+	METHOD a color (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a begin (I)V
+		ARG 1 mode
+	METHOD a color (II)V
+		ARG 1 c
+		ARG 2 alpha
+	METHOD a color (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD b begin ()V
+	METHOD b setOffset (DDD)V
+		ARG 1 xo
+		ARG 3 yo
+		ARG 5 zo
+	METHOD b normal (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b color (I)V
+		ARG 1 c
+	METHOD c noColor ()V
+	METHOD c addOffset (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d clear ()V

@@ -1,0 +1,14 @@
+CLASS ro net/minecraft/client/gui/components/TextBox
+	FIELD a focus Z
+	FIELD b enabled Z
+	FIELD h text Ljava/lang/String;
+	FIELD l parent Lda;
+	METHOD <init> (Lda;Lsj;IIIILjava/lang/String;)V
+		ARG 1 parent
+		ARG 2 font
+		ARG 7 text
+	METHOD a getText ()Ljava/lang/String;
+	METHOD a setText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD a setFocus (Z)V
+	METHOD b tick ()V

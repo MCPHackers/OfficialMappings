@@ -1,0 +1,3 @@
+CLASS vz net/minecraft/client/gui/components/Slider
+	FIELD i value F
+	FIELD j dragged Z

@@ -1,0 +1,2 @@
+CLASS mm net/minecraft/client/multiplayer/MultiplayerLevel
+	METHOD a putEntity (ILsn;)V

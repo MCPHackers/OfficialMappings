@@ -1,0 +1,3 @@
+CLASS hi net/minecraft/world/level/storage/McRegionLevelStorageSource
+	METHOD a convertRegion (Ljava/io/File;Ljava/util/ArrayList;IILyb;)V
+	METHOD a convertRegions (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V

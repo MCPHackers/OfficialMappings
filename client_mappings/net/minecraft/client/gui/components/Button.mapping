@@ -1,0 +1,15 @@
+CLASS ke net/minecraft/client/gui/components/Button
+	FIELD a width I
+	FIELD b height I
+	FIELD c x I
+	FIELD d y I
+	FIELD e message Ljava/lang/String;
+	FIELD f id I
+	FIELD g active Z
+	FIELD h visible Z
+	METHOD a released (II)V
+	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+	METHOD a getYImage (Z)I
+		ARG 1 selected
+	METHOD b renderBg (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z

@@ -1,0 +1,7 @@
+CLASS wt net/minecraft/world/level/storage/LevelStorage
+	METHOD a saveLevelData (Lei;)V
+	METHOD a saveLevelData (Lei;Ljava/util/List;)V
+	METHOD a createChunkStorage (Lxa;)Lbf;
+		ARG 1 dim
+	METHOD b checkSession ()V
+	METHOD c prepareLevel ()Lei;

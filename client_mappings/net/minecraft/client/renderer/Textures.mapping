@@ -1,0 +1,28 @@
+CLASS ji net/minecraft/client/renderer/Textures
+	FIELD a MIPMAP Z
+	FIELD b idMap Ljava/util/HashMap;
+	FIELD c pixelsMap Ljava/util/HashMap;
+	FIELD d loadedImages Ljava/util/HashMap;
+	FIELD e ib Ljava/nio/IntBuffer;
+	FIELD f pixels Ljava/nio/ByteBuffer;
+	FIELD i options Lkv;
+	FIELD j clamp Z
+	FIELD k blur Z
+	FIELD l tp Lik;
+	FIELD m missingNo Ljava/awt/image/BufferedImage;
+	METHOD a smoothBlend (II)I
+		ARG 1 paramInt1
+		ARG 2 paramInt2
+	METHOD a getTexture (Ljava/awt/image/BufferedImage;)I
+	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
+	METHOD a readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+		ARG 1 paramInputStream
+	METHOD a loadTexturePixels (Ljava/lang/String;)[I
+	METHOD a replaceTexture ([IIII)V
+	METHOD b reloadAll ()V
+	METHOD b bind (I)V
+		ARG 1 paramInt
+	METHOD b crispBlend (II)I
+		ARG 1 paramInt1
+		ARG 2 paramInt2
+	METHOD b loadTexture (Ljava/lang/String;)I

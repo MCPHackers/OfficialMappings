@@ -1,0 +1,3 @@
+CLASS ce net/minecraft/client/gui/screens/ErrorScreen
+	FIELD a title Ljava/lang/String;
+	FIELD i message Ljava/lang/String;

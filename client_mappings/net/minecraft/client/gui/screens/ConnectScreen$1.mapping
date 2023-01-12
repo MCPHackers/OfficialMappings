@@ -1,0 +1,5 @@
+CLASS wz net/minecraft/client/gui/screens/ConnectScreen$1
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b ip Ljava/lang/String;
+	FIELD c port I
+	FIELD d connectScreen Lvx;

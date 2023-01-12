@@ -1,0 +1,5 @@
+CLASS aw net/minecraft/client/renderer/ptexture/DynamicTexture
+	FIELD f offset I
+	METHOD a tick ()V
+	METHOD a bindTexture (Lji;)V
+		ARG 1 textureMgr

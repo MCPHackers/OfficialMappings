@@ -1,7 +1,0 @@
-CLASS bf
-	METHOD a (Lfd;II)Llm;
-		ARG 1 level
-	METHOD a (Lfd;Llm;)V
-		ARG 1 level
-	METHOD b (Lfd;Llm;)V
-		ARG 1 level

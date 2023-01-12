@@ -1,0 +1,2 @@
+CLASS pf net/minecraft/network/Connection
+	FIELD h socket Ljava/net/Socket;

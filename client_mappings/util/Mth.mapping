@@ -1,0 +1,24 @@
+CLASS in util/Mth
+	FIELD a SINE_TABLE [F
+	METHOD a sqrt (D)F
+		ARG 0 d
+	METHOD a absMax (DD)D
+		ARG 0 a
+		ARG 2 b
+	METHOD a sin (F)F
+		ARG 0 f
+	METHOD a intFloorDiv (II)I
+		ARG 0 a
+		ARG 1 b
+	METHOD a nullString (Ljava/lang/String;)Z
+		ARG 0 str
+	METHOD b floor (D)I
+		ARG 0 d
+	METHOD b cos (F)F
+		ARG 0 f
+	METHOD c sqrt (F)F
+		ARG 0 f
+	METHOD d floor (F)I
+		ARG 0 f
+	METHOD e abs (F)F
+		ARG 0 f

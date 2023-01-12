@@ -1,0 +1,8 @@
+CLASS hr net/minecraft/client/sounds/SoundRepository
+	FIELD a count I
+	FIELD c random Ljava/util/Random;
+	FIELD d sndDescs Ljava/util/Map;
+	FIELD e sndList Ljava/util/List;
+	METHOD a get ()Lbh;
+	METHOD a add (Ljava/lang/String;)Lbh;
+	METHOD a add (Ljava/lang/String;Ljava/io/File;)Lbh;

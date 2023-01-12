@@ -1,0 +1,3 @@
+CLASS vr net/minecraft/stats/Stat
+	FIELD b NUMBER_FORMAT Ljava/text/NumberFormat;
+	FIELD c DECIMAL_FORMAT Ljava/text/DecimalFormat;

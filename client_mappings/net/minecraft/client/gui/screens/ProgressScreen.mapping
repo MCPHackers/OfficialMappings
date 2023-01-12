@@ -1,0 +1,4 @@
+CLASS mk net/minecraft/client/gui/screens/ProgressScreen
+	FIELD a status Ljava/lang/String;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c title Ljava/lang/String;

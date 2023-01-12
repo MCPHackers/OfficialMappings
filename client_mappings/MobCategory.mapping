@@ -1,4 +1,0 @@
-CLASS lk MobCategory
-	FIELD a monster Llk;
-	FIELD b creature Llk;
-	FIELD c waterCreature Llk;

@@ -1,0 +1,5 @@
+CLASS iz net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
+	FIELD c id I
+	FIELD d damage I
