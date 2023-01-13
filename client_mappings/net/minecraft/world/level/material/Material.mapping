@@ -1,2 +1,48 @@
 CLASS ln net/minecraft/world/level/material/Material
+	FIELD A web Lln;
+	FIELD B piston Lln;
+	FIELD C materialColor Ldx;
+	FIELD D flammable Z
+	FIELD E blocksMotion Z
+	FIELD F nonSolidBlocking Z
+	FIELD G alwaysDestroyable Z
+	FIELD H pushReaction I
+	FIELD a air Lln;
+	FIELD b grass Lln;
+	FIELD c dirt Lln;
+	FIELD d wood Lln;
+	FIELD e stone Lln;
+	FIELD f metal Lln;
 	FIELD g water Lln;
+	FIELD h lava Lln;
+	FIELD i leaves Lln;
+	FIELD j plant Lln;
+	FIELD k sponge Lln;
+	FIELD l cloth Lln;
+	FIELD m fire Lln;
+	FIELD n sand Lln;
+	FIELD o decoration Lln;
+	FIELD p glass Lln;
+	FIELD q explosive Lln;
+	FIELD r coral Lln;
+	FIELD s ice Lln;
+	FIELD t topSnow Lln;
+	FIELD u snow Lln;
+	FIELD v cactus Lln;
+	FIELD w clay Lln;
+	FIELD x vegetable Lln;
+	FIELD y portal Lln;
+	FIELD z cake Lln;
+	METHOD <init> (Ldx;)V
+		ARG 1 materialColor
+	METHOD a isSolid ()Z
+	METHOD e isFlammable ()Z
+	METHOD f noCollider ()Lln;
+	METHOD g blocksMotion ()Z
+	METHOD i isAlwaysDestroyable ()Z
+	METHOD j getPushReaction ()I
+	METHOD k destroyOnPush ()Lln;
+	METHOD l notPushable ()Lln;
+	METHOD m nonSolidBlocking ()Lln;
+	METHOD n notAlwaysDestroyable ()Lln;
+	METHOD o flammable ()Lln;

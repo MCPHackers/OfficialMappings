@@ -1,0 +1,28 @@
+CLASS pm net/minecraft/world/level/LevelListener
+	METHOD a tileBrightnessChanged (III)V
+	METHOD a tileEntityChanged (IIILow;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a levelEvent (Lgs;IIIII)V
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 vol
+		ARG 9 pitch
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a entityAdded (Lsn;)V
+		ARG 1 entity
+	METHOD b setTilesDirty (IIIIII)V
+	METHOD b entityRemoved (Lsn;)V
+		ARG 1 entity
+	METHOD e allChanged ()V

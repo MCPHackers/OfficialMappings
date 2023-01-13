@@ -1,4 +1,0 @@
-CLASS sz net/minecraft/nbt/DoubleTag
-	FIELD a doubleValue D
-	METHOD <init> (D)V
-		ARG 1 doubleValue

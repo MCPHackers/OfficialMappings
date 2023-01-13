@@ -1,0 +1,46 @@
+CLASS kd net/minecraft/world/level/biome/Biome
+	FIELD a rainForest Lkd;
+	FIELD b swampland Lkd;
+	FIELD c seasonalForest Lkd;
+	FIELD d forest Lkd;
+	FIELD e savanna Lkd;
+	FIELD f shrubland Lkd;
+	FIELD g taiga Lkd;
+	FIELD h desert Lkd;
+	FIELD i plains Lkd;
+	FIELD j iceDesert Lkd;
+	FIELD k tundra Lkd;
+	FIELD l hell Lkd;
+	FIELD m sky Lkd;
+	FIELD n name Ljava/lang/String;
+	FIELD o color I
+	FIELD p topTile B
+	FIELD q fillerTile B
+	FIELD r leafColor I
+	FIELD s monsterSpawner Ljava/util/List;
+	FIELD t creatureSpawner Ljava/util/List;
+	FIELD u waterCreatureSpawner Ljava/util/List;
+	FIELD v snowCovered Z
+	FIELD w noRain Z
+	FIELD x map [Lkd;
+	METHOD a recalc ()V
+	METHOD a _getBiome (DD)Lkd;
+	METHOD a getSkyColor (F)I
+		ARG 1 temp
+	METHOD a getBiome (FF)Lkd;
+		ARG 0 temp
+		ARG 1 humid
+	METHOD a setLeafColor (I)Lkd;
+		ARG 1 leafColor
+	METHOD a setName (Ljava/lang/String;)Lkd;
+		ARG 1 name
+	METHOD a getTreeFeature (Ljava/util/Random;)Lpg;
+		ARG 1 random
+	METHOD a getMobs (Llk;)Ljava/util/List;
+		ARG 1 mobCategory
+	METHOD b setSnowCovered ()Lkd;
+	METHOD b setColor (I)Lkd;
+		ARG 1 color
+	METHOD c isSnowCovered ()Z
+	METHOD d canRain ()Z
+	METHOD e setNoRain ()Lkd;

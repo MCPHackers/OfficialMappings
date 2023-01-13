@@ -1,4 +1,16 @@
-CLASS jg net/minecraft/phys/HitResult
-	COMMENT might not be the correct name. rename later
-	FIELD a TILE Ljg;
-	FIELD b ENTITY Ljg;
+CLASS vf net/minecraft/phys/HitResult
+	FIELD a type Ljg;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e face I
+	FIELD f hitVector Lbt;
+	FIELD g target Lsn;
+	METHOD <init> (IIIILbt;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+		ARG 5 hitVec
+	METHOD <init> (Lsn;)V
+		ARG 1 entity

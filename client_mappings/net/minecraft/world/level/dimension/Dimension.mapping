@@ -1,0 +1,12 @@
+CLASS xa net/minecraft/world/level/dimension/Dimension
+	FIELD a level Lfd;
+	METHOD a getNew (I)Lxa;
+		ARG 0 id
+	METHOD a isValidSpawn (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a init (Lfd;)V
+		ARG 1 level
+	METHOD b createRandomLevelSource ()Lcl;
+	METHOD c mayRespawn ()Z
+	METHOD f isNaturalDimension ()Z

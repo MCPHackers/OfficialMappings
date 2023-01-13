@@ -1,0 +1,5 @@
+CLASS ps net/minecraft/client/renderer/entity/ModelPart
+	METHOD a setPos (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

@@ -3,4 +3,15 @@ CLASS bt net/minecraft/phys/Vec3
 	FIELD b y D
 	FIELD c z D
 	METHOD a xRot (F)V
+	METHOD a clipX (Lbt;D)Lbt;
+	METHOD b of (DDD)Lbt;
 	METHOD b yRot (F)V
+	METHOD b cross (Lbt;)Lbt;
+	METHOD b clipY (Lbt;D)Lbt;
+	METHOD c normalize ()Lbt;
+	METHOD c add (DDD)Lbt;
+	METHOD c distanceTo (Lbt;)D
+	METHOD c clipZ (Lbt;D)Lbt;
+	METHOD d length ()D
+	METHOD d distanceToSqr (DDD)D
+	METHOD d distanceToSqr (Lbt;)D

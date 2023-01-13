@@ -1,0 +1,2 @@
+CLASS wk net/minecraft/stats/StatFormatter
+	METHOD a format (I)Ljava/lang/String;

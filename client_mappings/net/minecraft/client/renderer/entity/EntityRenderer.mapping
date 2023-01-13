@@ -1,0 +1,6 @@
+CLASS bw net/minecraft/client/renderer/entity/EntityRenderer
+	METHOD a getFont ()Lsj;
+	METHOD a renderFlat (Leq;)V
+	METHOD a render (Leq;DDD)V
+	METHOD a init (Lth;)V
+	METHOD b postRender (Lsn;DDDFF)V

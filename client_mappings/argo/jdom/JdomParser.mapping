@@ -1,0 +1,2 @@
+CLASS hx argo/jdom/JdomParser
+	METHOD a parse (Ljava/lang/String;)Lqe;

@@ -1,9 +1,63 @@
 CLASS fd net/minecraft/world/level/Level
+	FIELD B isClientSide Z
 	FIELD f skyDarken I
+	FIELD r random Ljava/util/Random;
+	FIELD t dimension Lxa;
+	FIELD u listeners Ljava/util/List;
+	FIELD x levelData Lei;
 	METHOD <init> (Lfd;Lxa;)V
 		ARG 1 level
+	METHOD <init> (Lwt;Ljava/lang/String;J)V
+		ARG 1 levelStorage
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD <init> (Lwt;Ljava/lang/String;JLxa;)V
+		ARG 1 levelStorage
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a setTime (J)V
+		ARG 1 ticks
+	METHOD a setSpawnPos (Lbr;)V
+		ARG 1 spawnPos
+	METHOD a getBrightness (Leb;III)I
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a addListener (Lpm;)V
+		ARG 1 listener
+	METHOD a explode (Lsn;DDDF)Lqx;
+		ARG 1 exploder
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 power
+	METHOD a explode (Lsn;DDDFZ)Lqx;
+		ARG 1 exploder
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 power
+		ARG 9 fire
+	METHOD a getCubes (Lsn;Leq;)Ljava/util/List;
 	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
+		ARG 1 entity
+		ARG 2 soundName
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD b removeListener (Lpm;)V
+		ARG 1 listener
 	METHOD b addEntity (Lsn;)Z
+	METHOD b getEntities (Lsn;Leq;)Ljava/util/List;
+		ARG 2 aabb
+	METHOD c getCloudColor (F)Lbt;
 	METHOD c getChunk (II)Llm;
 	METHOD c getTile (IIII)Z
+	METHOD c containsFireTile (Leq;)Z
+	METHOD f setTile (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD s getSeed ()J
+	METHOD t getTime ()J
 	METHOD u getSharedSpawnPos ()Lbr;
+	METHOD x getLevelData ()Lei;

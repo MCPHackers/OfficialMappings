@@ -1,0 +1,12 @@
+CLASS xv net/minecraft/world/level/biome/BiomeSource
+	FIELD a tempScale [D
+	METHOD <init> (Lfd;)V
+		ARG 1 level
+	METHOD a getBiome (II)Lkd;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBiomeBlock (IIII)[Lkd;
+	METHOD a getBiome (Lyy;)Lkd;
+		ARG 1 chunkPos
+	METHOD a getTemperatureBlock ([DIIII)[D
+	METHOD a getBiomeBlock ([Lkd;IIII)[Lkd;

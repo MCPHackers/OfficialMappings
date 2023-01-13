@@ -1,0 +1,2 @@
+CLASS rs net/minecraft/world/level/storage/McRegionLevelStorageSource$FilePattern
+	FIELD a pattern Ljava/util/regex/Pattern;

@@ -1,0 +1,3 @@
+CLASS pc net/minecraft/world/level/tile/RailTile
+	METHOD h (Lfd;III)Z
+		ARG 0 level

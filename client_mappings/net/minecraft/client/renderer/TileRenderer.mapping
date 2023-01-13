@@ -1,0 +1,11 @@
+CLASS cv net/minecraft/client/renderer/TileRenderer
+	METHOD a tesselateRailInWorld (Lpc;III)Z
+	METHOD a renderTile (Luu;IF)V
+	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Luu;IIIFFF)Z
+	METHOD b tesselateBlockInWorld (Luu;IIIFFF)Z
+	METHOD c tesselateTorchInWorld (Luu;III)Z
+	METHOD f tesselateFireInWorld (Luu;III)Z
+	METHOD l tesselateBlockInWorld (Luu;III)Z
+	METHOD m tesselateCactusInWorld (Luu;III)Z
+	METHOD p tesselateDoorInWorld (Luu;III)Z
+	METHOD q tesselateBedInWorld (Luu;III)Z

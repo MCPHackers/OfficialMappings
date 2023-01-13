@@ -1,0 +1,5 @@
+CLASS fu net/minecraft/client/gui/screens/TitleScreen
+	FIELD a random Ljava/util/Random;
+	FIELD i time F
+	FIELD j splash Ljava/lang/String;
+	FIELD l multiplayerButton Lke;

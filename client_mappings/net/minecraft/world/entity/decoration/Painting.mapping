@@ -1,0 +1,11 @@
+CLASS qv net/minecraft/world/entity/decoration/Painting
+	FIELD a dir I
+	FIELD b tileX I
+	FIELD c tileY I
+	FIELD d tileZ I
+	FIELD e motive Liq;
+	METHOD <init> (Lfd;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

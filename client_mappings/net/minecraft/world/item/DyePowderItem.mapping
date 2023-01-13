@@ -1,0 +1,3 @@
+CLASS km net/minecraft/world/item/DyePowderItem
+	FIELD a COLOR_DESCS [Ljava/lang/String;
+	FIELD bk COLOR_RGB [I

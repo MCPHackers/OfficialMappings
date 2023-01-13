@@ -1,0 +1,16 @@
+CLASS dk net/minecraft/client/renderer/chunk/RenderChunk
+	FIELD C lists I
+	FIELD D t Lnw;
+	FIELD a level Lfd;
+	FIELD q x I
+	FIELD r y I
+	FIELD s z I
+	FIELD u dirty Z
+	FIELD v bb Leq;
+	METHOD a getList (I)I
+	METHOD a setPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a cull (Lyn;)V
+	METHOD f setDirty ()V

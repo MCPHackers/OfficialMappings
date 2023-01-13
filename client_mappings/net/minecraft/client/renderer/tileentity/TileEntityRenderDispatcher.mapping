@@ -1,0 +1,29 @@
+CLASS ll net/minecraft/client/renderer/tileentity/TileEntityRenderDispatcher
+	FIELD a instance Lll;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lji;
+	FIELD f level Lfd;
+	FIELD g camera Lls;
+	FIELD h xRot F
+	FIELD i yRot F
+	FIELD j x D
+	FIELD k y D
+	FIELD l z D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n font Lsj;
+	METHOD a getFont ()Lsj;
+	METHOD a setLevel (Lfd;)V
+	METHOD a prepare (Lfd;Lji;Lsj;Lls;F)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 font
+		ARG 4 camera
+	METHOD a getRenderer (Ljava/lang/Class;)Lje;
+	METHOD a hasRenderer (Low;)Z
+		ARG 1 tileEntity
+	METHOD a render (Low;DDDF)V
+	METHOD a render (Low;F)V
+	METHOD b getRenderer (Low;)Lje;
+		ARG 1 tileEntity

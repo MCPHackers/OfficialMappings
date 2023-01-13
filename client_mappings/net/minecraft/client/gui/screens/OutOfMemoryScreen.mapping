@@ -1,0 +1,2 @@
+CLASS x net/minecraft/client/gui/screens/OutOfMemoryScreen
+	FIELD a delayTicker I

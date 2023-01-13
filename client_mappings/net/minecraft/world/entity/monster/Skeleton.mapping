@@ -1,1 +1,2 @@
 CLASS fr net/minecraft/world/entity/monster/Skeleton
+	FIELD a carriedItem Liz;

@@ -1,4 +1,0 @@
-CLASS rt
-	FIELD a everything Lrt;
-	FIELD b mobs Lrt;
-	FIELD c players Lrt;

@@ -1,0 +1,8 @@
+CLASS xw net/minecraft/client/particle/Particle
+	FIELD l xOff D
+	FIELD m yOff D
+	FIELD n zOff D
+	METHOD a render (Lnw;FFFFFF)V
+	METHOD c setPower (F)Lxw;
+	METHOD c_ getRenderType ()I
+	METHOD d scale (F)Lxw;

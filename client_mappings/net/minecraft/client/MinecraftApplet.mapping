@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/MinecraftApplet
+	FIELD a appletCanvas Ljava/awt/Canvas;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c gameThread Ljava/lang/Thread;

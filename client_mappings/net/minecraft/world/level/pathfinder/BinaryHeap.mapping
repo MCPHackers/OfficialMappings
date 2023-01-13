@@ -1,0 +1,8 @@
+CLASS lf net/minecraft/world/level/pathfinder/BinaryHeap
+	FIELD a nodes [Ld;
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+	METHOD a insert (Ld;)Ld;
+		ARG 1 node
+	METHOD b pop ()Ld;
+	METHOD b downHeap (I)V

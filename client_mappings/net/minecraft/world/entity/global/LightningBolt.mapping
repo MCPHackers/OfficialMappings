@@ -1,0 +1,9 @@
+CLASS c net/minecraft/world/entity/global/LightningBolt
+	FIELD a seed J
+	FIELD b life I
+	FIELD c flashes I
+	METHOD <init> (Lfd;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

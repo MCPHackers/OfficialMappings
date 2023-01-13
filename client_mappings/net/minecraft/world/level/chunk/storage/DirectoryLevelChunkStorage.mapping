@@ -1,0 +1,3 @@
+CLASS to net/minecraft/world/level/chunk/storage/DirectoryLevelChunkStorage
+	COMMENT temporary name until i actually figure out this level saving code path hellhole
+	METHOD a load (Lfd;Lnu;)Llm;

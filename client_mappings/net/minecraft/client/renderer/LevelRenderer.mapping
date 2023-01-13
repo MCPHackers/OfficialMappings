@@ -1,0 +1,15 @@
+CLASS n net/minecraft/client/renderer/LevelRenderer
+	FIELD k level Lfd;
+	FIELD l textures Lji;
+	FIELD t minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a renderSky (F)V
+	METHOD a render (Leq;)V
+	METHOD a setLevel (Lfd;)V
+	METHOD a render (Lls;ID)I
+		ARG 1 mob
+	METHOD a updateDirtyChunks (Lls;Z)Z
+	METHOD a cull (Lyn;F)V
+		ARG 1 culler
+	METHOD b renderClouds (F)V
+	METHOD c renderCloudsFancy (F)V
+	METHOD f clear ()V

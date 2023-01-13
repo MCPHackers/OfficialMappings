@@ -1,0 +1,2 @@
+CLASS ix net/minecraft/world/entity/player/Inventory
+	FIELD c selected I

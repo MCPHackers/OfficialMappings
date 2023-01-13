@@ -1,0 +1,3 @@
+CLASS hj net/minecraft/client/Screenshot
+	FIELD a DATE_FORMAT Ljava/text/DateFormat;
+	METHOD a save (Ljava/io/File;II)Ljava/lang/String;

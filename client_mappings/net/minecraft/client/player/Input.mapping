@@ -1,0 +1,8 @@
+CLASS uo net/minecraft/client/player/Input
+	FIELD a leftImpulse F
+	FIELD b forwardImpulse F
+	FIELD d jumping Z
+	FIELD e sneaking Z
+	METHOD a releaseAllKeys ()V
+	METHOD a setKey (IZ)V
+	METHOD a tick (Lgs;)V

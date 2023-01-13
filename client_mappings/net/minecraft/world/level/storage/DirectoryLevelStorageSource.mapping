@@ -1,0 +1,4 @@
+CLASS tq net/minecraft/world/level/storage/DirectoryLevelStorageSource
+	FIELD a baseDir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir

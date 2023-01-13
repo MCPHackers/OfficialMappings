@@ -1,0 +1,26 @@
+CLASS jl net/minecraft/stats/Stats
+	FIELD A playerKills Lvr;
+	FIELD B fishCaught Lvr;
+	FIELD C mineBlock [Lvr;
+	FIELD a stats Ljava/util/Map;
+	FIELD f startGame Lvr;
+	FIELD g createWorld Lvr;
+	FIELD h loadWorld Lvr;
+	FIELD i joinMultiplayer Lvr;
+	FIELD j leaveGame Lvr;
+	FIELD k playOneMinute Lvr;
+	FIELD l walkOneCm Lvr;
+	FIELD m swimOneCm Lvr;
+	FIELD n fallOneCm Lvr;
+	FIELD o climbOneCm Lvr;
+	FIELD p flyOneCm Lvr;
+	FIELD q diveOneCm Lvr;
+	FIELD r minecartOneCm Lvr;
+	FIELD s boatOneCm Lvr;
+	FIELD t pigOneCm Lvr;
+	FIELD u jump Lvr;
+	FIELD v drop Lvr;
+	FIELD w damageDealt Lvr;
+	FIELD x damageTaken Lvr;
+	FIELD y deaths Lvr;
+	FIELD z mobKills Lvr;

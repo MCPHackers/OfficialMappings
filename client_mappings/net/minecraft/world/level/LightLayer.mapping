@@ -1,0 +1,3 @@
+CLASS eb net/minecraft/world/level/LightLayer
+	FIELD a Sky Leb;
+	FIELD b Block Leb;

@@ -1,6 +1,0 @@
-CLASS kz argo/format/JsonNodeTypeOrdinals
-	COMMENT some synthetic shit that gets generated when you use enums in switch cases (not sure)
-	COMMENT not an original name (feel free to rename)
-	COMMENT (nodeTypeValue is not an original name either)
-	COMMENT @see CompactJsonFormatter, line 19
-	FIELD a nodeTypeValue [I

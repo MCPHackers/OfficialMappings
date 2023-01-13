@@ -1,44 +1,85 @@
 CLASS uu net/minecraft/world/level/tile/Tile
+	FIELD A unbreakable Luu;
+	FIELD B calmWater Luu;
+	FIELD C water Luu;
+	FIELD D calmLava Luu;
+	FIELD E lava Luu;
 	FIELD F sand Luu;
 	FIELD G gravel Luu;
 	FIELD H goldOre Luu;
 	FIELD I ironOre Luu;
 	FIELD J coalOre Luu;
+	FIELD K treeTrunk Luu;
 	FIELD L leaves Lbk;
+	FIELD M sponge Luu;
 	FIELD N glass Luu;
 	FIELD O lapisOre Luu;
 	FIELD P lapisblock Luu;
+	FIELD Q dispenser Luu;
 	FIELD R sandStone Luu;
+	FIELD S musicBlock Luu;
 	FIELD T bed Luu;
+	FIELD W pistonStickyBase Luu;
 	FIELD X web Luu;
+	FIELD Y tallgrass Lru;
+	FIELD Z deadbush Ljb;
+	FIELD aA crops Luu;
+	FIELD aB farmland Luu;
 	FIELD aC furnace Luu;
+	FIELD aD furnace_lit Luu;
 	FIELD aF door_wood Luu;
 	FIELD aI stairs_stone Luu;
+	FIELD aK lever Luu;
+	FIELD a descriptionId Ljava/lang/String;
 	FIELD aM door_iron Luu;
+	FIELD aO redStoneOre Luu;
+	FIELD aP redStoneOre_lit Luu;
 	FIELD aW cactus Luu;
 	FIELD aX clay Luu;
 	FIELD aY reeds Luu;
+	FIELD aa pistonBase Luu;
+	FIELD ab pistonHead Lh;
+	FIELD ac cloth Luu;
+	FIELD ag mushroomBrown Lwb;
+	FIELD ah mushroomRed Lwb;
 	FIELD ai goldBlock Luu;
 	FIELD aj ironBlock Luu;
+	FIELD ak stoneSlab Luu;
+	FIELD al stoneSlabHalf Luu;
 	FIELD an tnt Luu;
 	FIELD ao bookshelf Luu;
 	FIELD ap mossStone Luu;
 	FIELD aq obsidian Luu;
 	FIELD ar torch Luu;
 	FIELD as fire Lyq;
+	FIELD at mob_spawner Luu;
 	FIELD au stairs_wood Luu;
+	FIELD av chest Luu;
+	FIELD ax emeraldOre Luu;
+	FIELD az workBench Luu;
 	FIELD bA material Lln;
 	FIELD ba fence Luu;
+	FIELD bb pumpkin Luu;
 	FIELD be lightGem Luu;
+	FIELD bf portal Lak;
+	FIELD bg litPumpkin Luu;
 	FIELD bh cake Luu;
 	FIELD bl trapdoor Luu;
+	FIELD bm texture I
 	FIELD bn id I
+	FIELD d SOUND_NORMAL Lct;
 	FIELD e SOUND_WOOD Lct;
 	FIELD f SOUND_GRAVEL Lct;
 	FIELD g SOUND_GRASS Lct;
+	FIELD h SOUND_STONE Lct;
+	FIELD i SOUND_METAL Lct;
+	FIELD j SOUND_GLASS Lct;
 	FIELD k SOUND_CLOTH Lct;
 	FIELD l SOUND_SAND Lct;
 	FIELD m tiles [Luu;
+	FIELD s lightEmission [I
+	FIELD u rock Luu;
+	FIELD v grass Lwp;
 	FIELD w dirt Luu;
 	FIELD x stoneBrick Luu;
 	FIELD y wood Luu;
@@ -49,9 +90,11 @@ CLASS uu net/minecraft/world/level/tile/Tile
 	METHOD <init> (ILln;)V
 		ARG 1 tileId
 		ARG 2 material
+	METHOD a setLightEmission (F)Luu;
+	METHOD a setShape (FFFFFF)V
 	METHOD a getTexture (I)I
 	METHOD a getTexture (II)I
-	METHOD a (ILjava/util/Random;)I
+	METHOD a getResource (ILjava/util/Random;)I
 		ARG 2 random
 	METHOD a containsX (Lbt;)Z
 		ARG 1 vector
@@ -67,6 +110,11 @@ CLASS uu net/minecraft/world/level/tile/Tile
 		ARG 1 level
 	METHOD a clip (Lfd;IIILbt;Lbt;)Lvf;
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 vec0
+		ARG 6 vec1
 	METHOD a addAABBs (Lfd;IIILeq;Ljava/util/ArrayList;)V
 		ARG 1 level
 		ARG 5 aabb
@@ -79,13 +127,19 @@ CLASS uu net/minecraft/world/level/tile/Tile
 	METHOD a (Lfd;IIILiz;)V
 		ARG 1 level
 		ARG 5 itemInstance
-	METHOD a (Lfd;IIILjava/util/Random;)V
+	METHOD a tick (Lfd;IIILjava/util/Random;)V
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 random
 	METHOD a (Lfd;IIILls;)V
 		ARG 1 level
-	METHOD a (Lfd;IIILsn;)V
+	METHOD a entityInside (Lfd;IIILsn;)V
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 entity
 	METHOD a (Lfd;IIILsn;Lbt;)V
 		ARG 1 level
@@ -96,19 +150,29 @@ CLASS uu net/minecraft/world/level/tile/Tile
 		ARG 2 player
 	METHOD a (Lgs;)F
 		ARG 1 player
-	METHOD a (Ljava/util/Random;)I
+	METHOD a setDescriptionId (Ljava/lang/String;)Luu;
+		ARG 1 descriptionId
+	METHOD a getResourceCount (Ljava/util/Random;)I
 		ARG 1 random
 	METHOD a (Lsn;)F
 		ARG 1 entity
 	METHOD a (Lxp;III)V
 		ARG 1 levelSource
-	METHOD a (Lxp;IIII)I
+	METHOD a getTexture (Lxp;IIII)I
 		ARG 1 levelSource
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD b getRenderLayer ()I
 	METHOD b getColor (I)I
 	METHOD b containsY (Lbt;)Z
 		ARG 1 vector
-	METHOD b (Lfd;III)V
+	METHOD b onRemove (Lfd;III)V
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD b neighborChanged (Lfd;IIII)V
 		ARG 1 level
 		ARG 2 x
@@ -117,8 +181,11 @@ CLASS uu net/minecraft/world/level/tile/Tile
 	METHOD b (Lfd;IIILgs;)V
 		ARG 1 level
 		ARG 5 player
-	METHOD b (Lfd;IIILjava/util/Random;)V
+	METHOD b animateTick (Lfd;IIILjava/util/Random;)V
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 random
 	METHOD b (Lfd;IIILsn;)V
 		ARG 1 level
@@ -127,6 +194,9 @@ CLASS uu net/minecraft/world/level/tile/Tile
 		ARG 1 levelSource
 	METHOD b (Lxp;IIII)Z
 		ARG 1 levelSource
+	METHOD b_ getSpawnResourcesAuxValue (I)I
+		ARG 1 value
+	METHOD c isSolidRender ()Z
 	METHOD c containsZ (Lbt;)Z
 		ARG 1 vector
 	METHOD c (Lfd;III)V
@@ -148,11 +218,18 @@ CLASS uu net/minecraft/world/level/tile/Tile
 		ARG 1 levelSource
 	METHOD e getAABB (Lfd;III)Leq;
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD e (Lfd;IIII)V
 		ARG 1 level
 	METHOD f getTileAABB (Lfd;III)Leq;
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD g (Lfd;III)Z
 		ARG 1 level
 	METHOD g (Lfd;IIII)V
 		ARG 1 level
+	METHOD o getDescriptionId ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS ld net/minecraft/world/level/chunk/storage/RegionFileChunkStorage
+	FIELD a file Ljava/io/File;

@@ -1,0 +1,5 @@
+CLASS bc net/minecraft/world/item/BucketItem
+	FIELD a tileId I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tileID

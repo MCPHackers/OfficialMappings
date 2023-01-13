@@ -1,0 +1,3 @@
+CLASS kv net/minecraft/client/Options
+	FIELD B renderDebug Z
+	FIELD l texturePack Ljava/lang/String;

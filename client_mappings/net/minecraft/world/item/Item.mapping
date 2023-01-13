@@ -1,0 +1,80 @@
+CLASS gm net/minecraft/world/item/Item
+	FIELD B stick Lgm;
+	FIELD C bowl Lgm;
+	FIELD I string Lgm;
+	FIELD J feather Lgm;
+	FIELD K sulphur Lgm;
+	FIELD L hoe_wood Lgm;
+	FIELD M hoe_stone Lgm;
+	FIELD N hoe_iron Lgm;
+	FIELD O hoe_emerald Lgm;
+	FIELD P hoe_gold Lgm;
+	FIELD Q seeds_wheat Lgm;
+	FIELD R wheat Lgm;
+	FIELD S bread Lgm;
+	FIELD aB snowBall Lgm;
+	FIELD aD leather Lgm;
+	FIELD aG clay Lgm;
+	FIELD aH reeds Lgm;
+	FIELD aK slimeBall Lgm;
+	FIELD aN egg Lgm;
+	FIELD aP fishingRod Lgm;
+	FIELD aR yellowDust Lgm;
+	FIELD an flint Lgm;
+	FIELD at door_wood Lgm;
+	FIELD au bucket Lgm;
+	FIELD ay saddle Lgm;
+	FIELD b random Ljava/util/Random;
+	FIELD bb map Lwr;
+	FIELD bc shears Lbl;
+	FIELD bf itemId I
+	FIELD bg maxStackSize I
+	FIELD bh icon I
+	FIELD c items [Lgm;
+	FIELD g flintAndSteel Lgm;
+	FIELD h apple Lgm;
+	FIELD i bow Lgm;
+	FIELD j arrow Lgm;
+	FIELD k coal Lgm;
+	FIELD l emerald Lgm;
+	FIELD m ironIngot Lgm;
+	FIELD n goldIngot Lgm;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getIcon (I)I
+		ARG 1 iOffs
+	METHOD a setIcon (II)Lgm;
+		ARG 1 x
+		ARG 2 y
+	METHOD a getDescriptionId (Liz;)Ljava/lang/String;
+		ARG 1 itemInstance
+	METHOD a (Liz;Lfd;Lgs;)Liz;
+		ARG 2 level
+		ARG 3 player
+	METHOD a (Liz;Lfd;Lsn;IZ)V
+		ARG 2 level
+		ARG 3 entity
+	METHOD a useOn (Liz;Lgs;Lfd;IIII)Z
+		ARG 1 itemInstance
+		ARG 2 player
+		ARG 3 level
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD a interactEnemy (Liz;Lls;)V
+		ARG 1 itemInstance
+		ARG 2 enemy
+	METHOD a getDestroySpeed (Liz;Luu;)F
+		ARG 1 itemInstance
+		ARG 2 tile
+	METHOD a setDescriptionId (Ljava/lang/String;)Lgm;
+	METHOD a getAttackDamage (Lsn;)I
+		ARG 1 entity
+	METHOD a canDestroySpecial (Luu;)Z
+		ARG 1 tile
+	METHOD b isHandEquipped ()Z
+	METHOD b (Liz;Lfd;Lgs;)V
+		ARG 2 level
+		ARG 3 player
+	METHOD d getMaxStackSize ()I

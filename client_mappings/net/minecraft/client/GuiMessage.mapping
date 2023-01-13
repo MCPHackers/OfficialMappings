@@ -1,0 +1,3 @@
+CLASS sw net/minecraft/client/GuiMessage
+	FIELD a message Ljava/lang/String;
+	FIELD b time I

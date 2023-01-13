@@ -1,0 +1,4 @@
+CLASS qy net/minecraft/world/level/TickNextTickData
+	FIELD e delay J
+	FIELD f counter J
+	METHOD a setDelay (J)Lqy;

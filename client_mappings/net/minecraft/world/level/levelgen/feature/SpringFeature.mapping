@@ -1,0 +1,4 @@
+CLASS qc net/minecraft/world/level/levelgen/feature/SpringFeature
+	FIELD a tileid I
+	METHOD <init> (I)V
+		ARG 1 tileid

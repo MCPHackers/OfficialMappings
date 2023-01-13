@@ -1,0 +1,12 @@
+CLASS wm net/minecraft/util/IntHashMap$Entry
+	FIELD a key I
+	FIELD b value Ljava/lang/Object;
+	FIELD c next Lwm;
+	FIELD d hash I
+	METHOD <init> (IILjava/lang/Object;Lwm;)V
+		ARG 1 h
+		ARG 2 k
+		ARG 3 v
+		ARG 4 n
+	METHOD a getKey ()I
+	METHOD b getValue ()Ljava/lang/Object;

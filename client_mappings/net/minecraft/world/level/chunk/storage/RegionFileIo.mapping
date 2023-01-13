@@ -1,0 +1,3 @@
+CLASS rj net/minecraft/world/level/chunk/storage/RegionFileIo
+	COMMENT temp name until i figure out this level saving hellhole
+	FIELD a refs Ljava/util/Map;

@@ -1,0 +1,8 @@
+CLASS lk net/minecraft/world/entity/MobCategory
+	FIELD a monster Llk;
+	FIELD b creature Llk;
+	FIELD c waterCreature Llk;
+	FIELD d type Ljava/lang/Class;
+	FIELD e max I
+	FIELD f mat Lln;
+	FIELD g isFriendly Z

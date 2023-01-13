@@ -1,0 +1,30 @@
+CLASS gs net/minecraft/world/entity/player/Player
+	FIELD D fishing Llx;
+	FIELD a sleepCounter I
+	FIELD b respawnPosition Lbr;
+	FIELD c inventory Lix;
+	FIELD g score I
+	FIELD h oBob F
+	FIELD i bob F
+	FIELD m dimension I
+	FIELD o xCloakO D
+	FIELD p yCloakO D
+	FIELD q zCloakO D
+	FIELD r xCloak D
+	FIELD s yCloak D
+	FIELD t zCloak D
+	FIELD u sleeping Z
+	METHOD C getScore ()I
+	METHOD Q getRespawnPosition ()Lbr;
+	METHOD a openDispenser (Laz;)V
+	METHOD a setRespawnPosition (Lbr;)V
+	METHOD a drop (Liz;Z)V
+	METHOD a openContainer (Llw;)V
+	METHOD a openFurnace (Lsk;)V
+		ARG 1 furnaceTileEntity
+	METHOD a awardAchievement (Lvr;)V
+	METHOD a awardStat (Lvr;I)V
+	METHOD a openTextEdit (Lyk;)V
+		ARG 1 signTileEntity
+	METHOD a stopSleepInBed (ZZZ)V
+	METHOD j touch (Lsn;)V

@@ -1,0 +1,5 @@
+CLASS cg net/minecraft/client/renderer/ptexture/LavaTexture
+	FIELD g r [F
+	FIELD h g [F
+	FIELD i b [F
+	FIELD j a [F

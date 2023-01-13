@@ -1,0 +1,8 @@
+CLASS px net/minecraft/client/renderer/GameRenderer
+	FIELD J random Ljava/util/Random;
+	FIELD a anaglyph3d Z
+	FIELD c itemInHandRenderer Lra;
+	FIELD f colorBuffer Ljava/nio/FloatBuffer;
+	FIELD j minecraft Lnet/minecraft/client/Minecraft;
+	FIELD k renderDistance F
+	FIELD l tick I

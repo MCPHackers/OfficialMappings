@@ -1,0 +1,10 @@
+CLASS ma net/minecraft/world/entity/SynchedEntityData$DataItem
+	FIELD a type I
+	FIELD b id I
+	FIELD c value Ljava/lang/Object;
+	FIELD d dirty Z
+	METHOD a getId ()I
+	METHOD a setValue (Ljava/lang/Object;)V
+	METHOD a setDirty (Z)V
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD c getType ()I

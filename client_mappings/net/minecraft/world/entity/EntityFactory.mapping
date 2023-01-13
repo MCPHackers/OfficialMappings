@@ -1,0 +1,21 @@
+CLASS jc net/minecraft/world/entity/EntityFactory
+	FIELD a nameClassMap Ljava/util/Map;
+	FIELD b classNameMap Ljava/util/Map;
+	FIELD c idClassMap Ljava/util/Map;
+	FIELD d classIdMap Ljava/util/Map;
+	METHOD a createEntity (ILfd;)Lsn;
+		ARG 0 id
+		ARG 1 level
+	METHOD a addEntity (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 1 name
+		ARG 2 id
+	METHOD a (Ljava/lang/String;Lfd;)Lsn;
+		ARG 0 name
+		ARG 1 level
+	METHOD a loadEntity (Lnu;Lfd;)Lsn;
+		ARG 0 entityTag
+		ARG 1 level
+	METHOD a getEntityId (Lsn;)I
+		ARG 0 entity
+	METHOD b getEntityName (Lsn;)Ljava/lang/String;
+		ARG 0 entity

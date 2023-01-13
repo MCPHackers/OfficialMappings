@@ -1,0 +1,5 @@
+CLASS iy net/minecraft/client/renderer/MapRenderer
+	FIELD a texture [I
+	FIELD b textureId I
+	FIELD c options Lkv;
+	FIELD d font Lsj;

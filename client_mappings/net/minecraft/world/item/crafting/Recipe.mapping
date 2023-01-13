@@ -1,0 +1,5 @@
+CLASS dt net/minecraft/world/item/crafting/Recipe
+	METHOD a size ()I
+	METHOD a matches (Lmq;)Z
+	METHOD b getResultItem ()Liz;
+	METHOD b assemble (Lmq;)Liz;
